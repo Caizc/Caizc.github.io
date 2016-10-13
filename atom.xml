@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://caizicong.com/"/>
-  <updated>2016-10-13T09:22:37.000Z</updated>
+  <updated>2016-10-13T12:52:48.000Z</updated>
   <id>http://caizicong.com/</id>
   
   <author>
@@ -16,13 +16,54 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>测试专用</title>
+    <link href="http://caizicong.com/2016/10/13/001-Test/"/>
+    <id>http://caizicong.com/2016/10/13/001-Test/</id>
+    <published>2016-10-13T11:39:33.000Z</published>
+    <updated>2016-10-13T12:52:48.000Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><blockquote>
+<p>这里在做各种有趣的试验~ </p>
+</blockquote>
+<p><img src="http://www.webpagefx.com/tools/emoji-cheat-sheet/graphics/emojis/kissing_heart.png" height="40" width="40" align="absmiddle"></p>
+<p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/common/testimg-01.png" alt="Time Capsule"></p>
+<p>这里有一段字。</p>
+<a id="more"></a>
+<div id="dplayer0" class="dplayer" style="margin-bottom: 20px;"></div><script>var dplayer0 = new DPlayer({"element":document.getElementById("dplayer0"),"autoplay":false,"theme":"#3F51B5","loop":false,"video":{"url":"http://blog-1252720346.cosgz.myqcloud.com/videos/20161013-01.m4v"}});</script>
+<p>这里好像说了些什么。</p>
+<h1 id="假装是个标题"><a href="#假装是个标题" class="headerlink" title="假装是个标题"></a>假装是个标题</h1><ul>
+<li>这里又说了点什么。</li>
+<li>这里又说了点什么。</li>
+<li>这里又说了点什么。</li>
+</ul>
+<hr>
+<p>-END-</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;这里在做各种有趣的试验~ &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;http://www.webpagefx.com/tools/emoji-cheat-sheet/graphics/emojis/kissing_heart.png&quot; height=&quot;40&quot; width=&quot;40&quot; align=&quot;absmiddle&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://blog-1252720346.cosgz.myqcloud.com/images/common/testimg-01.png&quot; alt=&quot;Time Capsule&quot;&gt;&lt;/p&gt;
+&lt;p&gt;这里有一段字。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="测试" scheme="http://caizicong.com/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
     <title>为何选择离开腾讯</title>
     <link href="http://caizicong.com/2016/10/08/05-%E4%B8%BA%E4%BD%95%E9%80%89%E6%8B%A9%E7%A6%BB%E5%BC%80%E8%85%BE%E8%AE%AF/"/>
     <id>http://caizicong.com/2016/10/08/05-为何选择离开腾讯/</id>
     <published>2016-10-08T12:51:56.000Z</published>
     <updated>2016-10-13T09:22:37.000Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20161008-001.png" alt="题图"></p>
+    <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20161008-001.png" alt="题图"></p>
 <blockquote>
 <p>耐心寻找你的热爱，只有它能让你保持前进的动力，不要为稳定所迷惑，成长才是最重要的，「终身学习，精进不已」才是唯一靠谱的人生策略。</p>
 </blockquote>
@@ -118,7 +159,7 @@
     <published>2016-09-25T09:09:56.000Z</published>
     <updated>2016-10-13T08:23:24.000Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20160925-001.png" alt="鹅厂的一些碎碎念"></p>
+    <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20160925-001.png" alt="鹅厂的一些碎碎念"></p>
 <blockquote>
 <p>今天看了腾讯出品的短片《@互联网人》，影片中讲述了一个互联网产品负责人带领自己的团队为研发新产品而拼搏的故事。电影毕竟不是现实，在短短的几十分钟内，电影做到了故事讲述、人物刻画、戏剧效果、艺术手法和寓意升华等，确实容易唤起观众的情感共鸣，同时也容易让人断章取义。但不妨将其作为一扇窗口，管中窥豹，<strong>再结合我在鹅厂的经历体验</strong>，唠嗑几句。</p>
 </blockquote>
@@ -268,7 +309,7 @@
     <published>2016-05-28T17:19:56.000Z</published>
     <updated>2016-10-13T09:22:04.000Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20160529-001.jpg" alt="职业空窗期"></p>
+    <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20160529-001.jpg" alt="职业空窗期"></p>
 <blockquote>
 <p>方向比努力重要，在不适合自己的方向上努力，只会南辕北辙。因此，在职业空窗期里，在踏出下一步之前，需要静下心来好好思考，我的这场人生长跑究竟何以为终，接下来要去向何方？</p>
 </blockquote>
@@ -412,7 +453,7 @@
     <published>2016-03-22T10:02:56.000Z</published>
     <updated>2016-10-13T08:22:17.000Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20160322-001.jpg" alt="广州天河"></p>
+    <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20160322-001.jpg" alt="广州天河"></p>
 <p>两周前刚刚辞去了我的首份工作，算是为我毕业后的首个四年打上句点。在家充电之余，为这段经历作个阶段性总结，一来纪念，二来激励，是这些经历塑造的我，要在反思中前行。</p>
 <a id="more"></a>
 <p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20160322-002.jpg" alt="Process of transition"></p>
