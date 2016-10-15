@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Time Capsule</title>
   <subtitle>蔡子聪的时间胶囊</subtitle>
-  <link href="/atom.xml" rel="self"/>
+  <link href="/timeCapsule/atom.xml" rel="self"/>
   
-  <link href="http://caizicong.com/"/>
-  <updated>2016-10-13T12:52:48.000Z</updated>
-  <id>http://caizicong.com/</id>
+  <link href="http://caizicong.com/timeCapsule/"/>
+  <updated>2016-10-13T09:22:37.000Z</updated>
+  <id>http://caizicong.com/timeCapsule/</id>
   
   <author>
     <name>蔡子聪</name>
@@ -16,50 +16,9 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>测试专用</title>
-    <link href="http://caizicong.com/2016/10/13/001-Test/"/>
-    <id>http://caizicong.com/2016/10/13/001-Test/</id>
-    <published>2016-10-13T11:39:33.000Z</published>
-    <updated>2016-10-13T12:52:48.000Z</updated>
-    
-    <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><blockquote>
-<p>这里在做各种有趣的试验~ </p>
-</blockquote>
-<p><img src="http://www.webpagefx.com/tools/emoji-cheat-sheet/graphics/emojis/kissing_heart.png" height="40" width="40" align="absmiddle"></p>
-<p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/common/testimg-01.png" alt="Time Capsule"></p>
-<p>这里有一段字。</p>
-<a id="more"></a>
-<div id="dplayer0" class="dplayer" style="margin-bottom: 20px;"></div><script>var dplayer0 = new DPlayer({"element":document.getElementById("dplayer0"),"autoplay":false,"theme":"#3F51B5","loop":false,"video":{"url":"http://blog-1252720346.cosgz.myqcloud.com/videos/20161013-01.m4v"}});</script>
-<p>这里好像说了些什么。</p>
-<h1 id="假装是个标题"><a href="#假装是个标题" class="headerlink" title="假装是个标题"></a>假装是个标题</h1><ul>
-<li>这里又说了点什么。</li>
-<li>这里又说了点什么。</li>
-<li>这里又说了点什么。</li>
-</ul>
-<hr>
-<p>-END-</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;blockquote&gt;
-&lt;p&gt;这里在做各种有趣的试验~ &lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&quot;http://www.webpagefx.com/tools/emoji-cheat-sheet/graphics/emojis/kissing_heart.png&quot; height=&quot;40&quot; width=&quot;40&quot; align=&quot;absmiddle&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://blog-1252720346.cosgz.myqcloud.com/images/common/testimg-01.png&quot; alt=&quot;Time Capsule&quot;&gt;&lt;/p&gt;
-&lt;p&gt;这里有一段字。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="测试" scheme="http://caizicong.com/tags/%E6%B5%8B%E8%AF%95/"/>
-    
-  </entry>
-  
-  <entry>
     <title>为何选择离开腾讯</title>
-    <link href="http://caizicong.com/2016/10/08/05-%E4%B8%BA%E4%BD%95%E9%80%89%E6%8B%A9%E7%A6%BB%E5%BC%80%E8%85%BE%E8%AE%AF/"/>
-    <id>http://caizicong.com/2016/10/08/05-为何选择离开腾讯/</id>
+    <link href="http://caizicong.com/timeCapsule/2016/10/08/05-%E4%B8%BA%E4%BD%95%E9%80%89%E6%8B%A9%E7%A6%BB%E5%BC%80%E8%85%BE%E8%AE%AF/"/>
+    <id>http://caizicong.com/timeCapsule/2016/10/08/05-为何选择离开腾讯/</id>
     <published>2016-10-08T12:51:56.000Z</published>
     <updated>2016-10-13T09:22:37.000Z</updated>
     
@@ -148,14 +107,14 @@
     </summary>
     
     
-      <category term="生活感悟" scheme="http://caizicong.com/tags/%E7%94%9F%E6%B4%BB%E6%84%9F%E6%82%9F/"/>
+      <category term="生活感悟" scheme="http://caizicong.com/timeCapsule/tags/%E7%94%9F%E6%B4%BB%E6%84%9F%E6%82%9F/"/>
     
   </entry>
   
   <entry>
     <title>鹅厂的一些碎碎念</title>
-    <link href="http://caizicong.com/2016/09/25/04-%E9%B9%85%E5%8E%82%E7%9A%84%E4%B8%80%E4%BA%9B%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
-    <id>http://caizicong.com/2016/09/25/04-鹅厂的一些碎碎念/</id>
+    <link href="http://caizicong.com/timeCapsule/2016/09/25/04-%E9%B9%85%E5%8E%82%E7%9A%84%E4%B8%80%E4%BA%9B%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    <id>http://caizicong.com/timeCapsule/2016/09/25/04-鹅厂的一些碎碎念/</id>
     <published>2016-09-25T09:09:56.000Z</published>
     <updated>2016-10-13T08:23:24.000Z</updated>
     
@@ -298,14 +257,14 @@
     </summary>
     
     
-      <category term="碎碎念" scheme="http://caizicong.com/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+      <category term="碎碎念" scheme="http://caizicong.com/timeCapsule/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
     
   </entry>
   
   <entry>
     <title>职业空窗期：调好方向再出发</title>
-    <link href="http://caizicong.com/2016/05/29/03-%E8%81%8C%E4%B8%9A%E7%A9%BA%E7%AA%97%E6%9C%9F/"/>
-    <id>http://caizicong.com/2016/05/29/03-职业空窗期/</id>
+    <link href="http://caizicong.com/timeCapsule/2016/05/29/03-%E8%81%8C%E4%B8%9A%E7%A9%BA%E7%AA%97%E6%9C%9F/"/>
+    <id>http://caizicong.com/timeCapsule/2016/05/29/03-职业空窗期/</id>
     <published>2016-05-28T17:19:56.000Z</published>
     <updated>2016-10-13T09:22:04.000Z</updated>
     
@@ -442,14 +401,14 @@
     </summary>
     
     
-      <category term="生活感悟" scheme="http://caizicong.com/tags/%E7%94%9F%E6%B4%BB%E6%84%9F%E6%82%9F/"/>
+      <category term="生活感悟" scheme="http://caizicong.com/timeCapsule/tags/%E7%94%9F%E6%B4%BB%E6%84%9F%E6%82%9F/"/>
     
   </entry>
   
   <entry>
     <title>工作四年：在行进中思考</title>
-    <link href="http://caizicong.com/2016/03/22/02-%E5%B7%A5%E4%BD%9C%E5%9B%9B%E5%B9%B4/"/>
-    <id>http://caizicong.com/2016/03/22/02-工作四年/</id>
+    <link href="http://caizicong.com/timeCapsule/2016/03/22/02-%E5%B7%A5%E4%BD%9C%E5%9B%9B%E5%B9%B4/"/>
+    <id>http://caizicong.com/timeCapsule/2016/03/22/02-工作四年/</id>
     <published>2016-03-22T10:02:56.000Z</published>
     <updated>2016-10-13T08:22:17.000Z</updated>
     
@@ -518,7 +477,48 @@
     </summary>
     
     
-      <category term="生活感悟" scheme="http://caizicong.com/tags/%E7%94%9F%E6%B4%BB%E6%84%9F%E6%82%9F/"/>
+      <category term="生活感悟" scheme="http://caizicong.com/timeCapsule/tags/%E7%94%9F%E6%B4%BB%E6%84%9F%E6%82%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>测试专用</title>
+    <link href="http://caizicong.com/timeCapsule/2016/01/13/01-%E6%B5%8B%E8%AF%95%E4%B8%93%E7%94%A8/"/>
+    <id>http://caizicong.com/timeCapsule/2016/01/13/01-测试专用/</id>
+    <published>2016-01-13T11:39:33.000Z</published>
+    <updated>2016-10-15T06:41:19.000Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><blockquote>
+<p>这里在做各种有趣的试验~ </p>
+</blockquote>
+<p><img src="http://www.webpagefx.com/tools/emoji-cheat-sheet/graphics/emojis/kissing_heart.png" height="40" width="40" align="absmiddle"></p>
+<p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/common/testimg-01.png" alt="Time Capsule"></p>
+<p>这里有一段字。</p>
+<a id="more"></a>
+<div id="dplayer0" class="dplayer" style="margin-bottom: 20px;"></div><script>var dplayer0 = new DPlayer({"element":document.getElementById("dplayer0"),"autoplay":false,"theme":"#3F51B5","loop":false,"video":{"url":"http://blog-1252720346.cosgz.myqcloud.com/videos/20161013-01.m4v"}});</script>
+<p>这里好像说了些什么。</p>
+<h1 id="假装是个标题"><a href="#假装是个标题" class="headerlink" title="假装是个标题"></a>假装是个标题</h1><ul>
+<li>这里又说了点什么。</li>
+<li>这里又说了点什么。</li>
+<li>这里又说了点什么。</li>
+</ul>
+<hr>
+<p>-END-</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;这里在做各种有趣的试验~ &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;http://www.webpagefx.com/tools/emoji-cheat-sheet/graphics/emojis/kissing_heart.png&quot; height=&quot;40&quot; width=&quot;40&quot; align=&quot;absmiddle&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://blog-1252720346.cosgz.myqcloud.com/images/common/testimg-01.png&quot; alt=&quot;Time Capsule&quot;&gt;&lt;/p&gt;
+&lt;p&gt;这里有一段字。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="测试" scheme="http://caizicong.com/timeCapsule/tags/%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
