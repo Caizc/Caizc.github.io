@@ -111,7 +111,8 @@
 <meta property="og:image" content="http://blog-1252720346.cosgz.myqcloud.com/images/20170310-017.png">
 <meta property="og:image" content="http://blog-1252720346.cosgz.myqcloud.com/images/20170310-018.png">
 <meta property="og:image" content="http://blog-1252720346.cosgz.myqcloud.com/images/20170310-019.png">
-<meta property="og:updated_time" content="2017-03-10T09:10:54.000Z">
+<meta property="og:image" content="http://blog-1252720346.cosgz.myqcloud.com/images/20170312-001.png">
+<meta property="og:updated_time" content="2017-03-12T11:40:00.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Learning Game Development">
 <meta name="twitter:description" content="This article is a record of my journey to learn Game Development and it will keep updating.">
@@ -417,7 +418,7 @@
 </ul>
 <p><strong>重点：</strong></p>
 <ul>
-<li>《VR开发实战》书中的有很多刊误，有些步骤按照书中所写无法执行，需要变通，自己查阅资料和摸索得到正确的做法。</li>
+<li>《VR开发实战》书中有很多刊误，有些步骤按照书中所写无法执行，需要变通，自己查阅资料和摸索得到正确的做法。</li>
 <li>原 Demo 中使用的一些 API ，实际上 Unity 官方已有更新的版本，在学习时需要注意同步更新，使用最新的 API 进行编程。</li>
 <li>学会如何在 Unity 和 MonoDevelop 上调试游戏程序和脚本，这是最重要的。</li>
 </ul>
@@ -649,7 +650,7 @@
 <blockquote>
 <p>参考资料：《Unity in Action: Multiplatform Game Development in C# with Unity 5》</p>
 </blockquote>
-<h1 id="Day-20：游戏-Roll-a-Ball"><a href="#Day-20：游戏-Roll-a-Ball" class="headerlink" title="Day 20：游戏 Roll a Ball"></a>Day 20：游戏 Roll a Ball</h1><ul>
+<h1 id="Day-20：Roll-a-Ball"><a href="#Day-20：Roll-a-Ball" class="headerlink" title="Day 20：Roll a Ball"></a>Day 20：Roll a Ball</h1><ul>
 <li>使用键盘控制小球的前后左右自由移动</li>
 <li>实现第三人称视角，摄像头以固定角度跟随小球移动</li>
 <li>创建可收集的物品，在被小球碰撞到时消失并累计得分</li>
@@ -669,7 +670,7 @@
 <blockquote>
 <p>参考资料：<a href="https://unity3d.com/cn/learn/tutorials/projects/roll-ball-tutorial" target="_blank" rel="external">Roll-a-Ball tutorial - Unity-Learn-Tutorials</a></p>
 </blockquote>
-<h1 id="Day-21：游戏-Space-Shooter（项目设置，初始化场景设置和玩家对象）"><a href="#Day-21：游戏-Space-Shooter（项目设置，初始化场景设置和玩家对象）" class="headerlink" title="Day 21：游戏 Space Shooter（项目设置，初始化场景设置和玩家对象）"></a>Day 21：游戏 Space Shooter（项目设置，初始化场景设置和玩家对象）</h1><ul>
+<h1 id="Day-21：Space-Shooter（项目设置，初始化场景设置和玩家对象）"><a href="#Day-21：Space-Shooter（项目设置，初始化场景设置和玩家对象）" class="headerlink" title="Day 21：Space Shooter（项目设置，初始化场景设置和玩家对象）"></a>Day 21：Space Shooter（项目设置，初始化场景设置和玩家对象）</h1><ul>
 <li>Project settings：项目设置为 Web 平台应用（在 Unity 5.5.2 中应选择目标平台为 WebGL），屏幕分辨率为 600*900。</li>
 <li>Player GameObject：为玩家对象添加自定义网格的 Mesh Collider，设置为 Is Trigger，添加 Rigidbody 组件，添加粒子系统 prefab。</li>
 <li>Camera：设置主摄像头为正交投影，调整其高度、旋转及视野范围，以适应本竖版游戏画面。</li>
@@ -681,7 +682,7 @@
 <blockquote>
 <p>参考资料：<a href="https://unity3d.com/cn/learn/tutorials/projects/space-shooter-tutorial" target="_blank" rel="external">Space Shooter tutorial - Unity-Learn-Tutorials</a></p>
 </blockquote>
-<h1 id="Day-22：游戏-Space-Shooter（玩家移动、攻击，游戏边界、障碍物，粒子系统，游戏控制器）"><a href="#Day-22：游戏-Space-Shooter（玩家移动、攻击，游戏边界、障碍物，粒子系统，游戏控制器）" class="headerlink" title="Day 22：游戏 Space Shooter（玩家移动、攻击，游戏边界、障碍物，粒子系统，游戏控制器）"></a>Day 22：游戏 Space Shooter（玩家移动、攻击，游戏边界、障碍物，粒子系统，游戏控制器）</h1><ul>
+<h1 id="Day-22：Space-Shooter（玩家移动、攻击，游戏边界、障碍物，粒子系统，游戏控制器）"><a href="#Day-22：Space-Shooter（玩家移动、攻击，游戏边界、障碍物，粒子系统，游戏控制器）" class="headerlink" title="Day 22：Space Shooter（玩家移动、攻击，游戏边界、障碍物，粒子系统，游戏控制器）"></a>Day 22：Space Shooter（玩家移动、攻击，游戏边界、障碍物，粒子系统，游戏控制器）</h1><ul>
 <li>获取键盘输入，控制玩家对象的移动，限制游戏对象的活动区域</li>
 <li>创建玩家武器，自定义 Collider 适应激光束的大小，编写脚本实现发射效果</li>
 <li>创建游戏边界，销毁离开边界的游戏对象</li>
@@ -694,7 +695,7 @@
 <li>FixedUpdate()：当处理具有 Rigidbody 组件的游戏对象或需要考虑物理计算时，必须在 FixedUpdate() 方法中编写逻辑，而不是在 Update() 方法中。</li>
 <li>Random.insideUnitSphere：Random 包中的该属性返回一个半径为 1 的球体中的一个随机点，也就是返回一个 Vector3 类型的值，其中 x,y,z 的值分别为 0~1 之间的一个随机浮点数。</li>
 <li>Rigidbody 组件的角速度 angularVelocity，会受到 Angular Drag 属性的影响。添加 Rigidbody 组件时，Angular Drag 属性有一个大于零的默认值，因此组件的角速度会在它的影响下越来越小。</li>
-<li>Destroy() 方法的真正执行销毁的时机：首先标记需要销毁的对象，然后在每一帧的最后再统一执行销毁。</li>
+<li>Destroy() 方法真正执行销毁的时机：首先标记需要销毁的对象，然后在每一帧的最后再统一执行销毁。</li>
 <li>Quaternion.identity：该变量表示「不旋转」或「没有旋转」。</li>
 </ul>
 <p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170310-018.png" alt=""></p>
@@ -702,7 +703,7 @@
 <blockquote>
 <p>参考资料：<a href="https://unity3d.com/cn/learn/tutorials/projects/space-shooter-tutorial" target="_blank" rel="external">Space Shooter tutorial - Unity-Learn-Tutorials</a></p>
 </blockquote>
-<h1 id="Day-23：游戏-Space-Shooter（音效和背景音乐，玩家得分和游戏重玩，构建游戏）"><a href="#Day-23：游戏-Space-Shooter（音效和背景音乐，玩家得分和游戏重玩，构建游戏）" class="headerlink" title="Day 23：游戏 Space Shooter（音效和背景音乐，玩家得分和游戏重玩，构建游戏）"></a>Day 23：游戏 Space Shooter（音效和背景音乐，玩家得分和游戏重玩，构建游戏）</h1><ul>
+<h1 id="Day-23：Space-Shooter（音效和背景音乐，玩家得分和游戏重玩，构建游戏）"><a href="#Day-23：Space-Shooter（音效和背景音乐，玩家得分和游戏重玩，构建游戏）" class="headerlink" title="Day 23：Space Shooter（音效和背景音乐，玩家得分和游戏重玩，构建游戏）"></a>Day 23：Space Shooter（音效和背景音乐，玩家得分和游戏重玩，构建游戏）</h1><ul>
 <li>添加游戏中的音效和背景音乐，并调整音量，营造游戏氛围</li>
 <li>记录玩家的得分，使用 GUI 显示得分</li>
 <li>编写游戏结束和重玩的逻辑</li>
@@ -717,7 +718,34 @@
 <blockquote>
 <p>参考资料：<a href="https://unity3d.com/cn/learn/tutorials/projects/space-shooter-tutorial" target="_blank" rel="external">Space Shooter tutorial - Unity-Learn-Tutorials</a></p>
 </blockquote>
-<h1 id="Day-24"><a href="#Day-24" class="headerlink" title="Day 24"></a>Day 24</h1><blockquote>
+<h1 id="Day-24：Space-Shooter（滚动背景，不同类型的障碍物，简单-AI-的敌人）"><a href="#Day-24：Space-Shooter（滚动背景，不同类型的障碍物，简单-AI-的敌人）" class="headerlink" title="Day 24：Space Shooter（滚动背景，不同类型的障碍物，简单 AI 的敌人）"></a>Day 24：Space Shooter（滚动背景，不同类型的障碍物，简单 AI 的敌人）</h1><ul>
+<li>将游戏的固定背景修改为滚动背景，使用 <code>Mathf</code> 类中的 <code>float Repeat(float t, float length)</code> 方法实现，该方法 <code>Loops the value t, so that it is never larger than length and never smaller than 0.</code></li>
+<li>添加不同 artwork 的 asteroid，将逻辑组件附加在单独的 parent GameObject 上，而将 artwork 作为其 child GameObject，可以在扩展或更换游戏对象的 artwork 时，不需要重新处理其逻辑组件，是应该谨记的最佳实践</li>
+<li>添加会主动攻击玩家的敌人，增加游戏难度。敌人会在躲避模式和追踪玩家并攻击模式之间随机选择。</li>
+</ul>
+<p><strong>重点：</strong></p>
+<ul>
+<li>在需要实现简单的重复执行逻辑时，例如让敌人以固定间隔持续开火，可以使用 <code>InvokeRepeating()</code> 方法替代 coruotine 来简单实现。</li>
+</ul>
+<blockquote>
+<p><code>public void InvokeRepeating(string methodName, float time, float repeatRate);</code><br>Invokes the method methodName in time seconds, then repeatedly every repeatRate seconds.</p>
+</blockquote>
+<ul>
+<li>Mathf 的两个实用方法：</li>
+</ul>
+<blockquote>
+<p><code>public static float Sign(float f);</code><br>Return value is 1 when f is positive or zero, -1 when f is negative.</p>
+<p><code>public static float MoveTowards(float current, float target, float maxDelta);</code><br>Moves a value current towards target.</p>
+</blockquote>
+<ul>
+<li><strong>一切问题都是数学问题。</strong>掌握好空间几何和线性代数等数学知识，在实现游戏中的动态逻辑时，会得心应手，否则将寸步难行。</li>
+</ul>
+<p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170312-001.png" alt=""></p>
+<p><strong>项目源码：</strong><a href="https://github.com/Caizc/game-space-shooter" target="_blank" rel="external">https://github.com/Caizc/game-space-shooter</a></p>
+<blockquote>
+<p>参考资料：<a href="https://unity3d.com/cn/learn/tutorials/projects/space-shooter-tutorial" target="_blank" rel="external">Space Shooter tutorial - Unity-Learn-Tutorials</a></p>
+</blockquote>
+<h1 id="Day-25"><a href="#Day-25" class="headerlink" title="Day 25"></a>Day 25</h1><blockquote>
 <p>To be continued…</p>
 </blockquote>
 <hr>
@@ -725,7 +753,7 @@
 <hr>
 <p>change log: </p>
 <pre><code>- 创建（2017-01-18）
-- 持续更新中...（2017-03-10）
+- 持续更新中...（2017-03-12）
 </code></pre><hr>
 
       
@@ -904,7 +932,7 @@
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Day-1：认识-Unity"><span class="nav-number">1.</span> <span class="nav-text">Day 1：认识 Unity</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Day-2：三维空间的数学基础"><span class="nav-number">2.</span> <span class="nav-text">Day 2：三维空间的数学基础</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Day-3：VR-Hello-World"><span class="nav-number">3.</span> <span class="nav-text">Day 3：VR Hello World</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Day-4：简单的解谜游戏"><span class="nav-number">4.</span> <span class="nav-text">Day 4：简单的解谜游戏</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Day-5：第一人称射击游戏"><span class="nav-number">5.</span> <span class="nav-text">Day 5：第一人称射击游戏</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Day-6：旅游观光应用"><span class="nav-number">6.</span> <span class="nav-text">Day 6：旅游观光应用</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Day-7：将单机版的第一人称射击游戏改造成联机游戏"><span class="nav-number">7.</span> <span class="nav-text">Day 7：将单机版的第一人称射击游戏改造成联机游戏</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Day-8：了解-Cardboard-开发、Oculus-开发和-MR-视频拍摄"><span class="nav-number">8.</span> <span class="nav-text">Day 8：了解 Cardboard 开发、Oculus 开发和 MR 视频拍摄</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Day-9：实现键鼠操控玩家对象在-3D-空间中自由移动"><span class="nav-number">9.</span> <span class="nav-text">Day 9：实现键鼠操控玩家对象在 3D 空间中自由移动</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Day-10：为-FPS-游戏实现玩家射击和具有简单-AI-的敌人"><span class="nav-number">10.</span> <span class="nav-text">Day 10：为 FPS 游戏实现玩家射击和具有简单 AI 的敌人</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Day-11：为-FPS-游戏开发图形"><span class="nav-number">11.</span> <span class="nav-text">Day 11：为 FPS 游戏开发图形</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Day-12：2D-记忆力游戏"><span class="nav-number">12.</span> <span class="nav-text">Day 12：2D 记忆力游戏</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Day-13：为-3D-游戏创建-2D-的-GUI"><span class="nav-number">13.</span> <span class="nav-text">Day 13：为 3D 游戏创建 2D 的 GUI</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Day-14：实现第三人称-3D-游戏中玩家的移动和动画"><span class="nav-number">14.</span> <span class="nav-text">Day 14：实现第三人称 3D 游戏中玩家的移动和动画</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Day-15：在游戏中添加交互设施和物品"><span class="nav-number">15.</span> <span class="nav-text">Day 15：在游戏中添加交互设施和物品</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Day-16：将游戏连接到互联网"><span class="nav-number">16.</span> <span class="nav-text">Day 16：将游戏连接到互联网</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Day-17：为游戏添加音效和音乐"><span class="nav-number">17.</span> <span class="nav-text">Day 17：为游戏添加音效和音乐</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Day-18：简单但功能完整的-RPG-游戏"><span class="nav-number">18.</span> <span class="nav-text">Day 18：简单但功能完整的 RPG 游戏</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Day-19：针对不同的游戏平台构建游戏"><span class="nav-number">19.</span> <span class="nav-text">Day 19：针对不同的游戏平台构建游戏</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Day-20：游戏-Roll-a-Ball"><span class="nav-number">20.</span> <span class="nav-text">Day 20：游戏 Roll a Ball</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Day-21：游戏-Space-Shooter（项目设置，初始化场景设置和玩家对象）"><span class="nav-number">21.</span> <span class="nav-text">Day 21：游戏 Space Shooter（项目设置，初始化场景设置和玩家对象）</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Day-22：游戏-Space-Shooter（玩家移动、攻击，游戏边界、障碍物，粒子系统，游戏控制器）"><span class="nav-number">22.</span> <span class="nav-text">Day 22：游戏 Space Shooter（玩家移动、攻击，游戏边界、障碍物，粒子系统，游戏控制器）</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Day-23：游戏-Space-Shooter（音效和背景音乐，玩家得分和游戏重玩，构建游戏）"><span class="nav-number">23.</span> <span class="nav-text">Day 23：游戏 Space Shooter（音效和背景音乐，玩家得分和游戏重玩，构建游戏）</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Day-24"><span class="nav-number">24.</span> <span class="nav-text">Day 24</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Day-1：认识-Unity"><span class="nav-number">1.</span> <span class="nav-text">Day 1：认识 Unity</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Day-2：三维空间的数学基础"><span class="nav-number">2.</span> <span class="nav-text">Day 2：三维空间的数学基础</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Day-3：VR-Hello-World"><span class="nav-number">3.</span> <span class="nav-text">Day 3：VR Hello World</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Day-4：简单的解谜游戏"><span class="nav-number">4.</span> <span class="nav-text">Day 4：简单的解谜游戏</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Day-5：第一人称射击游戏"><span class="nav-number">5.</span> <span class="nav-text">Day 5：第一人称射击游戏</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Day-6：旅游观光应用"><span class="nav-number">6.</span> <span class="nav-text">Day 6：旅游观光应用</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Day-7：将单机版的第一人称射击游戏改造成联机游戏"><span class="nav-number">7.</span> <span class="nav-text">Day 7：将单机版的第一人称射击游戏改造成联机游戏</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Day-8：了解-Cardboard-开发、Oculus-开发和-MR-视频拍摄"><span class="nav-number">8.</span> <span class="nav-text">Day 8：了解 Cardboard 开发、Oculus 开发和 MR 视频拍摄</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Day-9：实现键鼠操控玩家对象在-3D-空间中自由移动"><span class="nav-number">9.</span> <span class="nav-text">Day 9：实现键鼠操控玩家对象在 3D 空间中自由移动</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Day-10：为-FPS-游戏实现玩家射击和具有简单-AI-的敌人"><span class="nav-number">10.</span> <span class="nav-text">Day 10：为 FPS 游戏实现玩家射击和具有简单 AI 的敌人</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Day-11：为-FPS-游戏开发图形"><span class="nav-number">11.</span> <span class="nav-text">Day 11：为 FPS 游戏开发图形</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Day-12：2D-记忆力游戏"><span class="nav-number">12.</span> <span class="nav-text">Day 12：2D 记忆力游戏</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Day-13：为-3D-游戏创建-2D-的-GUI"><span class="nav-number">13.</span> <span class="nav-text">Day 13：为 3D 游戏创建 2D 的 GUI</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Day-14：实现第三人称-3D-游戏中玩家的移动和动画"><span class="nav-number">14.</span> <span class="nav-text">Day 14：实现第三人称 3D 游戏中玩家的移动和动画</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Day-15：在游戏中添加交互设施和物品"><span class="nav-number">15.</span> <span class="nav-text">Day 15：在游戏中添加交互设施和物品</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Day-16：将游戏连接到互联网"><span class="nav-number">16.</span> <span class="nav-text">Day 16：将游戏连接到互联网</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Day-17：为游戏添加音效和音乐"><span class="nav-number">17.</span> <span class="nav-text">Day 17：为游戏添加音效和音乐</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Day-18：简单但功能完整的-RPG-游戏"><span class="nav-number">18.</span> <span class="nav-text">Day 18：简单但功能完整的 RPG 游戏</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Day-19：针对不同的游戏平台构建游戏"><span class="nav-number">19.</span> <span class="nav-text">Day 19：针对不同的游戏平台构建游戏</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Day-20：Roll-a-Ball"><span class="nav-number">20.</span> <span class="nav-text">Day 20：Roll a Ball</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Day-21：Space-Shooter（项目设置，初始化场景设置和玩家对象）"><span class="nav-number">21.</span> <span class="nav-text">Day 21：Space Shooter（项目设置，初始化场景设置和玩家对象）</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Day-22：Space-Shooter（玩家移动、攻击，游戏边界、障碍物，粒子系统，游戏控制器）"><span class="nav-number">22.</span> <span class="nav-text">Day 22：Space Shooter（玩家移动、攻击，游戏边界、障碍物，粒子系统，游戏控制器）</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Day-23：Space-Shooter（音效和背景音乐，玩家得分和游戏重玩，构建游戏）"><span class="nav-number">23.</span> <span class="nav-text">Day 23：Space Shooter（音效和背景音乐，玩家得分和游戏重玩，构建游戏）</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Day-24：Space-Shooter（滚动背景，不同类型的障碍物，简单-AI-的敌人）"><span class="nav-number">24.</span> <span class="nav-text">Day 24：Space Shooter（滚动背景，不同类型的障碍物，简单 AI 的敌人）</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Day-25"><span class="nav-number">25.</span> <span class="nav-text">Day 25</span></a></li></ol></div>
             
           </div>
         </section>
