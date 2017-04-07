@@ -5,7 +5,7 @@
   <link href="/timecapsule/atom.xml" rel="self"/>
   
   <link href="http://caizicong.com/timecapsule/"/>
-  <updated>2017-03-20T08:29:08.000Z</updated>
+  <updated>2017-04-07T04:58:00.000Z</updated>
   <id>http://caizicong.com/timecapsule/</id>
   
   <author>
@@ -20,12 +20,25 @@
     <link href="http://caizicong.com/timecapsule/2017/03/20/2017-03-20-game-demos/"/>
     <id>http://caizicong.com/timecapsule/2017/03/20/2017-03-20-game-demos/</id>
     <published>2017-03-20T05:11:04.000Z</published>
-    <updated>2017-03-20T08:29:08.000Z</updated>
+    <updated>2017-04-07T04:58:00.000Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170320-001.png" alt=""></p>
-<p>这里列举了我在学习<strong>游戏制作</strong>的过程中，折腾出来的一些 Demo，我把它们构建成<strong>游戏安装包</strong>以供下载，或者部署到 Web 服务器上，可以<strong>通过浏览器访问试玩</strong>。Have fun！: )</p>
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><script src="/assets/js/DPlayer.min.js"> </script><p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170320-001.png" alt=""></p>
+<p>这里列举了我在学习<strong>游戏制作</strong>的过程中折腾出来的一些 Demo，我把它们构建成<strong>游戏安装包</strong>以供下载，或者部署到 Web 服务器上，可以<strong>通过浏览器访问试玩</strong>。Have fun！: )</p>
 <a id="more"></a>
 <hr>
+<h1 id="Zombie-Toys"><a href="#Zombie-Toys" class="headerlink" title="Zombie Toys"></a>Zombie Toys</h1><p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170407-002.png" alt=""></p>
+<p>Zombie Toys 是一款<strong>第三人称生存射击游戏</strong>。游戏的玩家主角是一个身陷噩梦的小男孩/小女孩，发现自己房间中所有的布偶都变成了行尸走肉，它们蜂拥着追逐玩家，玩家可以通过使用不同的武器（按 <code>Tab</code> 键切换）击败一波又一波的敌人，或者召唤一只小绵羊引开敌人，从而让自己生存下去。</p>
+<p>Zombie Toys 是 Survival Shooter 游戏的延伸，增加了新的游戏玩法，丰富了游戏体验，优化了视觉效果。新增特性包括：</p>
+<ul>
+<li>增加了新的玩家角色，可选择男孩或女孩角色进行游戏</li>
+<li>丰富了武器系统，有四种类型的武器可供选择进行攻击（按 <code>Tab</code> 键切换），对敌人造成不同效果的伤害</li>
+<li>增加了盟友，玩家在积累到一定的分数之后，可以召唤出一只绵羊，借此暂时吸引敌人远离玩家</li>
+<li>更多敌人种类，它们有不同的生命值，可以对玩家造成不同程度的伤害</li>
+<li>更为酷炫的视觉特效，丰富的武器特效和环境灯光效果，让游戏更加精致有趣</li>
+</ul>
+<p><strong>游戏试玩链接：</strong><br><a href="http://caizicong.com/timecapsule/gamesdir/zombie_toys/index.html">http://caizicong.com/timecapsule/gamesdir/zombie_toys/index.html</a><br><em>（在 PC/MAC 上使用 Chrome、Safari 或 Firefox 浏览器打开运行，游戏文件大小 52M，加载过程需 5-10 分钟）</em></p>
+<p>Web 版本的 Zombie Toys 基于性能和文件大小限制，游戏的视觉效果未能达到最佳，可以下载完整的 PC 版本体验更加精致的游戏画面。</p>
+<p><strong>PC 版下载地址：</strong><br><a href="http://blog-1252720346.cosgz.myqcloud.com/games/zombietoys/ZombieToys-by-ZicongCai.zip" target="_blank" rel="external">http://blog-1252720346.cosgz.myqcloud.com/games/zombietoys/ZombieToys-by-ZicongCai.zip</a><br><em>（下载解压后直接运行 ZombieToys.exe 即可，游戏文件大小 70M）</em></p>
 <h1 id="Survival-Shooter"><a href="#Survival-Shooter" class="headerlink" title="Survival Shooter"></a>Survival Shooter</h1><p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170318-003.png" alt=""></p>
 <p>Survival Shooter 是一款<strong>第三人称生存射击游戏</strong>。游戏的玩家主角是一个身陷噩梦的小男孩，发现自己房间中所有的布偶都变成了行尸走肉，它们蜂拥着追逐玩家，玩家只有通过一把能够发射激光的玩具枪击退一波又一波的敌人，让自己生存下去。</p>
 <p><strong>游戏试玩链接：</strong><br><a href="http://caizicong.com/timecapsule/gamesdir/survival_shooter/index.html">http://caizicong.com/timecapsule/gamesdir/survival_shooter/index.html</a><br><em>（在 PC/MAC 上使用 Chrome、Safari 或 Firefox 浏览器打开运行，游戏文件大小 49M，加载过程需 5-10 分钟）</em></p>
@@ -37,12 +50,18 @@
 </blockquote>
 <hr>
 <p>蔡子聪<br>2017-3-20</p>
+<hr>
+<p>change log: </p>
+<pre><code>- 初稿（2017-03-19）
+- 增加 Space Shooter 和 Survival Shooter（2017-03-20）
+- 增加 Zombie Toys（2017-04-07）
+</code></pre><hr>
 ]]></content>
     
     <summary type="html">
     
       &lt;p&gt;&lt;img src=&quot;http://blog-1252720346.cosgz.myqcloud.com/images/20170320-001.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;这里列举了我在学习&lt;strong&gt;游戏制作&lt;/strong&gt;的过程中，折腾出来的一些 Demo，我把它们构建成&lt;strong&gt;游戏安装包&lt;/strong&gt;以供下载，或者部署到 Web 服务器上，可以&lt;strong&gt;通过浏览器访问试玩&lt;/strong&gt;。Have fun！: )&lt;/p&gt;
+&lt;p&gt;这里列举了我在学习&lt;strong&gt;游戏制作&lt;/strong&gt;的过程中折腾出来的一些 Demo，我把它们构建成&lt;strong&gt;游戏安装包&lt;/strong&gt;以供下载，或者部署到 Web 服务器上，可以&lt;strong&gt;通过浏览器访问试玩&lt;/strong&gt;。Have fun！: )&lt;/p&gt;
     
     </summary>
     
@@ -56,9 +75,9 @@
     <link href="http://caizicong.com/timecapsule/2017/03/10/2017-03-10-learning-game-development/"/>
     <id>http://caizicong.com/timecapsule/2017/03/10/2017-03-10-learning-game-development/</id>
     <published>2017-03-10T08:34:14.000Z</published>
-    <updated>2017-03-24T16:23:01.000Z</updated>
+    <updated>2017-04-07T04:56:00.000Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170310-001.png" alt="题图"></p>
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><script src="/assets/js/DPlayer.min.js"> </script><p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170310-001.png" alt="题图"></p>
 <p><strong>This article is a record of my journey to learn Game Development and it will keep updating.</strong></p>
 <a id="more"></a>
 <hr>
@@ -714,7 +733,37 @@
 <blockquote>
 <p>参考资料：《Game Development Principles》（《游戏开发原理》）</p>
 </blockquote>
-<h1 id="Day-30"><a href="#Day-30" class="headerlink" title="Day 30"></a>Day 30</h1><blockquote>
+<h1 id="Day-30：Zombie-Toys-for-PC-amp-Web"><a href="#Day-30：Zombie-Toys-for-PC-amp-Web" class="headerlink" title="Day 30：Zombie Toys for PC&amp;Web"></a>Day 30：Zombie Toys for PC&amp;Web</h1><p>Zombie Toys 是 Survival Shooter 游戏的延伸，增加了新的游戏玩法，丰富了游戏体验，优化了视觉效果。新增特性包括：</p>
+<ul>
+<li>增加了新的玩家角色，可选择男孩或女孩角色进行游戏</li>
+<li>丰富了武器系统，有四种类型的武器可供选择进行攻击（按 <code>Tab</code> 键进行切换），对敌人造成不同效果的伤害</li>
+<li>增加了盟友，玩家在积累到一定的分数之后，可以召唤出一只绵羊，借此暂时吸引敌人远离玩家</li>
+<li>更多敌人种类，它们有不同的生命值，可以对玩家造成不同程度的伤害</li>
+<li>更为酷炫的视觉特效，丰富的武器特效和环境灯光效果，让游戏更加精致有趣</li>
+</ul>
+<p><strong>Zombie Toys 游戏试玩链接：</strong><br><a href="http://caizicong.com/timecapsule/gamesdir/zombie_toys/index.html">http://caizicong.com/timecapsule/gamesdir/zombie_toys/index.html</a><br><em>（在 PC/MAC 上使用 Chrome、Safari 或 Firefox 浏览器打开运行，游戏文件大小 52M，加载过程需 5-10 分钟，Have Fun！）</em></p>
+<p><strong>Zombie Toys PC 版下载地址：</strong><br><a href="http://blog-1252720346.cosgz.myqcloud.com/games/zombietoys/ZombieToys-by-ZicongCai.zip" target="_blank" rel="external">http://blog-1252720346.cosgz.myqcloud.com/games/zombietoys/ZombieToys-by-ZicongCai.zip</a><br><em>（下载解压后直接运行 ZombieToys.exe 即可，游戏文件大小 70M，Have Fun！）</em></p>
+<p><strong>重点：</strong></p>
+<ul>
+<li>Light 组件 &gt; Cookie 属性中设置了窗格图片之后，可以投射出阳光照进窗台的效果。</li>
+<li><a href="http://www.ceeger.com/Manual/LightProbes.html" target="_blank" rel="external">Light Probes</a> 灯光探测器组件可以为场景中移动的游戏物体提供光照，模拟实时光照效果。</li>
+<li><a href="https://docs.unity3d.com/Manual/class-ReflectionProbe.html" target="_blank" rel="external">Reflection Probe</a> 反射探测器组件可以优化场景中物体对光照的反射效果。</li>
+<li>关于 <strong>Unity 中的光照技术</strong> 可以阅读<a href="http://www.cocoachina.com/game/20150701/12339.html" target="_blank" rel="external">这篇文章</a>。</li>
+<li>该项目中最难实现的部分是武器特效，需要拆解每种武器的视觉效果和攻击逻辑，运用空间数学和物理知识逐步实现。</li>
+<li>在脚本中将默认方法 <code>Start()</code> 的返回类型声明为 <code>IEnumerator</code>，可以直接将其当作自启动的协程方法来使用。</li>
+<li>在脚本的属性前使用 <code>[HeaderAttribute(&quot;Property Name&quot;)]</code> 可以在 Inspector 中显示自定义的属性列表名称。</li>
+<li><p>在脚本中使用 <code>[HideInInspector]</code> 可以将声明为 <code>public</code> 的属性对 Inspector 隐藏。</p>
+</li>
+<li><p><strong>Reset() 方法</strong><br>Reset is called when the user hits the Reset button in the Inspector’s context menu or when adding the component the first time. This function is only called in editor mode. Reset is most commonly used to give good default values in the inspector.</p>
+</li>
+<li><p><strong>OnEnable() 方法</strong><br>This function is called when the object becomes enabled and active.</p>
+</li>
+<li><p>Unity 中并未在编辑器中默认实现 <strong>AnimationCurve 属性值的 Copy/Paste 功能</strong>，可以在项目中添加一个自定义脚本 <code>CurvePropertyDrawer.cs</code> 来实现便捷的 Curve 值的拷贝和粘贴，脚本来自 <a href="https://forum.unity3d.com/threads/copy-and-paste-curves.162557/#post-1277055" target="_blank" rel="external">Unity Forums</a>。</p>
+</li>
+</ul>
+<p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170407-001.png" alt=""></p>
+<p><strong>项目源码：</strong><a href="https://github.com/Caizc/game-zombie-toys" target="_blank" rel="external">https://github.com/Caizc/game-zombie-toys</a></p>
+<h1 id="Day-31"><a href="#Day-31" class="headerlink" title="Day 31"></a>Day 31</h1><blockquote>
 <p>To be continued…</p>
 </blockquote>
 <hr>
@@ -722,7 +771,7 @@
 <hr>
 <p>change log: </p>
 <pre><code>- 创建（2017-01-18）
-- 持续更新中...（2017-03-24）
+- 持续更新中...（2017-04-07）
 </code></pre><hr>
 ]]></content>
     
@@ -745,7 +794,7 @@
     <published>2017-03-02T14:10:24.000Z</published>
     <updated>2017-03-20T05:11:57.000Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170302-001.png" alt="题图"></p>
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><script src="/assets/js/DPlayer.min.js"> </script><p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170302-001.png" alt="题图"></p>
 <p>最近，我做了一场梦……</p>
 <p>在寒冷黑暗、静谧无边的宇宙中，旅行者一号孤独地漂流着。自 1977 年 NASA 将它发往深空开始，它已经在黑暗中漂泊了 40 年。 2013 年，它离开太阳圈顶层，进入充满宇宙射线和超新星残骸的星际空间，没有了太阳风的保护，它将饱受摧残。无论在何种意义上来说，这都是一趟有去无回的旅行。旅行者一号早已达到第三宇宙速度，所处的轨道再也无法引导它返回太阳系。目前它发出的讯号要经过近 20 个小时才能够到达地球的控制中心，携带的钚电池在 20 年后将耗尽所有电量，从此便是断线风筝，漂泊无依……</p>
 <p>作为迄今为止离地球最远的人造物体，旅行者号是人类千百年来不断探索求知的化身，承载着人类不甘孤独的希冀。旅行者号上携带了一张镀金唱片，上面刻着氢原子钟、太阳母星的位置图、59 种人类语言的问候、地球上的各种声音以及世界名曲，为了或许终有一日，外星智慧生命可以通过它了解地球和地球上的生命。但即使它以超过每小时 5 万 6 千公里的速度航行，也需要超过 8 万年才能抵达离太阳最近的恒星。而最震撼的是旅行者号的外壳设计寿命是 10 亿年……</p>
@@ -798,7 +847,7 @@
     <published>2016-12-16T15:39:17.000Z</published>
     <updated>2017-03-20T05:12:23.000Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20161219-001.png" alt="题图"></p>
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><script src="/assets/js/DPlayer.min.js"> </script><p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20161219-001.png" alt="题图"></p>
 <blockquote>
 <p>还记得《黑客帝国》中子弹从 Neo 眼前嗖嗖飞过？蜘蛛侠在高楼大厦间穿梭飞跃？小李子在梦境里经历轰轰烈烈的生死大战？想亲身感受那是怎样一种体验？</p>
 <p>虚拟现实技术已经将这种体验从银幕中带到现实世界，虽然它还远非完美，但这种将我们从现实世界中「瞬间卷走」并置入虚拟世界的强大力量，让我们看到了它在推动社会文明变革上的无限可能。</p>
@@ -879,7 +928,7 @@
     <published>2016-11-26T15:39:17.000Z</published>
     <updated>2017-03-20T05:12:40.000Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20161126-001.png" alt="题图"></p>
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><script src="/assets/js/DPlayer.min.js"> </script><p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20161126-001.png" alt="题图"></p>
 <blockquote>
 <p>谁曾想过，当下人类最前沿的科技之一——人工智能，可能是距离地球100光年外仙女座星系的智慧生命用来企图统治人类的机器，而他们根本不需要指派任何军队就可远程操纵这场侵略。非洲的树林里，布谷鸟趁着其他鸟类离巢外出时将自己的蛋产在宿主的鸟巢中，让这些蒙在鼓里的义亲含辛茹苦地养育布谷鸟的后代，而这些寄生雏鸟孵出后，在眼睛还没睁开的情况下就会把义亲的鸟蛋全部推出巢外。北欧草原上的数百万只旅鼠集结成浩浩荡荡的大军，集体奔赴大海有去无回。公螳螂小心翼翼地爬到雌螳螂背上交配，但雌螳螂一有机会就会把公螳螂整个吃掉。非洲草原上，雄狮有着威风的鬃毛，雌狮则没有这项头饰，然而孔雀的尾巴更是绚丽得近乎浮夸。人类社会中的男性大多倾向于不忠诚和杂交，女性却大多倾向于顾家和一夫一妻……而这一切，都是自私的基因在无情操纵。</p>
 </blockquote>
@@ -988,7 +1037,7 @@
     <published>2016-10-08T12:51:56.000Z</published>
     <updated>2017-03-20T05:12:51.000Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20161008-001.png" alt="题图"></p>
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><script src="/assets/js/DPlayer.min.js"> </script><p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20161008-001.png" alt="题图"></p>
 <blockquote>
 <p>耐心寻找你的热爱，只有它能让你保持前进的动力，不要为稳定所迷惑，成长才是最重要的，「终身学习，精进不已」才是唯一靠谱的人生策略。</p>
 </blockquote>
@@ -1085,7 +1134,7 @@
     <published>2016-09-25T09:09:56.000Z</published>
     <updated>2017-03-20T05:13:01.000Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20160925-001.png" alt="鹅厂的一些碎碎念"></p>
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><script src="/assets/js/DPlayer.min.js"> </script><p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20160925-001.png" alt="鹅厂的一些碎碎念"></p>
 <blockquote>
 <p>今天看了腾讯出品的短片《@互联网人》，影片中讲述了一个互联网产品负责人带领自己的团队为研发新产品而拼搏的故事。电影毕竟不是现实，在短短的几十分钟内，电影做到了故事讲述、人物刻画、戏剧效果、艺术手法和寓意升华等，确实容易唤起观众的情感共鸣，同时也容易让人断章取义。但不妨将其作为一扇窗口，管中窥豹，<strong>再结合我在鹅厂的经历体验</strong>，唠嗑几句。</p>
 </blockquote>
@@ -1236,7 +1285,7 @@
     <published>2016-05-28T17:19:56.000Z</published>
     <updated>2017-03-20T05:13:11.000Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20160529-001.jpg" alt="职业空窗期"></p>
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><script src="/assets/js/DPlayer.min.js"> </script><p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20160529-001.jpg" alt="职业空窗期"></p>
 <blockquote>
 <p>方向比努力重要，在不适合自己的方向上努力，只会南辕北辙。因此，在职业空窗期里，在踏出下一步之前，需要静下心来好好思考，我的这场人生长跑究竟何以为终，接下来要去向何方？</p>
 </blockquote>
@@ -1381,7 +1430,7 @@
     <published>2016-03-22T10:02:56.000Z</published>
     <updated>2017-03-20T05:13:18.000Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20160322-001.jpg" alt="广州天河"></p>
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><script src="/assets/js/DPlayer.min.js"> </script><p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20160322-001.jpg" alt="广州天河"></p>
 <p>两周前刚刚辞去了我的首份工作，算是为我毕业后的首个四年打上句点。在家充电之余，为这段经历作个阶段性总结，一来纪念，二来激励，是这些经历塑造的我，要在反思中前行。</p>
 <a id="more"></a>
 <p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20160322-002.jpg" alt="Process of transition"></p>
@@ -1458,7 +1507,7 @@
     <published>2016-01-13T11:39:33.000Z</published>
     <updated>2017-03-20T05:13:24.000Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><blockquote>
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><script src="/assets/js/DPlayer.min.js"> </script><blockquote>
 <p>这里在做各种有趣的试验~ </p>
 </blockquote>
 <ul>
