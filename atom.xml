@@ -75,7 +75,7 @@
     <link href="http://caizicong.com/timecapsule/2017/03/10/2017-03-10-learning-game-development/"/>
     <id>http://caizicong.com/timecapsule/2017/03/10/2017-03-10-learning-game-development/</id>
     <published>2017-03-10T08:34:14.000Z</published>
-    <updated>2017-04-20T03:47:20.000Z</updated>
+    <updated>2017-04-27T05:50:55.000Z</updated>
     
     <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170310-001.png" alt="题图"></p>
 <p><strong>This article is a record of my journey to learn Game Development and it will keep updating.</strong></p>
@@ -91,6 +91,7 @@
 </ul>
 <blockquote>
 <p>参考资料：《VR开发实战》</p>
+<p><strong>书摘笔记：</strong><a href="https://github.com/Caizc/cai-knowledge-base/blob/master/BOK-0007-A-%E5%86%80%E7%9B%BC-%E3%80%8AVR%E5%BC%80%E5%8F%91%E5%AE%9E%E6%88%98%E3%80%8B.md" target="_blank" rel="external">https://github.com/Caizc/cai-knowledge-base/blob/master/BOK-0007-A-%E5%86%80%E7%9B%BC-%E3%80%8AVR%E5%BC%80%E5%8F%91%E5%AE%9E%E6%88%98%E3%80%8B.md</a></p>
 </blockquote>
 <h1 id="Day-2：三维空间的数学基础"><a href="#Day-2：三维空间的数学基础" class="headerlink" title="Day 2：三维空间的数学基础"></a>Day 2：三维空间的数学基础</h1><p><strong>空间数学的基本概念：</strong></p>
 <ul>
@@ -111,6 +112,7 @@
 <p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170310-002.jpg" alt=""></p>
 <blockquote>
 <p>参考资料：《VR开发实战》</p>
+<p><strong>书摘笔记：</strong><a href="https://github.com/Caizc/cai-knowledge-base/blob/master/BOK-0007-A-%E5%86%80%E7%9B%BC-%E3%80%8AVR%E5%BC%80%E5%8F%91%E5%AE%9E%E6%88%98%E3%80%8B.md" target="_blank" rel="external">https://github.com/Caizc/cai-knowledge-base/blob/master/BOK-0007-A-%E5%86%80%E7%9B%BC-%E3%80%8AVR%E5%BC%80%E5%8F%91%E5%AE%9E%E6%88%98%E3%80%8B.md</a></p>
 </blockquote>
 <h1 id="Day-3：VR-Hello-World"><a href="#Day-3：VR-Hello-World" class="headerlink" title="Day 3：VR Hello World"></a>Day 3：VR Hello World</h1><ul>
 <li><p><strong>Vive 开发环境搭建：</strong></p>
@@ -135,6 +137,7 @@
 </ul>
 <blockquote>
 <p>参考资料：《VR开发实战》</p>
+<p><strong>书摘笔记：</strong><a href="https://github.com/Caizc/cai-knowledge-base/blob/master/BOK-0007-A-%E5%86%80%E7%9B%BC-%E3%80%8AVR%E5%BC%80%E5%8F%91%E5%AE%9E%E6%88%98%E3%80%8B.md" target="_blank" rel="external">https://github.com/Caizc/cai-knowledge-base/blob/master/BOK-0007-A-%E5%86%80%E7%9B%BC-%E3%80%8AVR%E5%BC%80%E5%8F%91%E5%AE%9E%E6%88%98%E3%80%8B.md</a></p>
 </blockquote>
 <h1 id="Day-4：简单的解谜游戏"><a href="#Day-4：简单的解谜游戏" class="headerlink" title="Day 4：简单的解谜游戏"></a>Day 4：简单的解谜游戏</h1><ul>
 <li>游戏策划和场景搭建（直接使用素材）</li>
@@ -143,9 +146,10 @@
 <li>调试游戏交互和运行效果</li>
 </ul>
 <p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170310-003.jpg" alt=""></p>
-<p><strong>项目源码：</strong><a href="https://github.com/Caizc/learn-puzzle" target="_blank" rel="external">https://github.com/Caizc/learn-puzzle</a></p>
 <blockquote>
+<p><strong>项目源码：</strong><a href="https://github.com/Caizc/learn-puzzle" target="_blank" rel="external">https://github.com/Caizc/learn-puzzle</a></p>
 <p>参考资料：《VR开发实战》</p>
+<p><strong>书摘笔记：</strong><a href="https://github.com/Caizc/cai-knowledge-base/blob/master/BOK-0007-A-%E5%86%80%E7%9B%BC-%E3%80%8AVR%E5%BC%80%E5%8F%91%E5%AE%9E%E6%88%98%E3%80%8B.md" target="_blank" rel="external">https://github.com/Caizc/cai-knowledge-base/blob/master/BOK-0007-A-%E5%86%80%E7%9B%BC-%E3%80%8AVR%E5%BC%80%E5%8F%91%E5%AE%9E%E6%88%98%E3%80%8B.md</a></p>
 </blockquote>
 <h1 id="Day-5：第一人称射击游戏"><a href="#Day-5：第一人称射击游戏" class="headerlink" title="Day 5：第一人称射击游戏"></a>Day 5：第一人称射击游戏</h1><ul>
 <li><p><strong>创建怪物：</strong></p>
@@ -167,16 +171,17 @@
 </li>
 <li><strong>添加背景音乐与调节音量</strong></li>
 </ul>
-<p><strong>重点：</strong></p>
+<p><strong>要点：</strong></p>
 <ul>
 <li>《VR开发实战》书中有很多刊误，有些步骤按照书中所写无法执行，需要变通，自己查阅资料和摸索得到正确的做法。</li>
 <li>原 Demo 中使用的一些 API ，实际上 Unity 官方已有更新的版本，在学习时需要注意同步更新，使用最新的 API 进行编程。</li>
 <li>学会如何在 Unity 和 MonoDevelop 上调试游戏程序和脚本，这是最重要的。</li>
 </ul>
 <p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170310-004.png" alt=""></p>
-<p><strong>项目源码：</strong><a href="https://github.com/Caizc/learn-fps" target="_blank" rel="external">https://github.com/Caizc/learn-fps</a></p>
 <blockquote>
+<p><strong>项目源码：</strong><a href="https://github.com/Caizc/learn-fps" target="_blank" rel="external">https://github.com/Caizc/learn-fps</a></p>
 <p>参考资料：《VR开发实战》</p>
+<p><strong>书摘笔记：</strong><a href="https://github.com/Caizc/cai-knowledge-base/blob/master/BOK-0007-A-%E5%86%80%E7%9B%BC-%E3%80%8AVR%E5%BC%80%E5%8F%91%E5%AE%9E%E6%88%98%E3%80%8B.md" target="_blank" rel="external">https://github.com/Caizc/cai-knowledge-base/blob/master/BOK-0007-A-%E5%86%80%E7%9B%BC-%E3%80%8AVR%E5%BC%80%E5%8F%91%E5%AE%9E%E6%88%98%E3%80%8B.md</a></p>
 </blockquote>
 <h1 id="Day-6：旅游观光应用"><a href="#Day-6：旅游观光应用" class="headerlink" title="Day 6：旅游观光应用"></a>Day 6：旅游观光应用</h1><ul>
 <li><strong>实现游客在虚拟空间中的移动传送</strong></li>
@@ -195,15 +200,16 @@
 <li>使用 SteamVR 进行调试时，预制件 CameraRig 在编辑模式和 Play 模式下，Inspector 中的组件列表并不一致，这会导致运行时的效果与预期不一致，这个问题暂时还没有头绪，需要更深入地了解 Unity 引擎的运行机制才得以解答。</li>
 <li>基于以上问题的存在，为了调试效果，尝试在 Play 模式下动态调整 Camera(head) 为 Enable，勾选后发现 Console 中持续报错：<code>Assertion failed on expression: &#39;IsMatrixValid (matrix)&#39;</code>，且画面中手柄出现刷新卡顿，暂未找到解决方法。</li>
 </ul>
-<p><strong>重点：</strong></p>
+<p><strong>要点：</strong></p>
 <ul>
 <li>使用 Visual Studio 作为 Unity 中 C# 脚本的编辑器进行开发和调试，提高生产效率。</li>
 <li>安装 Visual Studio Tools for Unity，以便在 Visual Studio 中调试 C# 脚本。</li>
 </ul>
 <p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170310-005.png" alt=""></p>
-<p><strong>项目源码：</strong><a href="https://github.com/Caizc/learn-tourism" target="_blank" rel="external">https://github.com/Caizc/learn-tourism</a></p>
 <blockquote>
+<p><strong>项目源码：</strong><a href="https://github.com/Caizc/learn-tourism" target="_blank" rel="external">https://github.com/Caizc/learn-tourism</a></p>
 <p>参考资料：《VR开发实战》</p>
+<p><strong>书摘笔记：</strong><a href="https://github.com/Caizc/cai-knowledge-base/blob/master/BOK-0007-A-%E5%86%80%E7%9B%BC-%E3%80%8AVR%E5%BC%80%E5%8F%91%E5%AE%9E%E6%88%98%E3%80%8B.md" target="_blank" rel="external">https://github.com/Caizc/cai-knowledge-base/blob/master/BOK-0007-A-%E5%86%80%E7%9B%BC-%E3%80%8AVR%E5%BC%80%E5%8F%91%E5%AE%9E%E6%88%98%E3%80%8B.md</a></p>
 </blockquote>
 <h1 id="Day-7：将单机版的第一人称射击游戏改造成联机游戏"><a href="#Day-7：将单机版的第一人称射击游戏改造成联机游戏" class="headerlink" title="Day 7：将单机版的第一人称射击游戏改造成联机游戏"></a>Day 7：将单机版的第一人称射击游戏改造成联机游戏</h1><ul>
 <li><p><strong>了解 Unity 提供的多玩家在线工具 UNET （ Unity Networking ），及其两个类型的API：HighLevelAPI 和 LowLevelAPI</strong></p>
@@ -229,12 +235,13 @@
 </ul>
 <p><strong>未解决的 bug ：</strong></p>
 <ul>
-<li>按照书中步骤配置好游戏对象以及控制脚本后，运行游戏后 Console 持续报错：<code>&quot;There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene.&quot;</code> Google 后无果。</li>
+<li>按照书中步骤配置好游戏对象以及控制脚本后，运行游戏后 Console 持续报错：<code>&quot;There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene.&quot;</code>，场景中缺少 AudioListener 组件。</li>
 <li>另外，游戏不能正常运行，貌似存在不少 bug。</li>
 <li>暂时搁置这个 demo，待更加深入地学习了 Unity 的运行机制后，再回过头来解决。</li>
 </ul>
 <blockquote>
 <p>参考资料：《VR开发实战》</p>
+<p><strong>书摘笔记：</strong><a href="https://github.com/Caizc/cai-knowledge-base/blob/master/BOK-0007-A-%E5%86%80%E7%9B%BC-%E3%80%8AVR%E5%BC%80%E5%8F%91%E5%AE%9E%E6%88%98%E3%80%8B.md" target="_blank" rel="external">https://github.com/Caizc/cai-knowledge-base/blob/master/BOK-0007-A-%E5%86%80%E7%9B%BC-%E3%80%8AVR%E5%BC%80%E5%8F%91%E5%AE%9E%E6%88%98%E3%80%8B.md</a></p>
 </blockquote>
 <h1 id="Day-8：了解-Cardboard-开发、Oculus-开发和-MR-视频拍摄"><a href="#Day-8：了解-Cardboard-开发、Oculus-开发和-MR-视频拍摄" class="headerlink" title="Day 8：了解 Cardboard 开发、Oculus 开发和 MR 视频拍摄"></a>Day 8：了解 Cardboard 开发、Oculus 开发和 MR 视频拍摄</h1><p>阅读 <strong>Cardboard</strong> 开发、<strong>Oculus</strong> 开发和 <strong>MR 视频</strong>拍摄的入门知识，由于无相应硬件设备，暂时不做更深入的了解。</p>
 <blockquote>
@@ -264,7 +271,7 @@
 </ul>
 </li>
 </ul>
-<p><strong>重点：</strong></p>
+<p><strong>要点：</strong></p>
 <ul>
 <li>在 3D 坐标空间中，使用坐标位置和向量来表达位置和移动，理解「左手坐标系」和「右手坐标系」的区别。</li>
 <li>区分<strong>「本地坐标」</strong>和<strong>「全局坐标」</strong>。</li>
@@ -275,8 +282,8 @@
 <li>在脚本的类声明之前添加 <code>RequireComponent()</code> 方法来确保脚本附加了其他需要的组件；添加 <code>AddComponentMenu()</code> 方法以在 Inspector 底部的 Add Component 组件菜单中添加一个自定义的组件链接。</li>
 </ul>
 <p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170310-006.png" alt=""></p>
-<p><strong>项目源码：</strong><a href="https://github.com/Caizc/learn-fps-play-with-km" target="_blank" rel="external">https://github.com/Caizc/learn-fps-play-with-km</a></p>
 <blockquote>
+<p><strong>项目源码：</strong><a href="https://github.com/Caizc/learn-fps-play-with-km" target="_blank" rel="external">https://github.com/Caizc/learn-fps-play-with-km</a></p>
 <p>参考资料：《Unity in Action: Multiplatform Game Development in C# with Unity 5》</p>
 </blockquote>
 <h1 id="Day-10：为-FPS-游戏实现玩家射击和具有简单-AI-的敌人"><a href="#Day-10：为-FPS-游戏实现玩家射击和具有简单-AI-的敌人" class="headerlink" title="Day 10：为 FPS 游戏实现玩家射击和具有简单 AI 的敌人"></a>Day 10：为 FPS 游戏实现玩家射击和具有简单 AI 的敌人</h1><ul>
@@ -287,8 +294,8 @@
 <li>通过实例化对象进行射击</li>
 </ul>
 <p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170310-007.png" alt=""></p>
-<p><strong>项目源码：</strong><a href="https://github.com/Caizc/learn-fps-play-with-km" target="_blank" rel="external">https://github.com/Caizc/learn-fps-play-with-km</a></p>
 <blockquote>
+<p><strong>项目源码：</strong><a href="https://github.com/Caizc/learn-fps-play-with-km" target="_blank" rel="external">https://github.com/Caizc/learn-fps-play-with-km</a></p>
 <p>参考资料：《Unity in Action: Multiplatform Game Development in C# with Unity 5》</p>
 </blockquote>
 <h1 id="Day-11：为-FPS-游戏开发图形"><a href="#Day-11：为-FPS-游戏开发图形" class="headerlink" title="Day 11：为 FPS 游戏开发图形"></a>Day 11：为 FPS 游戏开发图形</h1><ul>
@@ -300,8 +307,8 @@
 <li>使用粒子系统创建效果</li>
 </ul>
 <p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170310-008.png" alt=""></p>
-<p><strong>项目源码：</strong><a href="https://github.com/Caizc/learn-fps-play-with-km" target="_blank" rel="external">https://github.com/Caizc/learn-fps-play-with-km</a></p>
 <blockquote>
+<p><strong>项目源码：</strong><a href="https://github.com/Caizc/learn-fps-play-with-km" target="_blank" rel="external">https://github.com/Caizc/learn-fps-play-with-km</a></p>
 <p>参考资料：《Unity in Action: Multiplatform Game Development in C# with Unity 5》</p>
 </blockquote>
 <h1 id="Day-12：2D-记忆力游戏"><a href="#Day-12：2D-记忆力游戏" class="headerlink" title="Day 12：2D 记忆力游戏"></a>Day 12：2D 记忆力游戏</h1><ul>
@@ -312,8 +319,8 @@
 <li>重启按钮</li>
 </ul>
 <p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170310-009.png" alt=""></p>
-<p><strong>项目源码：</strong><a href="https://github.com/Caizc/learn-memory-game-2d" target="_blank" rel="external">https://github.com/Caizc/learn-memory-game-2d</a></p>
 <blockquote>
+<p><strong>项目源码：</strong><a href="https://github.com/Caizc/learn-memory-game-2d" target="_blank" rel="external">https://github.com/Caizc/learn-memory-game-2d</a></p>
 <p>参考资料：《Unity in Action: Multiplatform Game Development in C# with Unity 5》</p>
 </blockquote>
 <h1 id="Day-13：为-3D-游戏创建-2D-的-GUI"><a href="#Day-13：为-3D-游戏创建-2D-的-GUI" class="headerlink" title="Day 13：为 3D 游戏创建 2D 的 GUI"></a>Day 13：为 3D 游戏创建 2D 的 GUI</h1><ul>
@@ -324,8 +331,8 @@
 <li>从 UI 广播和侦听事件</li>
 </ul>
 <p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170310-010.png" alt=""></p>
-<p><strong>项目源码：</strong><a href="https://github.com/Caizc/learn-fps-play-with-km" target="_blank" rel="external">https://github.com/Caizc/learn-fps-play-with-km</a></p>
 <blockquote>
+<p><strong>项目源码：</strong><a href="https://github.com/Caizc/learn-fps-play-with-km" target="_blank" rel="external">https://github.com/Caizc/learn-fps-play-with-km</a></p>
 <p>参考资料：《Unity in Action: Multiplatform Game Development in C# with Unity 5》</p>
 </blockquote>
 <h1 id="Day-14：实现第三人称-3D-游戏中玩家的移动和动画"><a href="#Day-14：实现第三人称-3D-游戏中玩家的移动和动画" class="headerlink" title="Day 14：实现第三人称 3D 游戏中玩家的移动和动画"></a>Day 14：实现第三人称 3D 游戏中玩家的移动和动画</h1><ul>
@@ -336,8 +343,8 @@
 <li>基于移动来播放模型的动画</li>
 </ul>
 <p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170310-011.png" alt=""></p>
-<p><strong>项目源码：</strong><a href="https://github.com/Caizc/learn-third-person-view-game" target="_blank" rel="external">https://github.com/Caizc/learn-third-person-view-game</a></p>
 <blockquote>
+<p><strong>项目源码：</strong><a href="https://github.com/Caizc/learn-third-person-view-game" target="_blank" rel="external">https://github.com/Caizc/learn-third-person-view-game</a></p>
 <p>参考资料：《Unity in Action: Multiplatform Game Development in C# with Unity 5》</p>
 </blockquote>
 <h1 id="Day-15：在游戏中添加交互设施和物品"><a href="#Day-15：在游戏中添加交互设施和物品" class="headerlink" title="Day 15：在游戏中添加交互设施和物品"></a>Day 15：在游戏中添加交互设施和物品</h1><ul>
@@ -348,8 +355,8 @@
 <li>装备及使用仓库中的物品</li>
 </ul>
 <p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170310-012.png" alt=""></p>
-<p><strong>项目源码：</strong><a href="https://github.com/Caizc/learn-third-person-view-game" target="_blank" rel="external">https://github.com/Caizc/learn-third-person-view-game</a></p>
 <blockquote>
+<p><strong>项目源码：</strong><a href="https://github.com/Caizc/learn-third-person-view-game" target="_blank" rel="external">https://github.com/Caizc/learn-third-person-view-game</a></p>
 <p>参考资料：《Unity in Action: Multiplatform Game Development in C# with Unity 5》</p>
 </blockquote>
 <h1 id="Day-16：将游戏连接到互联网"><a href="#Day-16：将游戏连接到互联网" class="headerlink" title="Day 16：将游戏连接到互联网"></a>Day 16：将游戏连接到互联网</h1><ul>
@@ -360,8 +367,8 @@
 <li>将游戏中的数据发送到服务器上</li>
 </ul>
 <p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170310-013.png" alt=""></p>
-<p><strong>项目源码：</strong><a href="https://github.com/Caizc/learn-online-game" target="_blank" rel="external">https://github.com/Caizc/learn-online-game</a></p>
 <blockquote>
+<p><strong>项目源码：</strong><a href="https://github.com/Caizc/learn-online-game" target="_blank" rel="external">https://github.com/Caizc/learn-online-game</a></p>
 <p>参考资料：《Unity in Action: Multiplatform Game Development in C# with Unity 5》</p>
 </blockquote>
 <h1 id="Day-17：为游戏添加音效和音乐"><a href="#Day-17：为游戏添加音效和音乐" class="headerlink" title="Day 17：为游戏添加音效和音乐"></a>Day 17：为游戏添加音效和音乐</h1><ul>
@@ -373,8 +380,8 @@
 <li>实现不同背景音乐切换时的淡入淡出效果</li>
 </ul>
 <p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170310-014.png" alt=""></p>
-<p><strong>项目源码：</strong><a href="https://github.com/Caizc/learn-fps-play-with-km" target="_blank" rel="external">https://github.com/Caizc/learn-fps-play-with-km</a></p>
 <blockquote>
+<p><strong>项目源码：</strong><a href="https://github.com/Caizc/learn-fps-play-with-km" target="_blank" rel="external">https://github.com/Caizc/learn-fps-play-with-km</a></p>
 <p>参考资料：《Unity in Action: Multiplatform Game Development in C# with Unity 5》</p>
 </blockquote>
 <h1 id="Day-18：简单但功能完整的-RPG-游戏"><a href="#Day-18：简单但功能完整的-RPG-游戏" class="headerlink" title="Day 18：简单但功能完整的 RPG 游戏"></a>Day 18：简单但功能完整的 RPG 游戏</h1><p>整合其他项目所学的内容，创建一个功能完整的角色扮演游戏，游戏主要功能如下：</p>
@@ -389,8 +396,8 @@
 <li>合理的、可拓展的代码架构</li>
 </ul>
 <p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170310-015.png" alt=""></p>
-<p><strong>项目源码：</strong><a href="https://github.com/Caizc/learn-rpg" target="_blank" rel="external">https://github.com/Caizc/learn-rpg</a></p>
 <blockquote>
+<p><strong>项目源码：</strong><a href="https://github.com/Caizc/learn-rpg" target="_blank" rel="external">https://github.com/Caizc/learn-rpg</a></p>
 <p>参考资料：《Unity in Action: Multiplatform Game Development in C# with Unity 5》</p>
 </blockquote>
 <h1 id="Day-19：针对不同的游戏平台构建游戏"><a href="#Day-19：针对不同的游戏平台构建游戏" class="headerlink" title="Day 19：针对不同的游戏平台构建游戏"></a>Day 19：针对不同的游戏平台构建游戏</h1><ul>
@@ -407,7 +414,7 @@
 <li>创建可收集的物品，在被小球碰撞到时消失并累计得分</li>
 <li>创建 UI，显示玩家得分和提示信息</li>
 </ul>
-<p><strong>重点：</strong></p>
+<p><strong>要点：</strong></p>
 <ul>
 <li>在脚本中，使用 <code>COMMAND+&#39;</code> 快捷键来快速查看指定对象的 Scripting Reference。</li>
 <li>保持玩家对象和摄像头的距离不变，就可以实现一个简单的第三人称视角。编写脚本来保持它们之间的固定距离，而不是将摄像头作为玩家对象的子对象，因为连结在一起的父子对象会同步旋转信息，这会导致玩家对象旋转时带动摄像头一起翻滚，这不是我们想要的效果。</li>
@@ -431,8 +438,8 @@
 <li>Background：设置游戏的背景图片，调整图片材质的 Shader 类型。</li>
 </ul>
 <p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170310-017.png" alt=""></p>
-<p><strong>项目源码：</strong><a href="https://github.com/Caizc/game-space-shooter" target="_blank" rel="external">https://github.com/Caizc/game-space-shooter</a></p>
 <blockquote>
+<p><strong>项目源码：</strong><a href="https://github.com/Caizc/game-space-shooter" target="_blank" rel="external">https://github.com/Caizc/game-space-shooter</a></p>
 <p>参考资料：<a href="https://unity3d.com/cn/learn/tutorials/projects/space-shooter-tutorial" target="_blank" rel="external">Space Shooter tutorial - Unity-Learn-Tutorials</a></p>
 </blockquote>
 <h1 id="Day-22：Space-Shooter（玩家移动、攻击，游戏边界、障碍物，粒子系统，游戏控制器）"><a href="#Day-22：Space-Shooter（玩家移动、攻击，游戏边界、障碍物，粒子系统，游戏控制器）" class="headerlink" title="Day 22：Space Shooter（玩家移动、攻击，游戏边界、障碍物，粒子系统，游戏控制器）"></a>Day 22：Space Shooter（玩家移动、攻击，游戏边界、障碍物，粒子系统，游戏控制器）</h1><ul>
@@ -443,7 +450,7 @@
 <li>添加粒子系统，打造爆炸特效</li>
 <li>添加游戏控制脚本，控制障碍物的生成，为玩家增加挑战</li>
 </ul>
-<p><strong>重点：</strong></p>
+<p><strong>要点：</strong></p>
 <ul>
 <li><p><strong>FixedUpdate()</strong><br>当处理具有 Rigidbody 组件的游戏对象或需要考虑物理计算时，必须在 FixedUpdate() 方法中编写逻辑，而不是在 Update() 方法中。</p>
 </li>
@@ -457,8 +464,8 @@
 </li>
 </ul>
 <p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170310-018.png" alt=""></p>
-<p><strong>项目源码：</strong><a href="https://github.com/Caizc/game-space-shooter" target="_blank" rel="external">https://github.com/Caizc/game-space-shooter</a></p>
 <blockquote>
+<p><strong>项目源码：</strong><a href="https://github.com/Caizc/game-space-shooter" target="_blank" rel="external">https://github.com/Caizc/game-space-shooter</a></p>
 <p>参考资料：<a href="https://unity3d.com/cn/learn/tutorials/projects/space-shooter-tutorial" target="_blank" rel="external">Space Shooter tutorial - Unity-Learn-Tutorials</a></p>
 </blockquote>
 <h1 id="Day-23：Space-Shooter（音效和背景音乐，玩家得分和游戏重玩，构建游戏）"><a href="#Day-23：Space-Shooter（音效和背景音乐，玩家得分和游戏重玩，构建游戏）" class="headerlink" title="Day 23：Space Shooter（音效和背景音乐，玩家得分和游戏重玩，构建游戏）"></a>Day 23：Space Shooter（音效和背景音乐，玩家得分和游戏重玩，构建游戏）</h1><ul>
@@ -467,13 +474,13 @@
 <li>编写游戏结束和重玩的逻辑</li>
 <li>编译并打包游戏应用，将其部署到 Web 平台上供玩家试玩</li>
 </ul>
-<p><strong>重点：</strong></p>
+<p><strong>要点：</strong></p>
 <ul>
 <li><strong>对象实例的本质</strong>是，某一特定场景内的对象拷贝；而 prefab 的本质是，对象的模板，可以在任意场景中多次实例化。因此，无法在 prefab 中保存某一特定场景内的对象实例的引用（因为对象实例无法脱离特定场景独立存在）。为了解决这个问题，可以在 prefab 被实例化了之后，在脚本中通过 <code>GameObject.FindWithTag (&quot;tagname&quot;)</code> 来动态获得当前场景内的对象实例引用。</li>
 </ul>
 <p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170310-019.png" alt=""></p>
-<p><strong>项目源码：</strong><a href="https://github.com/Caizc/game-space-shooter" target="_blank" rel="external">https://github.com/Caizc/game-space-shooter</a></p>
 <blockquote>
+<p><strong>项目源码：</strong><a href="https://github.com/Caizc/game-space-shooter" target="_blank" rel="external">https://github.com/Caizc/game-space-shooter</a></p>
 <p>参考资料：<a href="https://unity3d.com/cn/learn/tutorials/projects/space-shooter-tutorial" target="_blank" rel="external">Space Shooter tutorial - Unity-Learn-Tutorials</a></p>
 </blockquote>
 <h1 id="Day-24：Space-Shooter（滚动背景，不同类型的障碍物，简单-AI-的敌人）"><a href="#Day-24：Space-Shooter（滚动背景，不同类型的障碍物，简单-AI-的敌人）" class="headerlink" title="Day 24：Space Shooter（滚动背景，不同类型的障碍物，简单 AI 的敌人）"></a>Day 24：Space Shooter（滚动背景，不同类型的障碍物，简单 AI 的敌人）</h1><ul>
@@ -481,7 +488,7 @@
 <li>添加不同 artwork 的 asteroid，将逻辑组件附加在单独的 parent GameObject 上，而将 artwork 作为其 child GameObject，可以在扩展或更换游戏对象的 artwork 时，不需要重新处理其逻辑组件，是应该谨记的最佳实践</li>
 <li>添加会主动攻击玩家的敌人，增加游戏难度。敌人会在躲避模式和追踪玩家并攻击模式之间随机选择</li>
 </ul>
-<p><strong>重点：</strong></p>
+<p><strong>要点：</strong></p>
 <ul>
 <li>在需要实现简单的重复执行逻辑时，例如让敌人以固定间隔持续开火，可以使用 <code>InvokeRepeating()</code> 方法替代 coruotine 来简单实现。</li>
 </ul>
@@ -499,12 +506,13 @@
 </li>
 </ul>
 <p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170312-001.png" alt=""></p>
-<p><strong>项目源码：</strong><a href="https://github.com/Caizc/game-space-shooter" target="_blank" rel="external">https://github.com/Caizc/game-space-shooter</a></p>
 <blockquote>
+<p><strong>项目源码：</strong><a href="https://github.com/Caizc/game-space-shooter" target="_blank" rel="external">https://github.com/Caizc/game-space-shooter</a></p>
 <p>参考资料：<a href="https://unity3d.com/cn/learn/tutorials/projects/space-shooter-tutorial" target="_blank" rel="external">Space Shooter tutorial - Unity-Learn-Tutorials</a></p>
 </blockquote>
 <h1 id="Day-25：Survival-Shooter（环境设置，玩家角色，摄像头，敌人）"><a href="#Day-25：Survival-Shooter（环境设置，玩家角色，摄像头，敌人）" class="headerlink" title="Day 25：Survival Shooter（环境设置，玩家角色，摄像头，敌人）"></a>Day 25：Survival Shooter（环境设置，玩家角色，摄像头，敌人）</h1><p>Survival Shooter 是一款<strong>第三人称生存射击游戏</strong>。游戏的玩家主角是一个身陷噩梦的小男孩，发现自己房间中所有的布偶都变成了行尸走肉，它们蜂拥着追逐玩家，玩家只有通过一把能够发射激光的玩具枪击退一波又一波的敌人，让自己生存下去。</p>
 <p><strong>Survival Shooter 游戏试玩链接：</strong><br><a href="http://caizicong.com/timecapsule/gamesdir/survival_shooter/index.html">http://caizicong.com/timecapsule/gamesdir/survival_shooter/index.html</a><br><em>（在 PC/MAC 上使用 Chrome、Safari 或 Firefox 浏览器打开运行，游戏文件大小 49M，加载过程需 5-10 分钟，Have Fun！）</em></p>
+<p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170318-001.png" alt=""></p>
 <ul>
 <li><p>Environment setup</p>
 <ul>
@@ -549,7 +557,7 @@
 </ul>
 </li>
 </ul>
-<p><strong>重点：</strong></p>
+<p><strong>要点：</strong></p>
 <ul>
 <li><strong>Animator Controller</strong><br>注意，在状态转换 Transition 中勾选了 <code>Has Exit Time</code>，则该状态转换动画播放完毕后会停止不动，对于类似 Move 行走动画需要循环播放的转换，需确保该 Property 不被勾选。</li>
 </ul>
@@ -582,9 +590,8 @@
 <li><p><strong>NavMeshAgent.SetDestination()</strong><br><code>public bool SetDestination(Vector3 target);</code><br>Sets or updates the destination thus triggering the calculation for a new path.<br>设置 NavMeshAgent 组件对象的目标，以为其导航和规划路径进行移动，用于 AI 敌人自动搜寻玩家并跟随。</p>
 </li>
 </ul>
-<p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170318-001.png" alt=""></p>
-<p><strong>项目源码：</strong><a href="https://github.com/Caizc/game-survival-shooter" target="_blank" rel="external">https://github.com/Caizc/game-survival-shooter</a></p>
 <blockquote>
+<p><strong>项目源码：</strong><a href="https://github.com/Caizc/game-survival-shooter" target="_blank" rel="external">https://github.com/Caizc/game-survival-shooter</a></p>
 <p>参考资料：<a href="https://unity3d.com/learn/tutorials/projects/survival-shooter-tutorial" target="_blank" rel="external">Survival Shooter tutorial - Unity-Learn-Tutorials</a></p>
 </blockquote>
 <h1 id="Day-26：Survival-Shooter（玩家血量-GUI，敌人攻击和玩家攻击行为）"><a href="#Day-26：Survival-Shooter（玩家血量-GUI，敌人攻击和玩家攻击行为）" class="headerlink" title="Day 26：Survival Shooter（玩家血量 GUI，敌人攻击和玩家攻击行为）"></a>Day 26：Survival Shooter（玩家血量 GUI，敌人攻击和玩家攻击行为）</h1><ul>
@@ -608,7 +615,8 @@
 </ul>
 </li>
 </ul>
-<p><strong>重点：</strong></p>
+<p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170318-002.png" alt=""></p>
+<p><strong>要点：</strong></p>
 <ul>
 <li><p><strong>Canvas 组件：Canvas Group</strong><br>为 Canvas 添加 Canvas Group 组件，使用其下的属性 <code>Interactable</code> 和 <code>Blocks Raycasts</code> 控制 Canvas 下对象是否可交互、是否屏蔽射线。</p>
 </li>
@@ -629,9 +637,8 @@
 <li><p>Particle System 粒子系统可以附加在一个 GameObject 的 child GameObject 上进行使用，也可以直接将其作为场景中某个 GameObject 的 Component 进行使用。</p>
 </li>
 </ul>
-<p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170318-002.png" alt=""></p>
-<p><strong>项目源码：</strong><a href="https://github.com/Caizc/game-survival-shooter" target="_blank" rel="external">https://github.com/Caizc/game-survival-shooter</a></p>
 <blockquote>
+<p><strong>项目源码：</strong><a href="https://github.com/Caizc/game-survival-shooter" target="_blank" rel="external">https://github.com/Caizc/game-survival-shooter</a></p>
 <p>参考资料：<a href="https://unity3d.com/learn/tutorials/projects/survival-shooter-tutorial" target="_blank" rel="external">Survival Shooter tutorial - Unity-Learn-Tutorials</a></p>
 </blockquote>
 <h1 id="Day-27：Survival-Shooter（玩家得分，自动刷怪，游戏重玩）"><a href="#Day-27：Survival-Shooter（玩家得分，自动刷怪，游戏重玩）" class="headerlink" title="Day 27：Survival Shooter（玩家得分，自动刷怪，游戏重玩）"></a>Day 27：Survival Shooter（玩家得分，自动刷怪，游戏重玩）</h1><ul>
@@ -661,7 +668,8 @@
 </ul>
 </li>
 </ul>
-<p><strong>重点：</strong></p>
+<p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170318-003.png" alt=""></p>
+<p><strong>要点：</strong></p>
 <ul>
 <li>Unity <strong>Mecanim 动画系统</strong>的各个 Asset（<strong>Animation Clips</strong>, <strong>Animator Controller</strong> and <strong>Avatar</strong>）是如何协同工作的：</li>
 </ul>
@@ -675,9 +683,8 @@
 <li>当你在脚本中使用 <code>SceneManager.LoadScene(&quot;sceneName&quot;);</code> 重新加载场景时，所有游戏对象都会被重置。如果你勾选了项目的 Lighting 设置为 <code>Auto Build</code>（这是默认设置），则场景重新加载时将漆黑一片。因此，需要<strong>去除勾选 Window -&gt; Lighting -&gt; Scene -&gt; Auto Build</strong>，然后手动点击 <code>Build</code>，生成场景的光照贴图 Lightmaps。</li>
 </ul>
 <p>Uncheck <code>Auto Build</code> in Lighting setting, and manually <code>Build</code> the Lightmaps, so your lighting won’t be gone after you reloaded you level.</p>
-<p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170318-003.png" alt=""></p>
-<p><strong>项目源码：</strong><a href="https://github.com/Caizc/game-survival-shooter" target="_blank" rel="external">https://github.com/Caizc/game-survival-shooter</a></p>
 <blockquote>
+<p><strong>项目源码：</strong><a href="https://github.com/Caizc/game-survival-shooter" target="_blank" rel="external">https://github.com/Caizc/game-survival-shooter</a></p>
 <p>参考资料：<a href="https://unity3d.com/learn/tutorials/projects/survival-shooter-tutorial" target="_blank" rel="external">Survival Shooter tutorial - Unity-Learn-Tutorials</a></p>
 </blockquote>
 <h1 id="Day-28：Survival-Shooter（Audio-Mixer）"><a href="#Day-28：Survival-Shooter（Audio-Mixer）" class="headerlink" title="Day 28：Survival Shooter（Audio Mixer）"></a>Day 28：Survival Shooter（Audio Mixer）</h1><ul>
@@ -701,7 +708,8 @@
 </ul>
 </li>
 </ul>
-<p><strong>重点：</strong></p>
+<p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170318-004.png" alt=""></p>
+<p><strong>要点：</strong></p>
 <ul>
 <li><p><strong>Time.timeScale</strong><br><code>public static float timeScale;</code><br>The scale at which the time is passing. This can be used for slow motion effects.<br>When timeScale is 1.0 the time is passing as fast as realtime. When timeScale is 0.5 the time is passing 2x slower than realtime.<br>When timeScale is set to zero the game is basically paused if all your functions are frame rate independent.<br>该变量可以用来控制游戏中所有运动的速率，包括快进、暂停和慢动作。</p>
 </li>
@@ -710,9 +718,8 @@
 <li><p><strong>AudioMixer.SetFloat()</strong><br><code>public bool SetFloat(string name, float value);</code><br>Sets the value of the exposed parameter specified. When a parameter is exposed, it is not controlled by mixer snapshots and can therefore only be changed via this function.<br>该方法用于控制 Snapshot 暴露的参数的值。</p>
 </li>
 </ul>
-<p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170318-004.png" alt=""></p>
-<p><strong>项目源码：</strong><a href="https://github.com/Caizc/game-survival-shooter" target="_blank" rel="external">https://github.com/Caizc/game-survival-shooter</a></p>
 <blockquote>
+<p><strong>项目源码：</strong><a href="https://github.com/Caizc/game-survival-shooter" target="_blank" rel="external">https://github.com/Caizc/game-survival-shooter</a></p>
 <p>参考资料：<a href="https://unity3d.com/learn/tutorials/projects/survival-shooter-tutorial" target="_blank" rel="external">Survival Shooter tutorial - Unity-Learn-Tutorials</a></p>
 </blockquote>
 <h1 id="Day-29：Game-Development-Principles"><a href="#Day-29：Game-Development-Principles" class="headerlink" title="Day 29：Game Development Principles"></a>Day 29：Game Development Principles</h1><p>《游戏开发原理》总体来说是一本适合初学者入门<strong>游戏开发的概论</strong>，内容涵盖了游戏开发的方方面面，但也注定其对于所有主题都是点到即止。对于帮助初学者建立起对游戏开发的整体认知的目的已经达到了，所以还算是本好书。但是原作让不走心的翻译毁了八成，强烈怀疑译者用的 Google 翻译翻成的中文译本就拿来出版。</p>
@@ -729,8 +736,8 @@
 <li>特殊效果与后期处理</li>
 <li>分销、发布和营销</li>
 </ul>
-<p><strong>书摘笔记：</strong><a href="https://github.com/Caizc/cai-knowledge-base/blob/master/BOK-0011-A-Alan-Thorn-%E3%80%8AGame-Development-Principles%E3%80%8B.md" target="_blank" rel="external">https://github.com/Caizc/cai-knowledge-base/blob/master/BOK-0011-A-Alan-Thorn-%E3%80%8AGame-Development-Principles%E3%80%8B.md</a></p>
 <blockquote>
+<p><strong>书摘笔记：</strong><a href="https://github.com/Caizc/cai-knowledge-base/blob/master/BOK-0011-A-Alan-Thorn-%E3%80%8AGame-Development-Principles%E3%80%8B.md" target="_blank" rel="external">https://github.com/Caizc/cai-knowledge-base/blob/master/BOK-0011-A-Alan-Thorn-%E3%80%8AGame-Development-Principles%E3%80%8B.md</a></p>
 <p>参考资料：《Game Development Principles》（《游戏开发原理》）</p>
 </blockquote>
 <h1 id="Day-30：Zombie-Toys-for-PC-amp-Web"><a href="#Day-30：Zombie-Toys-for-PC-amp-Web" class="headerlink" title="Day 30：Zombie Toys for PC&amp;Web"></a>Day 30：Zombie Toys for PC&amp;Web</h1><p>Zombie Toys 是 Survival Shooter 游戏的延伸，增加了新的游戏玩法，丰富了游戏体验，优化了视觉效果。新增特性包括：</p>
@@ -743,7 +750,8 @@
 </ul>
 <p><strong>Zombie Toys 游戏试玩链接：</strong><br><a href="http://caizicong.com/timecapsule/gamesdir/zombie_toys/index.html">http://caizicong.com/timecapsule/gamesdir/zombie_toys/index.html</a><br><em>（在 PC/MAC 上使用 Chrome、Safari 或 Firefox 浏览器打开运行，游戏文件大小 52M，加载过程需 5-10 分钟，Have Fun！）</em></p>
 <p><strong>Zombie Toys PC 版下载地址：</strong><br><a href="http://blog-1252720346.cosgz.myqcloud.com/games/zombietoys/ZombieToys-by-ZicongCai.zip" target="_blank" rel="external">http://blog-1252720346.cosgz.myqcloud.com/games/zombietoys/ZombieToys-by-ZicongCai.zip</a><br><em>（下载解压后直接运行 ZombieToys.exe 即可，游戏文件大小 70M，Have Fun！）</em></p>
-<p><strong>重点：</strong></p>
+<p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170407-001.png" alt=""></p>
+<p><strong>要点：</strong></p>
 <ul>
 <li>Light 组件 &gt; Cookie 属性中设置了窗格图片之后，可以投射出阳光照进窗台的效果。</li>
 <li><a href="http://www.ceeger.com/Manual/LightProbes.html" target="_blank" rel="external">Light Probes</a> 灯光探测器组件可以为场景中移动的游戏物体提供光照，模拟实时光照效果。</li>
@@ -761,14 +769,171 @@
 <li><p>Unity 中并未在编辑器中默认实现 <strong>AnimationCurve 属性值的 Copy/Paste 功能</strong>，可以在项目中添加一个自定义脚本 <code>CurvePropertyDrawer.cs</code> 来实现便捷的 Curve 值的拷贝和粘贴，脚本来自 <a href="https://forum.unity3d.com/threads/copy-and-paste-curves.162557/#post-1277055" target="_blank" rel="external">Unity Forums</a>。</p>
 </li>
 </ul>
-<p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170407-001.png" alt=""></p>
+<blockquote>
 <p><strong>项目源码：</strong><a href="https://github.com/Caizc/game-zombie-toys" target="_blank" rel="external">https://github.com/Caizc/game-zombie-toys</a></p>
+</blockquote>
 <h1 id="Day-31：游戏系统设计指南"><a href="#Day-31：游戏系统设计指南" class="headerlink" title="Day 31：游戏系统设计指南"></a>Day 31：游戏系统设计指南</h1><p>「三思而后行」，在游戏制作的工业流程中，策划设计处于编码实现的上游，全面地了解一个游戏从策划、到实现、再到发布运营的全过程，有利于建立起对游戏开发工作的全局视野，把握游戏开发工作中的核心要点。</p>
 <p><strong>技术是服务于业务的，底层技术实现的是上层业务逻辑。因此，对于游戏开发人员来说，了解游戏策划相关的知识，有利于在设计游戏系统技术架构时，充分考虑到游戏业务逻辑的多样性和不稳定性对底层技术所带来的挑战；有利于启发游戏开发人员对于系统稳定性和可扩展性的思考。</strong></p>
 <p>腾讯 GAD 编撰的这本<strong>《创世学说：游戏系统设计指南》</strong>，面向新手游戏系统策划人员，通俗易懂地讲述了游戏系统相关的知识。阅读这本书，有助于读者实现从游戏玩家视角到游戏制作人员视角的转变，建立起对游戏工业流水线的基础认知。</p>
 <p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170419-001.jpg" alt=""></p>
+<blockquote>
 <p><strong>书摘笔记：</strong><a href="https://github.com/Caizc/cai-knowledge-base/blob/master/BOK-0013-A-Tencent-GAD-%E3%80%8A%E6%B8%B8%E6%88%8F%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1%E6%8C%87%E5%8D%97%E3%80%8B.md" target="_blank" rel="external">https://github.com/Caizc/cai-knowledge-base/blob/master/BOK-0013-A-Tencent-GAD-%E3%80%8A%E6%B8%B8%E6%88%8F%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1%E6%8C%87%E5%8D%97%E3%80%8B.md</a></p>
-<h1 id="Day-32："><a href="#Day-32：" class="headerlink" title="Day 32："></a>Day 32：</h1><blockquote>
+<p>参考资料：《创世学说：游戏系统设计指南》</p>
+</blockquote>
+<h1 id="Day-32：创造-2D-手机游戏"><a href="#Day-32：创造-2D-手机游戏" class="headerlink" title="Day 32：创造 2D 手机游戏"></a>Day 32：创造 2D 手机游戏</h1><p><strong>《Unity 5.x 创造 2D 手机游戏》</strong>以一个简单的 <strong>2D 横版跑酷游戏</strong>为例，带领读者一步步构建自己的第一个 2D 游戏项目，适合刚入门手机游戏开发的新手。</p>
+<p>虽说作为贯穿全书的游戏项目较为简单，但麻雀虽小五脏俱全，其中涉及到的游戏编程思想在实际项目开发中也很重要，特别是游戏内存的使用优化、对象池、代理模式等知识，对于优化游戏性能、提高游戏代码架构的可扩展性有很大帮助。</p>
+<p><strong>同时，书中也存在一些纰漏，阅读时需注意：</strong></p>
+<ul>
+<li>在讲解编码逻辑时，代码片段的编排方式有待优化，对于前文已经阐述过的代码，可以采用省略号来代替，只给出正在讨论的增量部分的代码，而不是每次都贴出一个完整的类，这样容易让读者找不着重点，占太多页面篇幅，又多了几分凑页数的嫌疑。</li>
+<li>书中仅前 5 章给出了源码素材的下载链接，后续章节则只能依靠读者仔细阅读书中内容来完成代码编写。而且书中提供的代码有些地方也无法执行成功，需读者自行修正变通。</li>
+<li><strong>在下文中也给出了本人完成并调试通过的项目源码链接，仅供参考。使用的 Unity 版本为 5.6.0f3。</strong></li>
+</ul>
+<p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170427-001.png" alt=""></p>
+<p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170427-002.jpg" alt=""></p>
+<p><strong>要点：</strong></p>
+<ul>
+<li><strong>Sprite Editor</strong></li>
+</ul>
+<p>使用 Sprite Editor 裁切 Sprite 动作序列图，裁切后的多张小图 Unity 只会把它们当作一个游戏对象，这样可以有效的地节省游戏运行内存，且游戏角色的动作可以被统一管理。</p>
+<ul>
+<li><strong>Pixel Per Unit</strong></li>
+</ul>
+<p>Unity 中每一个单元格的像素大小。</p>
+<ul>
+<li><strong>Sprite 的 Filter Mode</strong></li>
+</ul>
+<p>设置 Sprite 的 <code>Filter Mode</code> 为 <code>Point</code>，对于像素资源来说，<code>Point</code> 模式可以让它看上去更加干净、清晰。</p>
+<ul>
+<li><strong>Sprite Packer</strong></li>
+</ul>
+<p>在制作游戏的过程中，会使用到许多独立的图片，每一张图片都会占用 GPU 的一部分显存，为了优化游戏性能，通常会把这些零碎的图片打包在一起，这样不仅可以节省系统内存，也可以使得读取图片的速度成倍加快。<br>选中所有需要打包的图片，在 Inspector 中为它们输入相同的 <code>Packing Tag</code>，然后打开 Sprite Packer 点击 <code>Pack</code> 来打包图片。<br>在游戏运行时，我们可以打开 Game 视图中的 Statistics 面板，观察动态变化着的 <code>Batches</code> 和 <code>Saved by batching</code>，来验证 Sprite 打包后对性能的优化效果。</p>
+<ul>
+<li><p><strong>Orthographic Camera Size</strong></p>
+<ul>
+<li><p>为了使游戏能够自动适配所有手机的屏幕分辨率，需要根据不同的设备分辨率动态调整正交摄像机的对焦距离，也就是动态调整 <code>Orthographic Camera Size</code> 值，确保游戏所有的场景元素都在摄像机的观察范围之内。</p>
+</li>
+<li><p>计算方法：<br>对于一个 800*640 像素且像素单元比（Pixel to Units）为 100 像素的场景来说，它的比例值就是场景高度 640 像素除以单元比例 100 像素等于 6.4。<br>因为一般设置正交摄像机处于场景的正中央位置，所以它的 Size 值是比例值 6.4 的一半 <code>3.2</code>。</p>
+</li>
+</ul>
+</li>
+<li><p><strong>主流的手机屏幕分辨率</strong></p>
+</li>
+</ul>
+<p>iPhone 的主流屏幕比例以 16:9 为主，Android 的主流屏幕比例以 16:10 为主。（未经严格考证）</p>
+<ul>
+<li><p><strong>Shader - Mobile Particles 简介</strong></p>
+<ul>
+<li><code>Alpha Blended</code>：主要用于实现半透明效果，类似于玻璃</li>
+<li><code>Additive</code>：相加混合模式</li>
+<li><code>Multiply</code>：相乘混合模式</li>
+<li><code>Vertexlit Blended</code>：渲染路径模式</li>
+</ul>
+</li>
+<li><p><strong>Map、Texture、Material 的区别</strong></p>
+<ul>
+<li><code>Map</code> （贴图）包含另一种含义，就是「映射」。其功能就是把 Texture 通过 UV 坐标映射到 3D 物体表面。Map 包含 Texture 以外的很多信息。</li>
+<li><code>Texture</code> （纹理）是最基本的数据输入单位，游戏领域基本上使用的都是位图。</li>
+<li><code>Material</code>（材质）是一个数据集，主要功能就是给渲染器提供数据和光照算法。Map 就是其中数据的一部分，根据用途不同，Map 也会被分成不同的类型。</li>
+</ul>
+</li>
+<li><p><strong>图像尺寸运算原理</strong></p>
+</li>
+</ul>
+<p>所有美术图片资源的内存技术都是 2 的指数次幂，所以材质一般都是 16、32、64、128 这样的尺寸，这样可以大幅提升图像的运算效率，节约系统消耗。</p>
+<ul>
+<li><strong>在脚本中获取游戏对象的 Material 中的 Texture 引用</strong></li>
+</ul>
+<p>在游戏对象的脚本中使用 <code>GetComponent&lt;Renderer&gt;().material.GetTexture(&quot;_MainTex&quot;)</code> 才可以获取到默认纹理的引用。</p>
+<ul>
+<li><strong>Material 中 Texture 的 Offset 属性</strong></li>
+</ul>
+<p>通过动态修改游戏对象 Material 中 Texture 的 <code>Offset</code> 属性，可以实现纹理图片的循环播放效果。</p>
+<ul>
+<li><p><strong>Update() 和 FixedUpdate() 的区别</strong></p>
+<ul>
+<li><code>Update()</code> 会在每次渲染新的一帧时被调用，它受当前渲染的物体，更确切地说是三角形的数量影响，时快时慢。帧率变化，<code>Update()</code> 被调用的时间间隔就会发生变化。</li>
+<li><code>FixedUpdate()</code> 则不受帧率变化的影响，它是以固定的时间间隔被调用的。在 <code>Edit -&gt; Project Setting -&gt; Time</code> 中，通过 <code>Fixed Timestep</code> 值来设置。</li>
+</ul>
+</li>
+<li><p><strong>Rigidbody 的 Interpolate 属性</strong></p>
+<p>  设置 <code>Interpolate</code> 可以优化帧频抖动，使得刚体运动更加平滑。其渲染方式有以下两种：</p>
+<ul>
+<li><code>Interpolate</code>（内插值）：基于上一帧的变换来平滑本帧变换</li>
+<li><code>Extrapolate</code>（外插值）：基于下一帧的预估变换来平滑本帧变换</li>
+</ul>
+</li>
+<li><p><strong>Destroy()</strong></p>
+</li>
+</ul>
+<p>在游戏中不要频繁地销毁与新建对象，而是重置对象的状态，不断地复用已经创建的游戏对象，这样做的好处是可以保证游戏的内存波动平稳，会减少游戏卡顿、死机、跳出的现象。</p>
+<ul>
+<li><strong>对象池</strong></li>
+</ul>
+<p>所有对象池都遵循着同样的工作原理——在对象池中寻找已经创建但是没有被使用的对象并激活它，如果没有可以用于被激活的对象，则重新创建一个新的对象。<br>不是所有的对象池都是动态容量的，但在多数项目中都会设置对象池的容量，这样对程序的性能影响就可以在控制范围内。</p>
+<ul>
+<li><strong>GetComponent() 的限制</strong></li>
+</ul>
+<p><code>GetComponent()</code> 方法无法获取抽象类的引用，所以只能通过手动遍历游戏对象的组件列表来获取抽象类的引用。</p>
+<ul>
+<li><p><strong>Time.timeScale</strong></p>
+<p>  运用 <code>Time.timeScale</code> 来控制游戏场景的暂停与播放要千万注意：</p>
+<ul>
+<li>它不会影响 <code>Update()</code>、<code>LateUpdate()</code> 或是 <code>Coroutine</code> 的执行。</li>
+<li><p>但它会影响 <code>Time.time</code>、<code>Time.deltaTime</code>，以及其他类中所有依赖这些属性的方法。其中一个影响就是 <code>WaitForSeconds()</code> 方法，使其失效。如果在协程中需要实现延时效果，推荐使用 <code>Time.realtimeSinceStartup</code> 来自行实现可靠的延时功能。</p>
+<p><code>Time.timeScale</code> 的 issue 链接：</p>
+</li>
+<li><p><a href="http://answers.unity3d.com/questions/276348/does-coroutines-are-affected-by-timetimescale.html" target="_blank" rel="external">http://answers.unity3d.com/questions/276348/does-coroutines-are-affected-by-timetimescale.html</a></p>
+</li>
+<li><a href="http://answers.unity3d.com/questions/787180/make-a-coroutine-run-when-timetimescale-0.html" target="_blank" rel="external">http://answers.unity3d.com/questions/787180/make-a-coroutine-run-when-timetimescale-0.html</a></li>
+<li><a href="http://answers.unity3d.com/questions/301868/yield-waitforseconds-outside-of-timescale.html" target="_blank" rel="external">http://answers.unity3d.com/questions/301868/yield-waitforseconds-outside-of-timescale.html</a></li>
+<li><a href="https://gamedev.stackexchange.com/questions/114592/coroutine-stops-when-time-timescale-0" target="_blank" rel="external">https://gamedev.stackexchange.com/questions/114592/coroutine-stops-when-time-timescale-0</a></li>
+</ul>
+</li>
+<li><p><strong>Canvas 的参数 Render Mode</strong></p>
+<ul>
+<li><code>Screen Space - Overlay</code>：不需要指定 Camera，UI 将永远出现在摄像机的最前面。</li>
+<li><code>Screen Space - Camera</code>：需要指定一个 Camera。这和 NGUI 的原理相似，如果想在 UI 前面加特效，可以创建另一个 Camera，使其深度大于这个 Camera。</li>
+<li><code>World Space</code>：该模式则是完全的 3D UI了，UGUI 的例子大多采用它。</li>
+</ul>
+</li>
+</ul>
+<p><a href="https://docs.unity3d.com/Manual/UICanvas.html" target="_blank" rel="external">https://docs.unity3d.com/Manual/UICanvas.html</a></p>
+<ul>
+<li><strong>Canvas 的参数 Pixel Perfect</strong></li>
+</ul>
+<p><code>Pixel Perfect</code>（像素完美）指的是一个 UI 素材本身的像素对应屏幕上的一个像素的情况，在这种情况下，UI 素材映射到屏幕上时没有任何拉伸和压缩，显示效果非常清晰、完美。</p>
+<ul>
+<li><strong>Canvas Scaler 组件</strong></li>
+</ul>
+<p>为了适应不同的分辨率，我们可能会允许适当的 UI 整体性缩放，外加一些尽可能少的布局微调，这样就能达到一个比较理想的效果。</p>
+<p><a href="https://docs.unity3d.com/Manual/script-CanvasScaler.html" target="_blank" rel="external">https://docs.unity3d.com/Manual/script-CanvasScaler.html</a></p>
+<ul>
+<li><p><strong>TimeSpan 函数</strong></p>
+<p>  TimeSpan 表示一个时间间隔值，包含了许多属性与方法，用于访问或处理每一个 TimeSpan 返回值。</p>
+<ul>
+<li><code>FromDays</code>：返回用天数计算的 TimeSpan 值</li>
+<li><code>FromHours</code>：返回用小时计算的 TimeSpan 值</li>
+<li><code>FromMinutes</code>：返回用分钟计算的 TimeSpan 值</li>
+<li><code>FromSeconds</code>：返回用秒计算的 TimeSpan 值</li>
+<li><code>FromMilliSeconds</code>：返回用毫秒计算的 TimeSpan 值</li>
+</ul>
+</li>
+</ul>
+<p><a href="https://msdn.microsoft.com/en-us/library/ee372286(v=vs.110" target="_blank" rel="external">https://msdn.microsoft.com/en-us/library/ee372286(v=vs.110).aspx</a>.aspx)</p>
+<ul>
+<li><strong>PlayerPrefs</strong></li>
+</ul>
+<p>使用 PlayerPrefs 可以实现简单的数据本地化存储，基于 key-value 的读写操作。</p>
+<p><a href="https://docs.unity3d.com/ScriptReference/PlayerPrefs.html" target="_blank" rel="external">https://docs.unity3d.com/ScriptReference/PlayerPrefs.html</a></p>
+<ul>
+<li><strong>在 string 中使用 HTML 标签</strong><br>通过在 string 中使用 <code>&lt;color=&quot;red&quot;&gt;some text&lt;/color&gt;</code> 来灵活实现 UI Text 文本的标红效果。</li>
+</ul>
+<blockquote>
+<p><strong>项目源码：</strong><a href="https://github.com/Caizc/game-endless-running" target="_blank" rel="external">https://github.com/Caizc/game-endless-running</a></p>
+<p><strong>书摘笔记：</strong><a href="https://github.com/Caizc/cai-knowledge-base/blob/master/BOK-0014-A-%E9%83%91%E5%AE%87-%E3%80%8AUnity5.x%E5%88%9B%E9%80%A02D%E6%89%8B%E6%9C%BA%E6%B8%B8%E6%88%8F%E3%80%8B.md" target="_blank" rel="external">https://github.com/Caizc/cai-knowledge-base/blob/master/BOK-0014-A-%E9%83%91%E5%AE%87-%E3%80%8AUnity5.x%E5%88%9B%E9%80%A02D%E6%89%8B%E6%9C%BA%E6%B8%B8%E6%88%8F%E3%80%8B.md</a></p>
+<p>参考资料：《Unity 5.x 创造 2D 手机游戏》</p>
+</blockquote>
+<h1 id="Day-33："><a href="#Day-33：" class="headerlink" title="Day 33："></a>Day 33：</h1><blockquote>
 <p>To be continued…</p>
 </blockquote>
 <hr>
@@ -776,7 +941,7 @@
 <hr>
 <p>change log: </p>
 <pre><code>- 创建（2017-01-18）
-- 持续更新中...（2017-04-20）
+- 持续更新中...（2017-04-27）
 </code></pre><hr>
 ]]></content>
     
