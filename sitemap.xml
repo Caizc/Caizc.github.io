@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://caizicong.com/timecapsule/about/index.html</loc>
+    
+    <lastmod>2017-05-19T06:09:57.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://caizicong.com/timecapsule/timecapsule/2017/03/10/2017-03-10-learning-game-development/</loc>
     
     <lastmod>2017-05-12T11:33:59.000Z</lastmod>
@@ -75,13 +82,6 @@
     <loc>http://caizicong.com/timecapsule/tags/index.html</loc>
     
     <lastmod>2016-10-15T13:34:28.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://caizicong.com/timecapsule/about/index.html</loc>
-    
-    <lastmod>2016-10-15T13:34:10.000Z</lastmod>
     
   </url>
   
