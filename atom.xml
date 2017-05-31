@@ -75,7 +75,7 @@
     <link href="http://caizicong.com/timecapsule/2017/03/10/2017-03-10-learning-game-development/"/>
     <id>http://caizicong.com/timecapsule/2017/03/10/2017-03-10-learning-game-development/</id>
     <published>2017-03-10T08:34:14.000Z</published>
-    <updated>2017-05-23T11:33:19.000Z</updated>
+    <updated>2017-05-31T05:00:36.000Z</updated>
     
     <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170310-001.png" alt="题图"></p>
 <p><strong>This article is a record of my journey to learn Game Development and it will keep updating.</strong></p>
@@ -938,7 +938,24 @@
 <p><strong>书摘笔记：</strong><a href="https://github.com/Caizc/cai-knowledge-base/blob/master/BOK-0017-A-Roberto-Ierusalimschy-%E3%80%8AProgramming-in-Lua%E3%80%8B.md" target="_blank" rel="external">https://github.com/Caizc/cai-knowledge-base/blob/master/BOK-0017-A-Roberto-Ierusalimschy-%E3%80%8AProgramming-in-Lua%E3%80%8B.md</a></p>
 <p>参考资料：《Programming in Lua》</p>
 </blockquote>
-<h1 id="Day-34"><a href="#Day-34" class="headerlink" title="Day 34"></a>Day 34</h1><blockquote>
+<h1 id="Day-34：CraftStudio-游戏引擎"><a href="#Day-34：CraftStudio-游戏引擎" class="headerlink" title="Day 34：CraftStudio 游戏引擎"></a>Day 34：CraftStudio 游戏引擎</h1><p>CraftStudio 是一款非常小巧的游戏引擎（安装包大小仅 11M），免费，支持主机平台的 2D/3D 游戏制作。用它来制作像素风格的小游戏特别得心应手，从建模、动画、场景、脚本到音频一应俱全，最具特色的是其提供了多人在线实时协作的支持。采用可视化拖拽式脚本编程和 Lua 脚本编程，易于上手。如此小巧精炼的一款引擎，让开发者回归到游戏开发的核心本质，值得一试。</p>
+<p><strong>CraftStudio 工作界面：</strong></p>
+<p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170531-001.png" alt=""></p>
+<p><strong>可视化拖拽式脚本编程：</strong></p>
+<p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170531-002.png" alt=""></p>
+<p><strong>Lua 脚本编程：</strong></p>
+<p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170531-003.png" alt=""></p>
+<p><strong>游戏效果：</strong></p>
+<p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170531-004.png" alt=""></p>
+<blockquote>
+<p><strong>CraftStudio 的下载页面：</strong><a href="https://sparklinlabs.itch.io/craftstudio" target="_blank" rel="external">https://sparklinlabs.itch.io/craftstudio</a><br><strong>CraftStudio 的 Wiki 页面：</strong><a href="https://bitbucket.org/sparklinlabs/craftstud.io/wiki/Home" target="_blank" rel="external">https://bitbucket.org/sparklinlabs/craftstud.io/wiki/Home</a></p>
+</blockquote>
+<h1 id="Day-35：Programming-in-C"><a href="#Day-35：Programming-in-C" class="headerlink" title="Day 35：Programming in C"></a>Day 35：Programming in C</h1><p>全面快速地回顾了 C# 语言的全部内容，期待在项目实战中持续深入。</p>
+<blockquote>
+<p><strong>书摘笔记：</strong><a href="https://github.com/Caizc/cai-knowledge-base/blob/master/BOK-0018-A-Programming-in-CSharp.md" target="_blank" rel="external">https://github.com/Caizc/cai-knowledge-base/blob/master/BOK-0018-A-Programming-in-CSharp.md</a></p>
+<p>参考资料：<a href="http://www.runoob.com/csharp/csharp-tutorial.html" target="_blank" rel="external">C# 教程 - RUNOOB.COM</a></p>
+</blockquote>
+<h1 id="Day-36"><a href="#Day-36" class="headerlink" title="Day 36"></a>Day 36</h1><blockquote>
 <p>To be continued…</p>
 </blockquote>
 <hr>
@@ -946,7 +963,7 @@
 <hr>
 <p>change log: </p>
 <pre><code>- 创建（2017-01-18）
-- 持续更新中...（2017-05-12）
+- 持续更新中...（2017-05-31）
 </code></pre><hr>
 ]]></content>
     
