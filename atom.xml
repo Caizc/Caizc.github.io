@@ -75,7 +75,7 @@
     <link href="http://caizicong.com/timecapsule/2017/03/10/2017-03-10-learning-game-development/"/>
     <id>http://caizicong.com/timecapsule/2017/03/10/2017-03-10-learning-game-development/</id>
     <published>2017-03-10T08:34:14.000Z</published>
-    <updated>2017-06-04T05:02:53.000Z</updated>
+    <updated>2017-06-06T10:17:13.000Z</updated>
     
     <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170310-001.png" alt="题图"></p>
 <p><strong>This article is a record of my journey to learn Game Development and it will keep updating.</strong></p>
@@ -955,7 +955,39 @@
 <p><strong>书摘笔记：</strong><a href="https://github.com/Caizc/cai-knowledge-base/blob/master/BOK-0018-A-Programming-in-CSharp.md" target="_blank" rel="external">https://github.com/Caizc/cai-knowledge-base/blob/master/BOK-0018-A-Programming-in-CSharp.md</a></p>
 <p>参考资料：<a href="http://www.runoob.com/csharp/csharp-tutorial.html" target="_blank" rel="external">C# 教程 - RUNOOB.COM</a></p>
 </blockquote>
-<h1 id="Day-36"><a href="#Day-36" class="headerlink" title="Day 36"></a>Day 36</h1><blockquote>
+<h1 id="Day-36：Mobile-amp-Touch"><a href="#Day-36：Mobile-amp-Touch" class="headerlink" title="Day 36：Mobile &amp; Touch"></a>Day 36：Mobile &amp; Touch</h1><ul>
+<li><p><strong>获取移动设备的输入</strong></p>
+<ul>
+<li><p><strong>多点触控：</strong><br>使用 <a href="https://docs.unity3d.com/ScriptReference/Touch.html" target="_blank" rel="external">Touch</a> 结构用来描述手指触控，通过它可以访问到触控的相关信息。<br>使用 <a href="https://docs.unity3d.com/ScriptReference/Input-touches.html" target="_blank" rel="external">Input.touches</a> 和 <a href="https://docs.unity3d.com/ScriptReference/Input-touchCount.html" target="_blank" rel="external">Input.touchCount</a> 可以实现多点触控输入。</p>
+</li>
+<li><p><strong>加速度传感器：</strong><br>使用 <a href="https://docs.unity3d.com/ScriptReference/Input-acceleration.html" target="_blank" rel="external">Input.acceleration</a> 获得加速传感器的相关信息。</p>
+<p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170606-001.png" alt=""></p>
+</li>
+<li><p><strong>缩放：</strong><br>利用设备的多点触控功能，通过处理 <code>Input.touches</code> 数组中的触控输入，相应的调整 Camera 的参数，可以实现双指操纵画面缩放的功能。</p>
+<blockquote>
+<p>相关链接：<a href="http://www.ceeger.com/Manual/Input.html#AndroidInput" target="_blank" rel="external">输入 Input - Unity 圣典</a></p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li><p><strong>移动游戏的构建和调试</strong></p>
+<ul>
+<li><p><strong>构建和调试 iOS 游戏：</strong><br><a href="https://unity3d.com/cn/learn/tutorials/topics/mobile-touch/building-your-unity-game-ios-device-testing?playlist=17138" target="_blank" rel="external">Building your Unity game to an iOS device for testing</a></p>
+</li>
+<li><p><strong>构建和调试 Android 游戏：</strong><br><a href="https://unity3d.com/cn/learn/tutorials/topics/mobile-touch/building-your-unity-game-android-device-testing?playlist=17138" target="_blank" rel="external">Building your Unity game to an Android device for testing</a></p>
+</li>
+</ul>
+</li>
+<li><p><strong>移动游戏调优</strong></p>
+<blockquote>
+<p>//TODO: 未完成学习<br><a href="https://unity3d.com/cn/learn/tutorials/topics/mobile-touch/unite-europe-2016-optimizing-mobile-applications?playlist=17138" target="_blank" rel="external">Unite Europe 2016 - Optimizing Mobile Applications</a></p>
+</blockquote>
+</li>
+</ul>
+<blockquote>
+<p>参考资料：<a href="https://unity3d.com/cn/learn/tutorials/topics/mobile-touch" target="_blank" rel="external">Mobile &amp; Touch - Unity Tutorials</a></p>
+</blockquote>
+<h1 id="Day-37"><a href="#Day-37" class="headerlink" title="Day 37"></a>Day 37</h1><blockquote>
 <p>To be continued…</p>
 </blockquote>
 <hr>
@@ -963,7 +995,7 @@
 <hr>
 <p>change log: </p>
 <pre><code>- 创建（2017-01-18）
-- 持续更新中...（2017-06-04）
+- 持续更新中...（2017-06-06）
 </code></pre><hr>
 ]]></content>
     
