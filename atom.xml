@@ -75,7 +75,7 @@
     <link href="http://caizicong.com/timecapsule/2017/03/10/2017-03-10-learning-game-development/"/>
     <id>http://caizicong.com/timecapsule/2017/03/10/2017-03-10-learning-game-development/</id>
     <published>2017-03-10T08:34:14.000Z</published>
-    <updated>2017-06-10T10:16:13.000Z</updated>
+    <updated>2017-06-15T08:55:16.000Z</updated>
     
     <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170310-001.png" alt="题图"></p>
 <p><strong>This article is a record of my journey to learn Game Development and it will keep updating.</strong></p>
@@ -975,7 +975,8 @@
 <blockquote>
 <p>参考：<a href="https://unity3d.com/cn/learn/tutorials/topics/mobile-touch" target="_blank" rel="external">Mobile &amp; Touch - Unity Tutorials</a></p>
 </blockquote>
-<h1 id="Phase-37：2D-Roguelike"><a href="#Phase-37：2D-Roguelike" class="headerlink" title="Phase 37：2D Roguelike"></a>Phase 37：2D Roguelike</h1><p>2D Roguelike</p>
+<h1 id="Phase-37：2D-Roguelike"><a href="#Phase-37：2D-Roguelike" class="headerlink" title="Phase 37：2D Roguelike"></a>Phase 37：2D Roguelike</h1><p><strong>// TODO: 项目编码未完成</strong></p>
+<p>2D Roguelike</p>
 <ul>
 <li>Player and Enemy animations</li>
 <li>Create the tile prefabs</li>
@@ -1012,7 +1013,15 @@
 <blockquote>
 <p>源码：<a href="https://github.com/Caizc/game-2d-roguelike" target="_blank" rel="external">https://github.com/Caizc/game-2d-roguelike</a><br>参考：<a href="https://unity3d.com/cn/learn/tutorials/projects/2d-roguelike-tutorial" target="_blank" rel="external">2D Roguelike tutorial - Unity Tutorials</a></p>
 </blockquote>
-<h1 id="Phase-38"><a href="#Phase-38" class="headerlink" title="Phase 38"></a>Phase 38</h1><blockquote>
+<h1 id="Phase-38：Useful-Stuff-in-Unity-Scripting"><a href="#Phase-38：Useful-Stuff-in-Unity-Scripting" class="headerlink" title="Phase 38：Useful Stuff in Unity Scripting"></a>Phase 38：Useful Stuff in Unity Scripting</h1><p>在学习和实践的过程中，同步将 Unity 游戏编程中常用的 API 及实用技巧整理出来，并持续更新这些知识点，为打好基础以做到熟练运用引擎工具来构建游戏提供帮助。</p>
+<blockquote>
+<p>笔记：<a href="https://github.com/Caizc/cai-knowledge-base/blob/master/hacking/Useful%20Stuff%20in%20Unity%20Scripting.md" target="_blank" rel="external">https://github.com/Caizc/cai-knowledge-base</a></p>
+</blockquote>
+<h1 id="Phase-39：Design-Patterns-in-Game-Development"><a href="#Phase-39：Design-Patterns-in-Game-Development" class="headerlink" title="Phase 39：Design Patterns in Game Development"></a>Phase 39：Design Patterns in Game Development</h1><p>学习《设计模式与游戏完美开发》一书，学习如何将设计模式灵活应用于游戏编程中。</p>
+<blockquote>
+<p>笔记：<a href="https://github.com/Caizc/cai-knowledge-base/blob/master/BOK-0020-A-%E8%94%A1%E5%8D%87%E8%BE%BE-%E3%80%8ADesign-Patterns-in-Game-Development%E3%80%8B.md" target="_blank" rel="external">https://github.com/Caizc/cai-knowledge-base</a></p>
+</blockquote>
+<h1 id="Phase-40"><a href="#Phase-40" class="headerlink" title="Phase 40"></a>Phase 40</h1><blockquote>
 <p>To be continued…</p>
 </blockquote>
 <hr>
@@ -1020,7 +1029,7 @@
 <hr>
 <p>change log: </p>
 <pre><code>- 创建（2017-01-18）
-- 持续更新（2017-06-10）
+- 持续更新（2017-06-15）
 </code></pre><hr>
 ]]></content>
     
