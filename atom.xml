@@ -75,7 +75,7 @@
     <link href="http://caizicong.com/timecapsule/2017/03/10/2017-03-10-learning-game-development/"/>
     <id>http://caizicong.com/timecapsule/2017/03/10/2017-03-10-learning-game-development/</id>
     <published>2017-03-10T08:34:14.000Z</published>
-    <updated>2017-06-15T08:55:16.000Z</updated>
+    <updated>2017-07-18T01:52:59.000Z</updated>
     
     <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170310-001.png" alt="题图"></p>
 <p><strong>This article is a record of my journey to learn Game Development and it will keep updating.</strong></p>
@@ -1018,10 +1018,19 @@
 <p>笔记：<a href="https://github.com/Caizc/cai-knowledge-base/blob/master/hacking/Useful%20Stuff%20in%20Unity%20Scripting.md" target="_blank" rel="external">https://github.com/Caizc/cai-knowledge-base</a></p>
 </blockquote>
 <h1 id="Phase-39：Design-Patterns-in-Game-Development"><a href="#Phase-39：Design-Patterns-in-Game-Development" class="headerlink" title="Phase 39：Design Patterns in Game Development"></a>Phase 39：Design Patterns in Game Development</h1><p>学习《设计模式与游戏完美开发》一书，学习如何将设计模式灵活应用于游戏编程中。</p>
+<p><strong>游戏系统架构和逻辑设计的过程中重要的几种 UML 图：</strong></p>
+<ul>
+<li>类图</li>
+<li>状态图</li>
+<li>时序图</li>
+</ul>
 <blockquote>
 <p>笔记：<a href="https://github.com/Caizc/cai-knowledge-base/blob/master/BOK-0020-A-%E8%94%A1%E5%8D%87%E8%BE%BE-%E3%80%8ADesign-Patterns-in-Game-Development%E3%80%8B.md" target="_blank" rel="external">https://github.com/Caizc/cai-knowledge-base</a></p>
 </blockquote>
-<h1 id="Phase-40"><a href="#Phase-40" class="headerlink" title="Phase 40"></a>Phase 40</h1><blockquote>
+<h1 id="Phase-40：Playmaker-插件"><a href="#Phase-40：Playmaker-插件" class="headerlink" title="Phase 40：Playmaker 插件"></a>Phase 40：Playmaker 插件</h1><p><a href="http://www.hutonggames.com/index.html" target="_blank" rel="external">简单易用的可视化编程插件 Playmaker</a><br><a href="https://hutonggames.fogbugz.com/default.asp?W133" target="_blank" rel="external">Core Concepts of Playmaker</a></p>
+<h1 id="Phase-41：Corgi-Engine"><a href="#Phase-41：Corgi-Engine" class="headerlink" title="Phase 41：Corgi Engine"></a>Phase 41：Corgi Engine</h1><p>Corgi Engine 是以 Unity 插件形式实现的一款 2D/2.5D 平台游戏开发套件，其中包含了实现一款平台跳跃游戏所需的角色、道具、场景组件等，具有完善的文档、教程支持，其项目源码也非常规范整洁，值得研究学习。</p>
+<p><a href="http://corgi-engine.moremountains.com/" target="_blank" rel="external">Corgi Engine - the Best 2D + 2.5D Platformer Solution for Unity</a></p>
+<h1 id="Phase-42"><a href="#Phase-42" class="headerlink" title="Phase 42"></a>Phase 42</h1><blockquote>
 <p>To be continued…</p>
 </blockquote>
 <hr>
@@ -1029,7 +1038,7 @@
 <hr>
 <p>change log: </p>
 <pre><code>- 创建（2017-01-18）
-- 持续更新（2017-06-15）
+- 持续更新（2017-07-15）
 </code></pre><hr>
 ]]></content>
     
