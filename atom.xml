@@ -5,7 +5,7 @@
   <link href="/timecapsule/atom.xml" rel="self"/>
   
   <link href="http://caizicong.com/timecapsule/"/>
-  <updated>2017-05-23T11:32:46.000Z</updated>
+  <updated>2017-08-06T16:04:02.000Z</updated>
   <id>http://caizicong.com/timecapsule/</id>
   
   <author>
@@ -14,6 +14,81 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Unity 2D 平台游戏套件 Corgi Engine 中文文档</title>
+    <link href="http://caizicong.com/timecapsule/2017/08/06/2017-08-06-corgi-engine-documentation-in-simplified-chinese/"/>
+    <id>http://caizicong.com/timecapsule/2017/08/06/2017-08-06-corgi-engine-documentation-in-simplified-chinese/</id>
+    <published>2017-08-06T05:12:42.000Z</published>
+    <updated>2017-08-06T16:04:02.000Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170806-001.png" alt=""></p>
+<p>近期项目中计划使用 <strong>Corgi Engine</strong> 的一些功能特性来构建一个 2.5D 平台游戏，从视频教程到官方文档一路学习下来，发现它不仅为我们展现了一种<strong>优秀的平台游戏（Platformer）解决方案</strong>，其内部实现也是<strong>遵循众多编程原则的优雅实践</strong>。如果你也是一名 Unity 游戏开发初学者，并且已经掌握了 Unity 的基本使用方法，想着手创建<strong>属于自己的第一款游戏</strong>，那么在 Corgi Engine 的基础上进行构建是一个不错的选择。为了方便查阅和加深理解，我索性将引擎的官方文档全部翻译为<a href="https://github.com/Caizc/corgi-engine-docs" target="_blank" rel="external">简体中文</a>，在此也分享给其他有需要的开发者，共同交流学习。</p>
+<a id="more"></a>
+<p>以下是 Corgi Engine 相关的网址链接：</p>
+<ul>
+<li><a href="http://corgi-engine.moremountains.com/" target="_blank" rel="external">Corgi Engine 官网</a></li>
+<li><a href="https://github.com/Caizc/corgi-engine-docs" target="_blank" rel="external">Corgi Engine 简体中文文档</a></li>
+<li><a href="http://corgi-engine-docs.moremountains.com/" target="_blank" rel="external">Corgi Engine Documentation</a></li>
+<li><a href="http://corgi-engine-docs.moremountains.com/API/" target="_blank" rel="external">Corgi Engine API 文档</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLl3caEhMYxQEsA5Fbg0M2aB9Q9Z9BTVNS" target="_blank" rel="external">Corgi Engine 视频教程 - Youtube（需科学上网）</a></li>
+</ul>
+<p><strong>Corgi Engine 是一款适用于 Unity 的 2D + 2.5D 平台游戏解决方案</strong>，可以在 <a href="https://www.assetstore.unity3d.com/en/#!/content/26617" target="_blank" rel="external">Unity Asset Store</a> 中找到，它长期盘踞于商店的畅销排行榜前列。</p>
+<p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170806-002.png" alt=""></p>
+<p>Corgi Engine 是一款<strong>非基于物理实现（non-physics based）</strong>的引擎，总体来说比基于 Unity 物理引擎实现的游戏具备更快速的响应和更灵活的可扩展性。支持单玩家和多玩家，支持移动设备，以及其他许多功能特性，简单举几个例子：</p>
+<ul>
+<li><strong>多种多样的 Demo 关卡：</strong></li>
+</ul>
+<p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170806-003.jpg" alt=""></p>
+<ul>
+<li><strong>玩家移动：</strong></li>
+</ul>
+<p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170806-004.gif" alt=""><br><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170806-005.gif" alt=""><br><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170806-006.gif" alt=""></p>
+<ul>
+<li><strong>传送门：</strong></li>
+</ul>
+<p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170806-007.gif" alt=""></p>
+<ul>
+<li><strong>物理：</strong></li>
+</ul>
+<p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170806-008.gif" alt=""></p>
+<ul>
+<li><strong>武器：</strong></li>
+</ul>
+<p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170806-009.gif" alt=""></p>
+<ul>
+<li><strong>环境：</strong></li>
+</ul>
+<p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170806-010.gif" alt=""></p>
+<ul>
+<li><strong>对话：</strong></li>
+</ul>
+<p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170806-011.gif" alt=""></p>
+<ul>
+<li><strong>特效：</strong></li>
+</ul>
+<p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170806-012.gif" alt=""></p>
+<p>当然啦，作为一个完整的通用项目，最重要的还是完善的<a href="https://www.youtube.com/playlist?list=PLl3caEhMYxQEsA5Fbg0M2aB9Q9Z9BTVNS" target="_blank" rel="external">教程</a>和<a href="http://corgi-engine-docs.moremountains.com/index.html" target="_blank" rel="external">文档</a>支持，甚至提供 <a href="http://corgi-engine-docs.moremountains.com/API/" target="_blank" rel="external">API 文档</a>，这些它都一应俱全，可以说是业界良心。不过，<strong>60 美元</strong>的价格也并不便宜，大家请酌情购买。</p>
+<p>详细信息请访问 <a href="http://corgi-engine.moremountains.com/" target="_blank" rel="external">Corgi Engine 官网</a>进行了解，或者阅读 <a href="https://github.com/Caizc/corgi-engine-docs" target="_blank" rel="external">Corgi Engine 的简体中文文档</a>。本人水平有限，如发现翻译不当之处可以在 <a href="https://github.com/Caizc/corgi-engine-docs/issues" target="_blank" rel="external">该 GitHub 项目的 Issues</a> 中提出，欢迎批评指正，谢谢。</p>
+<hr>
+<p>蔡子聪<br>2017-8-6</p>
+<hr>
+<p>change log: </p>
+<pre><code>- 初稿（2017-08-06）
+</code></pre><hr>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://blog-1252720346.cosgz.myqcloud.com/images/20170806-001.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;近期项目中计划使用 &lt;strong&gt;Corgi Engine&lt;/strong&gt; 的一些功能特性来构建一个 2.5D 平台游戏，从视频教程到官方文档一路学习下来，发现它不仅为我们展现了一种&lt;strong&gt;优秀的平台游戏（Platformer）解决方案&lt;/strong&gt;，其内部实现也是&lt;strong&gt;遵循众多编程原则的优雅实践&lt;/strong&gt;。如果你也是一名 Unity 游戏开发初学者，并且已经掌握了 Unity 的基本使用方法，想着手创建&lt;strong&gt;属于自己的第一款游戏&lt;/strong&gt;，那么在 Corgi Engine 的基础上进行构建是一个不错的选择。为了方便查阅和加深理解，我索性将引擎的官方文档全部翻译为&lt;a href=&quot;https://github.com/Caizc/corgi-engine-docs&quot;&gt;简体中文&lt;/a&gt;，在此也分享给其他有需要的开发者，共同交流学习。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Game" scheme="http://caizicong.com/timecapsule/tags/Game/"/>
+    
+  </entry>
   
   <entry>
     <title>Have fun! Enjoy these Game Demos</title>
