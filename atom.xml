@@ -150,7 +150,7 @@
     <link href="http://caizicong.com/timecapsule/2017/03/10/2017-03-10-learning-game-development/"/>
     <id>http://caizicong.com/timecapsule/2017/03/10/2017-03-10-learning-game-development/</id>
     <published>2017-03-10T08:34:14.000Z</published>
-    <updated>2017-07-18T01:52:59.000Z</updated>
+    <updated>2017-08-07T10:24:17.000Z</updated>
     
     <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170310-001.png" alt="题图"></p>
 <p><strong>This article is a record of my journey to learn Game Development and it will keep updating.</strong></p>
@@ -986,7 +986,7 @@
 <blockquote>
 <p>笔记：<a href="https://github.com/Caizc/cai-knowledge-base/blob/master/BOK-0017-A-Roberto-Ierusalimschy-%E3%80%8AProgramming-in-Lua%E3%80%8B.md" target="_blank" rel="external">https://github.com/Caizc/cai-knowledge-base</a><br>参考：《Programming in Lua》</p>
 </blockquote>
-<h1 id="Phase-34：CraftStudio-游戏引擎"><a href="#Phase-34：CraftStudio-游戏引擎" class="headerlink" title="Phase 34：CraftStudio 游戏引擎"></a>Phase 34：CraftStudio 游戏引擎</h1><p>CraftStudio 是一款非常小巧的游戏引擎（安装包大小仅 11M），免费，支持主机平台的 2D/3D 游戏制作。用它来制作像素风格的小游戏特别得心应手，从建模、动画、场景、脚本到音频一应俱全，最具特色的是其提供了多人在线实时协作的支持。采用可视化拖拽式脚本编程和 Lua 脚本编程，易于上手。如此小巧精炼的一款引擎，让开发者回归到游戏开发的核心本质，值得一试。</p>
+<h1 id="Phase-34：CraftStudio-游戏引擎"><a href="#Phase-34：CraftStudio-游戏引擎" class="headerlink" title="Phase 34：CraftStudio 游戏引擎"></a>Phase 34：CraftStudio 游戏引擎</h1><p><strong>CraftStudio 是一款非常小巧的游戏引擎</strong>（安装包大小仅 11M），免费，支持主机平台的 2D/3D 游戏制作。用它来制作像素风格的小游戏特别得心应手，从建模、动画、场景、脚本到音频一应俱全，最具特色的是其提供了多人在线实时协作的支持。采用可视化拖拽式脚本编程和 Lua 脚本编程，易于上手。如此小巧精炼的一款引擎，让开发者回归到游戏开发的核心本质，值得一试。</p>
 <p><strong>CraftStudio 工作界面：</strong></p>
 <p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170531-001.png" alt=""></p>
 <p><strong>可视化拖拽式脚本编程：</strong></p>
@@ -1103,9 +1103,15 @@
 <p>笔记：<a href="https://github.com/Caizc/cai-knowledge-base/blob/master/BOK-0020-A-%E8%94%A1%E5%8D%87%E8%BE%BE-%E3%80%8ADesign-Patterns-in-Game-Development%E3%80%8B.md" target="_blank" rel="external">https://github.com/Caizc/cai-knowledge-base</a></p>
 </blockquote>
 <h1 id="Phase-40：Playmaker-插件"><a href="#Phase-40：Playmaker-插件" class="headerlink" title="Phase 40：Playmaker 插件"></a>Phase 40：Playmaker 插件</h1><p><a href="http://www.hutonggames.com/index.html" target="_blank" rel="external">简单易用的可视化编程插件 Playmaker</a><br><a href="https://hutonggames.fogbugz.com/default.asp?W133" target="_blank" rel="external">Core Concepts of Playmaker</a></p>
-<h1 id="Phase-41：Corgi-Engine"><a href="#Phase-41：Corgi-Engine" class="headerlink" title="Phase 41：Corgi Engine"></a>Phase 41：Corgi Engine</h1><p>Corgi Engine 是以 Unity 插件形式实现的一款 2D/2.5D 平台游戏开发套件，其中包含了实现一款平台跳跃游戏所需的角色、道具、场景组件等，具有完善的文档、教程支持，其项目源码也非常规范整洁，值得研究学习。</p>
+<h1 id="Phase-41：Corgi-Engine"><a href="#Phase-41：Corgi-Engine" class="headerlink" title="Phase 41：Corgi Engine"></a>Phase 41：Corgi Engine</h1><p><strong>Corgi Engine 是以 Unity 插件形式实现的一款 2D + 2.5D 平台游戏（Platformer）开发套件</strong>，其中包含了实现一款平台跳跃游戏所需的角色、道具、场景组件等，具有完善的文档、教程支持，其项目源码也非常规范整洁，值得研究学习。</p>
 <p><a href="http://corgi-engine.moremountains.com/" target="_blank" rel="external">Corgi Engine - the Best 2D + 2.5D Platformer Solution for Unity</a></p>
-<h1 id="Phase-42"><a href="#Phase-42" class="headerlink" title="Phase 42"></a>Phase 42</h1><blockquote>
+<p>为了方便查阅和加深理解，我索性将 Corgi Engine 的<strong>官方文档</strong>全部翻译为<a href="https://github.com/Caizc/corgi-engine-docs" target="_blank" rel="external">简体中文</a>，详细信息可以访问这篇<strong>博客文章</strong>进行了解：</p>
+<p><a href="http://caizicong.com/timecapsule/2017/08/06/2017-08-06-corgi-engine-documentation-in-simplified-chinese/">Unity 2D 平台游戏套件 Corgi Engine 中文文档</a></p>
+<h1 id="Phase-42：Animation-System-Mecanim"><a href="#Phase-42：Animation-System-Mecanim" class="headerlink" title="Phase 42：Animation System - Mecanim"></a>Phase 42：Animation System - Mecanim</h1><p>我发现在使用 Unity 进行游戏开发的过程中，如果遇到不懂的地方，<strong>Unity Manual</strong> 往往是最权威的一份学习材料，第一时间阅读它来查找你想要的答案是最快捷的方式。虽然之前做过的项目中多多少少用到了 Unity 的动画系统，但还是有很多地方一知半解，于是决心从官方手册开始全面学习 Unity 的动画系统 <strong>Mecanim</strong>：</p>
+<p><a href="https://docs.unity3d.com/Manual/AnimationSection.html" target="_blank" rel="external">Animation - Unity Manual</a></p>
+<p>动画相关的文章和视频教程：</p>
+<p><a href="https://zhuanlan.zhihu.com/p/23491924" target="_blank" rel="external">骨骼与动画重定向 - 知乎专栏</a><br><a href="https://www.youtube.com/watch?v=3OXMFfjBTs8&amp;t=1061s" target="_blank" rel="external">這樣條動作絕對錯不了! Animator系統介紹! - Youtube</a></p>
+<h1 id="Phase-43"><a href="#Phase-43" class="headerlink" title="Phase 43"></a>Phase 43</h1><blockquote>
 <p>To be continued…</p>
 </blockquote>
 <hr>
@@ -1113,7 +1119,7 @@
 <hr>
 <p>change log: </p>
 <pre><code>- 创建（2017-01-18）
-- 持续更新（2017-07-15）
+- 持续更新（2017-08-07）
 </code></pre><hr>
 ]]></content>
     
