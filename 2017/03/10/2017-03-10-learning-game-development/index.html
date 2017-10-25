@@ -128,7 +128,7 @@
 <meta property="og:image" content="http://blog-1252720346.cosgz.myqcloud.com/images/20170531-003.png">
 <meta property="og:image" content="http://blog-1252720346.cosgz.myqcloud.com/images/20170531-004.png">
 <meta property="og:image" content="http://blog-1252720346.cosgz.myqcloud.com/images/20170606-001.png">
-<meta property="og:updated_time" content="2017-08-07T10:24:17.000Z">
+<meta property="og:updated_time" content="2017-10-25T07:15:18.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Learning Game Development">
 <meta name="twitter:description" content="This article is a record of my journey to learn Game Development and it will keep updating.">
@@ -346,7 +346,7 @@
 <p><strong>This article is a record of my journey to learn Game Development and it will keep updating.</strong></p>
 <a id="more"></a>
 <p>这里记载了我零基础学习游戏开发的过程。</p>
-<p>我从 2017 年 1 月开始自学游戏开发，在此之前并无任何游戏开发经验，但有三年使用 Java 进行 Web 和大数据系统开发的经历，在大学期间也学习过 C、C++ 和 C# 编程课程。即便如此，游戏开发所涉及的庞大知识体系仍然给初学者带来了巨大挑战。面对全新的知识领域，我决定将每天学习过程中的知识要点记录下来以供回顾。不过这篇文章更像是一个索引，因为一些篇幅过长的详细的专题内容不会都放到这篇文章中，而是以链接的形式存在。总之，我会持续记录和更新，看看这些有趣的知识将把我带向何方。: )</p>
+<p>我从 2017 年 1 月开始自学游戏开发，在此之前并无任何游戏开发经验，但有三年使用 Java 进行 Web 和大数据系统开发的经历，在大学期间也学习过 C、C++ 和 C# 编程课程。即便如此，游戏开发所涉及的庞大知识体系仍然给初学者带来了巨大挑战。面对全新的知识领域，我决定将每天学习过程中的知识要点记录下来以供回顾。不过这篇文章更像是一个索引，因为一些篇幅过长的详细的专题内容不会被放到这篇文章中，而是以链接的形式存在。总之，我会持续记录和更新，看看这些有趣的知识将把我带向何方。: )</p>
 <hr>
 <h1 id="Phase-1：认识-Unity"><a href="#Phase-1：认识-Unity" class="headerlink" title="Phase 1：认识 Unity"></a>Phase 1：认识 Unity</h1><ul>
 <li>认识 Unity 编辑器</li>
@@ -436,7 +436,7 @@
 <p><strong>要点：</strong></p>
 <ul>
 <li>《VR开发实战》书中有很多刊误，有些步骤按照书中所写无法执行，需要变通，自己查阅资料和摸索得到正确的做法。</li>
-<li>原 Demo 中使用的一些 API ，实际上 Unity 官方已有更新的版本，在学习时需要注意同步更新，使用最新的 API 进行编程。</li>
+<li>原 Demo 中使用的一些 API ，在新版本的 Unity 中已被标记为「过时的」，在学习时需注意同步更新，使用最新的 API 进行脚本编程。</li>
 <li>学会如何在 Unity 和 MonoDevelop 上调试游戏程序和脚本，这是最重要的。</li>
 </ul>
 <p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170310-004.png" alt=""></p>
@@ -493,7 +493,7 @@
 </ul>
 <p><strong>未解决的 bug ：</strong></p>
 <ul>
-<li>按照书中步骤配置好游戏对象以及控制脚本后，运行游戏后 Console 持续报错：<code>&quot;There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene.&quot;</code>，场景中缺少 AudioListener 组件。</li>
+<li>按照书中步骤配置好游戏对象以及控制脚本后，运行游戏后 Console 持续报错：<code>&quot;There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene.&quot;</code>，场景中缺少 AudioListener 组件。应为摄像机对象添加一个 AudioListener 组件。</li>
 <li>另外，游戏不能正常运行，貌似存在不少 bug。</li>
 <li>暂时搁置这个 demo，待更加深入地学习了 Unity 的运行机制后，再回过头来解决。</li>
 </ul>
@@ -663,7 +663,7 @@
 </ul>
 <p><strong>要点：</strong></p>
 <ul>
-<li>在脚本中，使用 <code>COMMAND+&#39;</code> 快捷键来快速查看指定对象的 Scripting Reference。</li>
+<li>在脚本中，使用 <code>COMMAND + &#39;</code> / <code>CTRL + &#39;</code> 快捷键来快速查看指定对象的 Scripting Reference。</li>
 <li>保持玩家对象和摄像头的距离不变，就可以实现一个简单的第三人称视角。编写脚本来保持它们之间的固定距离，而不是将摄像头作为玩家对象的子对象，因为连结在一起的父子对象会同步旋转信息，这会导致玩家对象旋转时带动摄像头一起翻滚，这不是我们想要的效果。</li>
 <li>勾选 Collider 的 <code>IsTrigger</code> 属性，将碰撞体变成碰撞触发器，并且使用 <code>OnTriggerEnter</code> 事件函数来响应碰撞。</li>
 <li>使用 Tag 标签来区分可收集和不可收集的物体对象。</li>
@@ -698,15 +698,15 @@
 </ul>
 <p><strong>要点：</strong></p>
 <ul>
-<li><p><strong>FixedUpdate()</strong><br>当处理具有 Rigidbody 组件的游戏对象或需要考虑物理计算时，必须在 FixedUpdate() 方法中编写逻辑，而不是在 Update() 方法中。</p>
+<li><p><strong>FixedUpdate()</strong><br>  当处理具有 Rigidbody 组件的游戏对象或需要考虑物理计算时，必须在 FixedUpdate() 方法中编写逻辑，而不是在 Update() 方法中。</p>
 </li>
-<li><p><strong>Random.insideUnitSphere</strong><br>Random 包中的该属性返回一个半径为 1 的球体中的一个随机点，也就是返回一个 Vector3 类型的值，其中 x,y,z 的值分别为 0~1 之间的一个随机浮点数。</p>
+<li><p><strong>Random.insideUnitSphere</strong><br>  Random 包中的该属性返回一个半径为 1 的球体中的一个随机点，也就是返回一个 Vector3 类型的值，其中 x,y,z 的值分别为 0~1 之间的一个随机浮点数。</p>
 </li>
 <li><p><strong>Rigidbody 组件的角速度 angularVelocity</strong>，会受到 Angular Drag 属性的影响。添加 Rigidbody 组件时，Angular Drag 属性有一个大于零的默认值，因此组件的角速度会在它的影响下越来越小。</p>
 </li>
 <li><p><strong>Destroy()</strong> 方法真正执行销毁的时机：首先标记需要销毁的对象，然后在每一帧的最后再统一执行销毁。</p>
 </li>
-<li><p><strong>Quaternion.identity</strong><br>该变量表示「不旋转」或「没有旋转」。</p>
+<li><p><strong>Quaternion.identity</strong><br>  该变量表示「不旋转」或「没有旋转」。</p>
 </li>
 </ul>
 <p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170310-018.png" alt=""></p>
@@ -734,10 +734,9 @@
 </ul>
 <p><strong>要点：</strong></p>
 <ul>
-<li>在需要实现简单的重复执行逻辑时，例如让敌人以固定间隔持续开火，可以使用 <code>InvokeRepeating()</code> 方法替代 coruotine 来简单实现。</li>
-</ul>
-<p><code>public void InvokeRepeating(string methodName, float time, float repeatRate);</code><br>Invokes the method methodName in time seconds, then repeatedly every repeatRate seconds.</p>
-<ul>
+<li><p>在需要实现简单的重复执行逻辑时，例如让敌人以固定间隔持续开火，可以使用 <code>InvokeRepeating()</code> 方法替代 coruotine 来简单实现。</p>
+<p>  <code>public void InvokeRepeating(string methodName, float time, float repeatRate);</code><br>  Invokes the method methodName in time seconds, then repeatedly every repeatRate seconds.</p>
+</li>
 <li><p><code>Mathf</code> 的两个实用方法：</p>
 <ul>
 <li><p><code>public static float Sign(float f);</code><br>Return value is 1 when f is positive or zero, -1 when f is negative.</p>
@@ -802,35 +801,33 @@
 </ul>
 <p><strong>要点：</strong></p>
 <ul>
-<li><strong>Animator Controller</strong><br>注意，在状态转换 Transition 中勾选了 <code>Has Exit Time</code>，则该状态转换动画播放完毕后会停止不动，对于类似 Move 行走动画需要循环播放的转换，需确保该 Property 不被勾选。</li>
-</ul>
-<p><code>Apply Root Motion</code><br>Should we control the character’s position and rotation from the animation itself or from script.<br><strong>我还是没搞明白这个属性的用途？</strong></p>
-<ul>
-<li><strong>Rigidbody</strong><br><code>Drag</code> and <code>Angular Drag</code><br>分别设置空气阻力对刚体移动和旋转的影响，<code>0</code> 表示无影响，<code>Infinity</code> 表示立即停止移动和旋转。<strong>疑惑为什么项目中将这两个属性均设置为 <code>Infinity</code>，是表示不考虑空气阻力的意思吗？</strong><br>在属性输入框中输入 <code>Infinity</code> 也挺有意思的，必须是输入 <code>inf</code>，然后按 Enter，Unity 会自动补全 <code>Infinity</code>，而其他输入方式貌似无效。</li>
-</ul>
-<p><code>Constraints</code><br><code>Freeze Position</code> 和 <code>Freeze Rotation</code> 可以冻结不需要移动和旋转的轴。</p>
-<ul>
-<li><p><strong>Input.GetAxisRaw()</strong><br><code>public static float GetAxisRaw(string axisName);</code><br>The value will be in the range -1…1 for keyboard and joystick input. Since input is not smoothed, keyboard input will always be either -1, 0 or 1.<br>对比 <code>Input.GetAxis()</code>，该方法仅返回 -1/0/1 三个值，对于不关心输入的中间值的情况下，可以使用该方法。</p>
+<li><p><strong>Animator Controller</strong><br>  注意，在状态转换 Transition 中勾选了 <code>Has Exit Time</code>，则该状态转换动画播放完毕后会停止不动，对于类似 Move 行走动画需要循环播放的转换，需确保该 Property 不被勾选。</p>
+<p>  <code>Apply Root Motion</code><br>  Should we control the character’s position and rotation from the animation itself or from script.<br> 如果勾选该属性，则模型动画中角色的位移和旋转都会被应用到场景中，例如模型在动画中向前跨了一米，则场景中的角色也相应向前移动一米；如果不勾选该属性，则角色只会在原地播放动画，而真正的移动和转向则是由脚本控制。</p>
 </li>
-<li><p><strong>Vector3.normalized</strong><br>When normalized, a vector keeps the same direction but its length is 1.0.<br>编写玩家移动逻辑的时候，要把表示移动的向量规一化，避免不在坐标轴方向上的移动大于 1。</p>
+<li><p><strong>Rigidbody</strong><br>  <code>Drag</code> and <code>Angular Drag</code><br>  分别设置空气阻力对刚体移动和旋转的影响，<code>0</code> 表示无影响，即有运动惯性；<code>Infinity</code> 表示无控制输入时则立即停止移动和旋转，即不考虑惯性。</p>
+<p>  <code>Constraints</code><br>  <code>Freeze Position</code> 和 <code>Freeze Rotation</code> 可以冻结不需要移动和旋转的轴。</p>
+</li>
+<li><p><strong>Input.GetAxisRaw()</strong><br>  <code>public static float GetAxisRaw(string axisName);</code><br>  The value will be in the range -1…1 for keyboard and joystick input. Since input is not smoothed, keyboard input will always be either -1, 0 or 1.<br>  对比 <code>Input.GetAxis()</code>，该方法仅返回 -1/0/1 三个值，对于不关心输入的中间值的情况下，可以使用该方法。</p>
+</li>
+<li><p><strong>Vector3.normalized</strong><br>  When normalized, a vector keeps the same direction but its length is 1.0.<br>  编写玩家移动逻辑的时候，要把表示移动的向量规一化，避免不在坐标轴方向上的移动大于 1。</p>
 </li>
 </ul>
 <p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170319-001.png" alt=""></p>
 <ul>
-<li><p><strong>Camera.ScreenPointToRay()</strong><br><code>public Ray ScreenPointToRay(Vector3 position);</code><br>Returns a ray going from camera through a screen point.<br>返回从摄像机到屏幕上某一点的一条射线，在计算鼠标点击或指向场景的具体位置时使用。</p>
+<li><p><strong>Camera.ScreenPointToRay()</strong><br>  <code>public Ray ScreenPointToRay(Vector3 position);</code><br>  Returns a ray going from camera through a screen point.<br>  返回从摄像机到屏幕上某一点的一条射线，在计算鼠标点击或指向场景的具体位置时使用。</p>
 </li>
-<li><p><strong>Physics.Raycast()</strong><br><code>public static bool Raycast(Vector3 origin, Vector3 direction, out RaycastHit hitInfo, float maxDistance = Mathf.Infinity, int layerMask = DefaultRaycastLayers, QueryTriggerInteraction queryTriggerInteraction = QueryTriggerInteraction.UseGlobal);</code><br>从指定的原点和方向发射指定长度的射线，检测是否击中指定的 Layer 并返回击中点的信息。</p>
+<li><p><strong>Physics.Raycast()</strong><br>  <code>public static bool Raycast(Vector3 origin, Vector3 direction, out RaycastHit hitInfo, float maxDistance = Mathf.Infinity, int layerMask = DefaultRaycastLayers, QueryTriggerInteraction queryTriggerInteraction = QueryTriggerInteraction.UseGlobal);</code><br>  从指定的原点和方向发射指定长度的射线，检测是否击中指定的 Layer 并返回击中点的信息。</p>
 </li>
 </ul>
 <p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170319-002.png" alt=""></p>
 <ul>
-<li><p><strong>Vector3.Lerp()</strong><br><code>public static Vector3 Lerp(Vector3 a, Vector3 b, float t);</code><br>Interpolates between the vectors a and b by the interpolant t.<br>Linearly interpolates between two vectors.<br>线性插值算法，为向量的过渡作平滑处理。</p>
+<li><p><strong>Vector3.Lerp()</strong><br>  <code>public static Vector3 Lerp(Vector3 a, Vector3 b, float t);</code><br>  Interpolates between the vectors a and b by the interpolant t.<br>  Linearly interpolates between two vectors.<br>  线性插值算法，为向量的过渡作平滑处理。</p>
 </li>
-<li><p><strong>Vector3.Slerp()</strong><br><code>public static Vector3 Slerp(Vector3 a, Vector3 b, float t);</code><br>Spherically interpolates between two vectors.<br>Interpolates between a and b by amount t.<br>球形线性插值算法，同样为向量过渡作平滑处理。</p>
+<li><p><strong>Vector3.Slerp()</strong><br>  <code>public static Vector3 Slerp(Vector3 a, Vector3 b, float t);</code><br>  Spherically interpolates between two vectors.<br>  Interpolates between a and b by amount t.<br>  球形线性插值算法，同样为向量过渡作平滑处理。</p>
 </li>
 <li><p>设置为 <code>Static</code> 的游戏对象，在各种 Bake 中将被视为静态对象。例如关卡中的环境物体设置为 <code>Static</code> 后，在烘焙 NavMesh 导航网格 和 Lightmaps 光照贴图时，将被视为静态对象。</p>
 </li>
-<li><p><strong>NavMeshAgent.SetDestination()</strong><br><code>public bool SetDestination(Vector3 target);</code><br>Sets or updates the destination thus triggering the calculation for a new path.<br>设置 NavMeshAgent 组件对象的目标，以为其导航和规划路径进行移动，用于 AI 敌人自动搜寻玩家并跟随。</p>
+<li><p><strong>NavMeshAgent.SetDestination()</strong><br>  <code>public bool SetDestination(Vector3 target);</code><br>  Sets or updates the destination thus triggering the calculation for a new path.<br>设置 NavMeshAgent 组件对象的目标，以为其导航和规划路径进行移动，用于 AI 敌人自动搜寻玩家并跟随。</p>
 </li>
 </ul>
 <blockquote>
@@ -860,21 +857,21 @@
 <p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170318-002.png" alt=""></p>
 <p><strong>要点：</strong></p>
 <ul>
-<li><p><strong>Canvas 组件：Canvas Group</strong><br>为 Canvas 添加 Canvas Group 组件，使用其下的属性 <code>Interactable</code> 和 <code>Blocks Raycasts</code> 控制 Canvas 下对象是否可交互、是否屏蔽射线。</p>
+<li><p><strong>Canvas 组件：Canvas Group</strong><br>  为 Canvas 添加 Canvas Group 组件，使用其下的属性 <code>Interactable</code> 和 <code>Blocks Raycasts</code> 控制 Canvas 下对象是否可交互、是否屏蔽射线。</p>
 </li>
-<li><p><strong>UI 组件：Slider</strong><br>Property: <code>Transition</code><br>Properties that determine the way the control responds visually to user actions.<br>该属性决定如何响应用户交互的可视化效果。</p>
+<li><p><strong>UI 组件：Slider</strong><br>  Property: <code>Transition</code><br>  Properties that determine the way the control responds visually to user actions.<br>该属性决定如何响应用户交互的可视化效果。</p>
 </li>
-<li><p><strong>Color.Lerp()</strong><br><code>public static Color Lerp(Color a, Color b, float t);</code><br>Linearly interpolates between colors a and b by t.<br>颜色的线性插值算法，实现两个颜色之间的渐变效果。</p>
+<li><p><strong>Color.Lerp()</strong><br>  <code>public static Color Lerp(Color a, Color b, float t);</code><br>  Linearly interpolates between colors a and b by t.<br>  颜色的线性插值算法，实现两个颜色之间的渐变效果。</p>
 </li>
-<li><p><strong>Animation: Events -&gt; Script: Function</strong><br>在动画模型（.fbx 文件后缀）的 Animations 标签中的 Events 属性下，提供了将动画时间轴连接到脚本中自定义函数的实现，该功能虽然隐蔽，但是很有用。比如实现玩家模型移动时脚步声的播放等。</p>
+<li><p><strong>Animation: Events -&gt; Script: Function</strong><br>  在动画模型（.fbx 文件后缀）的 Animations 标签中的 Events 属性下，提供了将动画时间轴连接到脚本中自定义函数的实现，该功能虽然隐蔽，但是很有用。比如实现玩家模型移动时脚步声的播放等。</p>
 </li>
-<li><p><strong>Component.GetComponentInChildren()</strong><br><code>public Component GetComponentInChildren(Type t);</code><br>Returns the component of Type type in the GameObject or any of its children using depth <strong>first</strong> search.</p>
+<li><p><strong>Component.GetComponentInChildren()</strong><br>  <code>public Component GetComponentInChildren(Type t);</code><br>  Returns the component of Type type in the GameObject or any of its children using depth <strong>first</strong> search.</p>
 </li>
-<li><p><strong>LineRenderer.SetPosition()</strong><br><code>public void SetPosition(int index, Vector3 position);</code><br>Set the position of the vertex in the line.<br>设置线条的顶点。结合各种数学函数，可以画出各种酷炫的线条效果。</p>
+<li><p><strong>LineRenderer.SetPosition()</strong><br>  <code>public void SetPosition(int index, Vector3 position);</code><br>  Set the position of the vertex in the line.<br>  设置线条的顶点。结合各种数学函数，可以画出各种酷炫的线条效果。</p>
 </li>
-<li><p><strong>LayerMask.GetMask()</strong><br><code>public static int GetMask(params string[] layerNames);</code><br>Return the layer mask created from the layerNames.</p>
+<li><p><strong>LayerMask.GetMask()</strong><br>  <code>public static int GetMask(params string[] layerNames);</code><br>  Return the layer mask created from the layerNames.</p>
 </li>
-<li><p><strong>Transform.Translate()</strong><br><code>public void Translate(Vector3 translation, Space relativeTo = Space.Self);</code><br>Moves the transform in the direction and distance of translation.<br>用于移动游戏对象的位置。</p>
+<li><p><strong>Transform.Translate()</strong><br>  <code>public void Translate(Vector3 translation, Space relativeTo = Space.Self);</code><br>  Moves the transform in the direction and distance of translation.<br>  用于移动游戏对象的位置。</p>
 </li>
 <li><p>Particle System 粒子系统可以附加在一个 GameObject 的 child GameObject 上进行使用，也可以直接将其作为场景中某个 GameObject 的 Component 进行使用。</p>
 </li>
@@ -916,14 +913,14 @@
 </ul>
 <p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170319-003.png" alt=""></p>
 <ul>
-<li><strong>Draw order of  GUI elements</strong></li>
+<li><p><strong>Draw order of  GUI elements</strong></p>
+<p>  UI elements in the Canvas are drawn in the same order they appear in the Hierarchy. The first child is drawn first, the second child next, and so on. If two UI elements overlap, the later one will appear on top of the earlier one.</p>
+<p>  To change which element appear on top of other elements, simply reorder the elements in the Hierarchy by dragging them. The order can also be controlled from scripting by using these methods on the Transform component: <code>SetAsFirstSibling</code>, <code>SetAsLastSibling</code>, and <code>SetSiblingIndex</code>.</p>
+</li>
+<li><p>当你在脚本中使用 <code>SceneManager.LoadScene(&quot;sceneName&quot;);</code> 重新加载场景时，所有游戏对象都会被重置。如果你勾选了项目的 Lighting 设置为 <code>Auto Build</code>（这是默认设置），则场景重新加载时将漆黑一片。因此，需要<strong>去除勾选 Window -&gt; Lighting -&gt; Scene -&gt; Auto Build</strong>，然后手动点击 <code>Build</code>，生成场景的光照贴图 Lightmaps。</p>
+<p>  Uncheck <code>Auto Build</code> in Lighting setting, and manually <code>Build</code> the Lightmaps, so your lighting won’t be gone after you reloaded you level.</p>
+</li>
 </ul>
-<p>UI elements in the Canvas are drawn in the same order they appear in the Hierarchy. The first child is drawn first, the second child next, and so on. If two UI elements overlap, the later one will appear on top of the earlier one.</p>
-<p>To change which element appear on top of other elements, simply reorder the elements in the Hierarchy by dragging them. The order can also be controlled from scripting by using these methods on the Transform component: <code>SetAsFirstSibling</code>, <code>SetAsLastSibling</code>, and <code>SetSiblingIndex</code>.</p>
-<ul>
-<li>当你在脚本中使用 <code>SceneManager.LoadScene(&quot;sceneName&quot;);</code> 重新加载场景时，所有游戏对象都会被重置。如果你勾选了项目的 Lighting 设置为 <code>Auto Build</code>（这是默认设置），则场景重新加载时将漆黑一片。因此，需要<strong>去除勾选 Window -&gt; Lighting -&gt; Scene -&gt; Auto Build</strong>，然后手动点击 <code>Build</code>，生成场景的光照贴图 Lightmaps。</li>
-</ul>
-<p>Uncheck <code>Auto Build</code> in Lighting setting, and manually <code>Build</code> the Lightmaps, so your lighting won’t be gone after you reloaded you level.</p>
 <blockquote>
 <p>源码：<a href="https://github.com/Caizc/game-survival-shooter" target="_blank" rel="external">https://github.com/Caizc/game-survival-shooter</a><br>参考：<a href="https://unity3d.com/learn/tutorials/projects/survival-shooter-tutorial" target="_blank" rel="external">Survival Shooter tutorial - Unity-Learn-Tutorials</a></p>
 </blockquote>
@@ -951,11 +948,11 @@
 <p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170318-004.png" alt=""></p>
 <p><strong>要点：</strong></p>
 <ul>
-<li><p><strong>Time.timeScale</strong><br><code>public static float timeScale;</code><br>The scale at which the time is passing. This can be used for slow motion effects.<br>When timeScale is 1.0 the time is passing as fast as realtime. When timeScale is 0.5 the time is passing 2x slower than realtime.<br>When timeScale is set to zero the game is basically paused if all your functions are frame rate independent.<br>该变量可以用来控制游戏中所有运动的速率，包括快进、暂停和慢动作。</p>
+<li><p><strong>Time.timeScale</strong><br>  <code>public static float timeScale;</code><br>  The scale at which the time is passing. This can be used for slow motion effects.<br>  When timeScale is 1.0 the time is passing as fast as realtime. When timeScale is 0.5 the time is passing 2x slower than realtime.<br>  When timeScale is set to zero the game is basically paused if all your functions are frame rate independent.<br>  该变量可以用来控制游戏中所有运动的速率，包括快进、暂停和慢动作。</p>
 </li>
-<li><p><strong>AudioMixerSnapshot.TransitionTo()</strong><br><code>public void TransitionTo(float timeToReach);</code><br>Performs an interpolated transition towards this snapshot over the time interval specified.<br>该方法用于切换游戏中的音频快照 Snapshot。</p>
+<li><p><strong>AudioMixerSnapshot.TransitionTo()</strong><br>  <code>public void TransitionTo(float timeToReach);</code><br>  Performs an interpolated transition towards this snapshot over the time interval specified.<br>  该方法用于切换游戏中的音频快照 Snapshot。</p>
 </li>
-<li><p><strong>AudioMixer.SetFloat()</strong><br><code>public bool SetFloat(string name, float value);</code><br>Sets the value of the exposed parameter specified. When a parameter is exposed, it is not controlled by mixer snapshots and can therefore only be changed via this function.<br>该方法用于控制 Snapshot 暴露的参数的值。</p>
+<li><p><strong>AudioMixer.SetFloat()</strong><br>  <code>public bool SetFloat(string name, float value);</code><br>  Sets the value of the exposed parameter specified. When a parameter is exposed, it is not controlled by mixer snapshots and can therefore only be changed via this function.<br>  该方法用于控制 Snapshot 暴露的参数的值。</p>
 </li>
 </ul>
 <blockquote>
@@ -1000,18 +997,18 @@
 <li>在脚本的属性前使用 <code>[HeaderAttribute(&quot;Property Name&quot;)]</code> 可以在 Inspector 中显示自定义的属性列表名称。</li>
 <li><p>在脚本中使用 <code>[HideInInspector]</code> 可以将声明为 <code>public</code> 的属性对 Inspector 隐藏。</p>
 </li>
-<li><p><strong>Reset() 方法</strong><br>Reset is called when the user hits the Reset button in the Inspector’s context menu or when adding the component the first time. This function is only called in editor mode. Reset is most commonly used to give good default values in the inspector.</p>
+<li><p><strong>Reset() 方法</strong><br>  Reset is called when the user hits the Reset button in the Inspector’s context menu or when adding the component the first time. This function is only called in editor mode. Reset is most commonly used to give good default values in the inspector.</p>
 </li>
-<li><p><strong>OnEnable() 方法</strong><br>This function is called when the object becomes enabled and active.</p>
+<li><p><strong>OnEnable() 方法</strong><br>  This function is called when the object becomes enabled and active.</p>
 </li>
 <li><p>Unity 中并未在编辑器中默认实现 <strong>AnimationCurve 属性值的 Copy/Paste 功能</strong>，可以在项目中添加一个自定义脚本 <code>CurvePropertyDrawer.cs</code> 来实现便捷的 Curve 值的拷贝和粘贴，脚本来自 <a href="https://forum.unity3d.com/threads/copy-and-paste-curves.162557/#post-1277055" target="_blank" rel="external">Unity Forums</a>。</p>
 </li>
 </ul>
 <blockquote>
-<p>源码：<a href="https://github.com/Caizc/game-zombie-toys" target="_blank" rel="external">https://github.com/Caizc/game-zombie-toys</a></p>
+<p>源码：<a href="https://github.com/Caizc/game-zombie-toys" target="_blank" rel="external">https://github.com/Caizc/game-zombie-toys</a><br>参考：<a href="https://www.assetstore.unity3d.com/cn/#!/list/certified-developer-courseware" target="_blank" rel="external">Unity Certified Developer Courseware - Unity Asset Store</a></p>
 </blockquote>
 <h1 id="Phase-31：游戏系统设计指南"><a href="#Phase-31：游戏系统设计指南" class="headerlink" title="Phase 31：游戏系统设计指南"></a>Phase 31：游戏系统设计指南</h1><p>「三思而后行」，在游戏制作的工业流程中，策划设计处于编码实现的上游，全面地了解一个游戏从策划、到实现、再到发布运营的全过程，有利于建立起对游戏开发工作的全局视野，把握游戏开发工作中的核心要点。</p>
-<p><strong>技术是服务于业务的，底层技术实现的是上层业务逻辑。因此，对于游戏开发人员来说，了解游戏策划相关的知识，有利于在设计游戏系统技术架构时，充分考虑到游戏业务逻辑的多样性和不稳定性对底层技术所带来的挑战；有利于启发游戏开发人员对于系统稳定性和可扩展性的思考。</strong></p>
+<p><strong>技术是服务于业务的，底层技术实现的是上层业务逻辑。因此，对于游戏开发人员来说，了解游戏策划相关的知识，有利于在设计游戏系统技术架构时，充分考虑到游戏业务逻辑的多样性和不稳定性对底层技术所带来的挑战；有利于启发游戏开发人员对于系统稳定性与可扩展性的思考。</strong></p>
 <p>腾讯 GAD 编撰的这本<strong>《创世学说：游戏系统设计指南》</strong>，面向新手游戏系统策划人员，通俗易懂地讲述了游戏系统相关的知识。阅读这本书，有助于读者实现从游戏玩家视角到游戏制作人员视角的转变，建立起对游戏工业流水线的基础认知。</p>
 <p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170419-001.jpg" alt=""></p>
 <blockquote>
@@ -1029,22 +1026,18 @@
 <p><img src="http://blog-1252720346.cosgz.myqcloud.com/images/20170427-002.jpg" alt=""></p>
 <p><strong>要点：</strong></p>
 <ul>
-<li><strong>Sprite Editor</strong></li>
-</ul>
-<p>使用 Sprite Editor 裁切 Sprite 动作序列图，裁切后的多张小图 Unity 只会把它们当作一个游戏对象，这样可以有效的地节省游戏运行内存，且游戏角色的动作可以被统一管理。</p>
-<ul>
-<li><strong>Pixel Per Unit</strong></li>
-</ul>
-<p>Unity 中每一个单元格的像素大小。</p>
-<ul>
-<li><strong>Sprite 的 Filter Mode</strong></li>
-</ul>
-<p>设置 Sprite 的 <code>Filter Mode</code> 为 <code>Point</code>，对于像素资源来说，<code>Point</code> 模式可以让它看上去更加干净、清晰。</p>
-<ul>
-<li><strong>Sprite Packer</strong></li>
-</ul>
-<p>在制作游戏的过程中，会使用到许多独立的图片，每一张图片都会占用 GPU 的一部分显存，为了优化游戏性能，通常会把这些零碎的图片打包在一起，这样不仅可以节省系统内存，也可以使得读取图片的速度成倍加快。<br>选中所有需要打包的图片，在 Inspector 中为它们输入相同的 <code>Packing Tag</code>，然后打开 Sprite Packer 点击 <code>Pack</code> 来打包图片。<br>在游戏运行时，我们可以打开 Game 视图中的 Statistics 面板，观察动态变化着的 <code>Batches</code> 和 <code>Saved by batching</code>，来验证 Sprite 打包后对性能的优化效果。</p>
-<ul>
+<li><p><strong>Sprite Editor</strong></p>
+<p>  使用 Sprite Editor 裁切 Sprite 动作序列图，裁切后的多张小图 Unity 只会把它们当作一个游戏对象，这样可以有效的地节省游戏运行内存，且游戏角色的动作可以被统一管理。</p>
+</li>
+<li><p><strong>Pixel Per Unit</strong></p>
+<p>  Unity 中每一个单元格的像素大小。</p>
+</li>
+<li><p><strong>Sprite 的 Filter Mode</strong></p>
+<p>  设置 Sprite 的 <code>Filter Mode</code> 为 <code>Point</code>，对于像素资源来说，<code>Point</code> 模式可以让它看上去更加干净、清晰。</p>
+</li>
+<li><p><strong>Sprite Packer</strong></p>
+<p>  在制作游戏的过程中，会使用到许多独立的图片，每一张图片都会占用 GPU 的一部分显存，为了优化游戏性能，通常会把这些零碎的图片打包在一起，这样不仅可以节省系统内存，也可以使得读取图片的速度成倍加快。<br>选中所有需要打包的图片，在 Inspector 中为它们输入相同的 <code>Packing Tag</code>，然后打开 Sprite Packer 点击 <code>Pack</code> 来打包图片。<br>在游戏运行时，我们可以打开 Game 视图中的 Statistics 面板，观察动态变化着的 <code>Batches</code> 和 <code>Saved by batching</code>，来验证 Sprite 打包后对性能的优化效果。</p>
+</li>
 <li><p><strong>Orthographic Camera Size</strong></p>
 <ul>
 <li><p>为了使游戏能够自动适配所有手机的屏幕分辨率，需要根据不同的设备分辨率动态调整正交摄像机的对焦距离，也就是动态调整 <code>Orthographic Camera Size</code> 值，确保游戏所有的场景元素都在摄像机的观察范围之内。</p>
@@ -1054,10 +1047,8 @@
 </ul>
 </li>
 <li><p><strong>主流的手机屏幕分辨率</strong></p>
+<p>  iPhone 的主流屏幕比例以 16:9 为主，Android 的主流屏幕比例以 16:10 为主。（未经严格考证）</p>
 </li>
-</ul>
-<p>iPhone 的主流屏幕比例以 16:9 为主，Android 的主流屏幕比例以 16:10 为主。（未经严格考证）</p>
-<ul>
 <li><p><strong>Shader - Mobile Particles 简介</strong></p>
 <ul>
 <li><code>Alpha Blended</code>：主要用于实现半透明效果，类似于玻璃</li>
@@ -1074,18 +1065,14 @@
 </ul>
 </li>
 <li><p><strong>图像尺寸运算原理</strong></p>
+<p>  所有美术图片资源的内存技术都是 2 的指数次幂，所以材质一般都是 16、32、64、128 这样的尺寸，这样可以大幅提升图像的运算效率，节约系统消耗。</p>
 </li>
-</ul>
-<p>所有美术图片资源的内存技术都是 2 的指数次幂，所以材质一般都是 16、32、64、128 这样的尺寸，这样可以大幅提升图像的运算效率，节约系统消耗。</p>
-<ul>
-<li><strong>在脚本中获取游戏对象的 Material 中的 Texture 引用</strong></li>
-</ul>
-<p>在游戏对象的脚本中使用 <code>GetComponent&lt;Renderer&gt;().material.GetTexture(&quot;_MainTex&quot;)</code> 才可以获取到默认纹理的引用。</p>
-<ul>
-<li><strong>Material 中 Texture 的 Offset 属性</strong></li>
-</ul>
-<p>通过动态修改游戏对象 Material 中 Texture 的 <code>Offset</code> 属性，可以实现纹理图片的循环播放效果。</p>
-<ul>
+<li><p><strong>在脚本中获取游戏对象的 Material 中的 Texture 引用</strong></p>
+<p>  在游戏对象的脚本中使用 <code>GetComponent&lt;Renderer&gt;().material.GetTexture(&quot;_MainTex&quot;)</code> 才可以获取到默认纹理的引用。</p>
+</li>
+<li><p><strong>Material 中 Texture 的 Offset 属性</strong></p>
+<p>  通过动态修改游戏对象 Material 中 Texture 的 <code>Offset</code> 属性，可以实现纹理图片的循环播放效果。</p>
+</li>
 <li><p><strong>Update() 和 FixedUpdate() 的区别</strong></p>
 <ul>
 <li><code>Update()</code> 会在每次渲染新的一帧时被调用，它受当前渲染的物体，更确切地说是三角形的数量影响，时快时慢。帧率变化，<code>Update()</code> 被调用的时间间隔就会发生变化。</li>
@@ -1100,15 +1087,13 @@
 </ul>
 </li>
 <li><p><strong>Destroy()</strong></p>
+<p>  在游戏中不要频繁地销毁与新建对象，而是重置对象的状态，不断地复用已经创建的游戏对象，这样做的好处是可以保证游戏的内存波动平稳，会减少游戏卡顿、死机、跳出的现象。</p>
 </li>
-</ul>
-<p>在游戏中不要频繁地销毁与新建对象，而是重置对象的状态，不断地复用已经创建的游戏对象，这样做的好处是可以保证游戏的内存波动平稳，会减少游戏卡顿、死机、跳出的现象。</p>
-<ul>
-<li><strong>对象池</strong></li>
-</ul>
-<p>所有对象池都遵循着同样的工作原理——在对象池中寻找已经创建但是没有被使用的对象并激活它，如果没有可以用于被激活的对象，则重新创建一个新的对象。<br>不是所有的对象池都是动态容量的，但在多数项目中都会设置对象池的容量，这样对程序的性能影响就可以在控制范围内。</p>
-<ul>
-<li><strong>GetComponent() 的限制</strong></li>
+<li><p><strong>对象池</strong></p>
+<p>  所有对象池都遵循着同样的工作原理——在对象池中寻找已经创建但是没有被使用的对象并激活它，如果没有可以用于被激活的对象，则重新创建一个新的对象。<br>  不是所有的对象池都是动态容量的，但在多数项目中都会设置对象池的容量，这样对程序的性能影响就可以在控制范围内。</p>
+</li>
+<li><p><strong>GetComponent() 的限制</strong></p>
+</li>
 </ul>
 <p><code>GetComponent()</code> 方法无法获取抽象类的引用，所以只能通过手动遍历游戏对象的组件列表来获取抽象类的引用。</p>
 <ul>
@@ -1116,7 +1101,7 @@
 <p>  运用 <code>Time.timeScale</code> 来控制游戏场景的暂停与播放要千万注意：</p>
 <ul>
 <li>它不会影响 <code>Update()</code>、<code>LateUpdate()</code> 或是 <code>Coroutine</code> 的执行。</li>
-<li><p>但它会影响 <code>Time.time</code>、<code>Time.deltaTime</code>，以及其他类中所有依赖这些属性的方法。其中一个影响就是 <code>WaitForSeconds()</code> 方法，使其失效。如果在协程中需要实现延时效果，推荐使用 <code>Time.realtimeSinceStartup</code> 来自行实现可靠的延时功能。</p>
+<li><p>但它会影响 <code>Time.time</code>、<code>Time.deltaTime</code>，以及其他类中所有依赖这些属性的方法。其中一个影响就是 <code>WaitForSeconds()</code> 方法，会使其失效。如果在协程中需要实现延时效果，推荐使用 <code>Time.realtimeSinceStartup</code> 来自行实现可靠的延时功能。</p>
 <p><code>Time.timeScale</code> 的 issue 链接：</p>
 </li>
 <li><p><a href="http://answers.unity3d.com/questions/276348/does-coroutines-are-affected-by-timetimescale.html" target="_blank" rel="external">http://answers.unity3d.com/questions/276348/does-coroutines-are-affected-by-timetimescale.html</a></p>
@@ -1136,13 +1121,13 @@
 </ul>
 <p><a href="https://docs.unity3d.com/Manual/UICanvas.html" target="_blank" rel="external">https://docs.unity3d.com/Manual/UICanvas.html</a></p>
 <ul>
-<li><strong>Canvas 的参数 Pixel Perfect</strong></li>
+<li><p><strong>Canvas 的参数 Pixel Perfect</strong></p>
+<p>  <code>Pixel Perfect</code>（像素完美）指的是一个 UI 素材本身的像素对应屏幕上的一个像素的情况，在这种情况下，UI 素材映射到屏幕上时没有任何拉伸和压缩，显示效果非常清晰、完美。</p>
+</li>
+<li><p><strong>Canvas Scaler 组件</strong></p>
+<p>  为了适应不同的分辨率，我们可能会允许适当的 UI 整体性缩放，外加一些尽可能少的布局微调，这样就能达到一个比较理想的效果。</p>
+</li>
 </ul>
-<p><code>Pixel Perfect</code>（像素完美）指的是一个 UI 素材本身的像素对应屏幕上的一个像素的情况，在这种情况下，UI 素材映射到屏幕上时没有任何拉伸和压缩，显示效果非常清晰、完美。</p>
-<ul>
-<li><strong>Canvas Scaler 组件</strong></li>
-</ul>
-<p>为了适应不同的分辨率，我们可能会允许适当的 UI 整体性缩放，外加一些尽可能少的布局微调，这样就能达到一个比较理想的效果。</p>
 <p><a href="https://docs.unity3d.com/Manual/script-CanvasScaler.html" target="_blank" rel="external">https://docs.unity3d.com/Manual/script-CanvasScaler.html</a></p>
 <ul>
 <li><p><strong>TimeSpan 函数</strong></p>
@@ -1152,18 +1137,19 @@
 <li><code>FromHours</code>：返回用小时计算的 TimeSpan 值</li>
 <li><code>FromMinutes</code>：返回用分钟计算的 TimeSpan 值</li>
 <li><code>FromSeconds</code>：返回用秒计算的 TimeSpan 值</li>
-<li><p><code>FromMilliSeconds</code>：返回用毫秒计算的 TimeSpan 值</p>
-<p><a href="https://msdn.microsoft.com/en-us/library/ee372286(v=vs.110).aspx" target="_blank" rel="external">https://msdn.microsoft.com/en-us/library/ee372286(v=vs.110).aspx</a></p>
-</li>
+<li><code>FromMilliSeconds</code>：返回用毫秒计算的 TimeSpan 值</li>
 </ul>
 </li>
+</ul>
+<p><a href="https://msdn.microsoft.com/en-us/library/ee372286(v=vs.110" target="_blank" rel="external">Standard TimeSpan Format Strings - Microsoft Docs</a>.aspx)</p>
+<ul>
 <li><p><strong>PlayerPrefs</strong></p>
+<p>  使用 PlayerPrefs 可以实现简单的数据本地化存储，基于 key-value 的读写操作。</p>
 </li>
 </ul>
-<p>使用 PlayerPrefs 可以实现简单的数据本地化存储，基于 key-value 的读写操作。</p>
 <p><a href="https://docs.unity3d.com/ScriptReference/PlayerPrefs.html" target="_blank" rel="external">https://docs.unity3d.com/ScriptReference/PlayerPrefs.html</a></p>
 <ul>
-<li><strong>在 string 中使用 HTML 标签</strong><br>通过在 string 中使用 <code>&lt;color=&quot;red&quot;&gt;some text&lt;/color&gt;</code> 来灵活实现 UI Text 文本的标红效果。</li>
+<li><strong>在 string 中使用 HTML 标签</strong><br>  通过在 string 中使用 <code>&lt;color=&quot;red&quot;&gt;some text&lt;/color&gt;</code> 来灵活实现 UI Text 文本的标红效果。</li>
 </ul>
 <blockquote>
 <p>源码：<a href="https://github.com/Caizc/game-endless-running" target="_blank" rel="external">https://github.com/Caizc/game-endless-running</a><br>笔记：<a href="https://github.com/Caizc/cai-knowledge-base/blob/master/BOK-0014-A-%E9%83%91%E5%AE%87-%E3%80%8AUnity5.x%E5%88%9B%E9%80%A02D%E6%89%8B%E6%9C%BA%E6%B8%B8%E6%88%8F%E3%80%8B.md" target="_blank" rel="external">https://github.com/Caizc/cai-knowledge-base</a><br>参考：《Unity 5.x 创造 2D 手机游戏》</p>
@@ -1262,23 +1248,21 @@
 <li><p>Mathf.Epsilon</p>
 </li>
 <li><p>Has Exit Time</p>
+<p>  Exit Time is a special transition that doesn’t rely on a parameter. Instead, it relies on the normalized time of the state. Check to make the transition happen at the specific time specified in Exit Time.</p>
 </li>
-</ul>
-<p>Exit Time is a special transition that doesn’t rely on a parameter. Instead, it relies on the normalized time of the state. Check to make the transition happen at the specific time specified in Exit Time.</p>
-<ul>
-<li>Exit Time</li>
-</ul>
-<p>If Has Exit Time is checked, this value represents the exact time at which the transition can take effect. This is represented in normalized time (for example, an exit time of 0.75 means that on the first frame where 75% of the animation has played, the Exit Time condition is true). On the next frame, the condition is false.</p>
-<p>For looped animations, transitions with exit times smaller than 1 are evaluated every loop, so you can use this to time your transition with the proper timing in the animation every loop. </p>
-<p>Transitions with an Exit Time greater than 1 are evaluated only once, so they can be used to exit at a specific time after a fixed number of loops. For example, a transition with an exit time of 3.5 are evaluated once, after three and a half loops.</p>
-<ul>
-<li>Sorting Layer</li>
+<li><p>Exit Time</p>
+<p>  If Has Exit Time is checked, this value represents the exact time at which the transition can take effect. This is represented in normalized time (for example, an exit time of 0.75 means that on the first frame where 75% of the animation has played, the Exit Time condition is true). On the next frame, the condition is false.</p>
+<p>  For looped animations, transitions with exit times smaller than 1 are evaluated every loop, so you can use this to time your transition with the proper timing in the animation every loop. </p>
+<p>  Transitions with an Exit Time greater than 1 are evaluated only once, so they can be used to exit at a specific time after a fixed number of loops. For example, a transition with an exit time of 3.5 are evaluated once, after three and a half loops.</p>
+</li>
+<li><p>Sorting Layer</p>
+</li>
 <li>Order in Layer</li>
 </ul>
 <blockquote>
 <p>源码：<a href="https://github.com/Caizc/game-2d-roguelike" target="_blank" rel="external">https://github.com/Caizc/game-2d-roguelike</a><br>参考：<a href="https://unity3d.com/cn/learn/tutorials/projects/2d-roguelike-tutorial" target="_blank" rel="external">2D Roguelike tutorial - Unity Tutorials</a></p>
 </blockquote>
-<h1 id="Phase-38：Useful-Stuff-in-Unity-Scripting"><a href="#Phase-38：Useful-Stuff-in-Unity-Scripting" class="headerlink" title="Phase 38：Useful Stuff in Unity Scripting"></a>Phase 38：Useful Stuff in Unity Scripting</h1><p>在学习和实践的过程中，同步将 Unity 游戏编程中常用的 API 及实用技巧整理出来，并持续更新这些知识点，为打好基础以做到熟练运用引擎工具来构建游戏提供帮助。</p>
+<h1 id="Phase-38：Useful-Stuff-in-Unity-Scripting"><a href="#Phase-38：Useful-Stuff-in-Unity-Scripting" class="headerlink" title="Phase 38：Useful Stuff in Unity Scripting"></a>Phase 38：Useful Stuff in Unity Scripting</h1><p>在学习和实践的过程中，同步将 Unity 游戏脚本编程中常用的 API 及实用技巧整理出来，并持续更新这些知识点，为打好基础以做到熟练运用引擎工具来构建游戏提供帮助。</p>
 <blockquote>
 <p>笔记：<a href="https://github.com/Caizc/cai-knowledge-base/blob/master/hacking/Useful%20Stuff%20in%20Unity%20Scripting.md" target="_blank" rel="external">https://github.com/Caizc/cai-knowledge-base</a></p>
 </blockquote>
@@ -1290,18 +1274,83 @@
 <li>时序图</li>
 </ul>
 <blockquote>
+<p>//TODO: 已完成前 6 篇（1-20 章）内容的学习，并绘制了系统类图，剩余章节待学习。</p>
 <p>笔记：<a href="https://github.com/Caizc/cai-knowledge-base/blob/master/BOK-0020-A-%E8%94%A1%E5%8D%87%E8%BE%BE-%E3%80%8ADesign-Patterns-in-Game-Development%E3%80%8B.md" target="_blank" rel="external">https://github.com/Caizc/cai-knowledge-base</a></p>
 </blockquote>
-<h1 id="Phase-40：Playmaker-插件"><a href="#Phase-40：Playmaker-插件" class="headerlink" title="Phase 40：Playmaker 插件"></a>Phase 40：Playmaker 插件</h1><p><a href="http://www.hutonggames.com/index.html" target="_blank" rel="external">简单易用的可视化编程插件 Playmaker</a><br><a href="https://hutonggames.fogbugz.com/default.asp?W133" target="_blank" rel="external">Core Concepts of Playmaker</a></p>
+<h1 id="Phase-40：Playmaker"><a href="#Phase-40：Playmaker" class="headerlink" title="Phase 40：Playmaker"></a>Phase 40：Playmaker</h1><p>简单了解了 Unity 的一款<strong>可视化编程插件</strong> —— Playmaker，看完了官方的入门系列教程。</p>
+<p>Playmaker 的核心是一个 Finite State Machine (FSM) 有限状态机，通过「事件驱动」实现状态跳转，同时添加了功能强大的 Action、Variable、Event 实体等，试图部分取代 Unity 传统脚本编程的功能，用易于上手且相对灵活的方式实现游戏的玩法逻辑。</p>
+<p>对于将 Playmaker 应用于项目开发中的评价褒贬不一，不过对于游戏开发新手或者快速实现游戏原型来说，Playmaker 是便捷之选。而对于上了体量的商业项目来说，游戏系统规模膨胀以后，使用 Playmaker 的项目管理起来可能是个噩梦。</p>
+<p>不过，对于 INSIDE 这款游戏使用了 Playmaker 进行制作还是挺让人惊讶的，不知道它对于这个插件的使用规模如何。</p>
+<blockquote>
+<p>参考：<br><a href="http://www.hutonggames.com/index.html" target="_blank" rel="external">简单易用的可视化编程插件 Playmaker</a><br><a href="https://hutonggames.fogbugz.com/default.asp?W133" target="_blank" rel="external">Core Concepts of Playmaker</a><br><a href="http://www.hutonggames.com/tutorials_game_design_with_playmaker.php" target="_blank" rel="external">TUTORIALS - Playmaker</a><br><a href="http://va.lent.in/should-you-use-playmaker-in-production/" target="_blank" rel="external">Should you use Playmaker in production?</a></p>
+</blockquote>
 <h1 id="Phase-41：Corgi-Engine"><a href="#Phase-41：Corgi-Engine" class="headerlink" title="Phase 41：Corgi Engine"></a>Phase 41：Corgi Engine</h1><p><strong>Corgi Engine 是以 Unity 插件形式实现的一款 2D + 2.5D 平台游戏（Platformer）开发套件</strong>，其中包含了实现一款平台跳跃游戏所需的角色、道具、场景组件等，具有完善的文档、教程支持，其项目源码也非常规范整洁，值得研究学习。</p>
 <p><a href="http://corgi-engine.moremountains.com/" target="_blank" rel="external">Corgi Engine - the Best 2D + 2.5D Platformer Solution for Unity</a></p>
 <p>为了方便查阅和加深理解，我索性将 Corgi Engine 的<strong>官方文档</strong>全部翻译为<a href="https://github.com/Caizc/corgi-engine-docs" target="_blank" rel="external">简体中文</a>，详细信息可以访问这篇<strong>博客文章</strong>进行了解：</p>
 <p><a href="http://caizicong.com/timecapsule/2017/08/06/2017-08-06-corgi-engine-documentation-in-simplified-chinese/">Unity 2D 平台游戏套件 Corgi Engine 中文文档</a></p>
-<h1 id="Phase-42：Animation-System-Mecanim"><a href="#Phase-42：Animation-System-Mecanim" class="headerlink" title="Phase 42：Animation System - Mecanim"></a>Phase 42：Animation System - Mecanim</h1><p>我发现在使用 Unity 进行游戏开发的过程中，如果遇到不懂的地方，<strong>Unity Manual</strong> 往往是最权威的一份学习材料，第一时间阅读它来查找你想要的答案是最快捷的方式。虽然之前做过的项目中多多少少用到了 Unity 的动画系统，但还是有很多地方一知半解，于是决心从官方手册开始全面学习 Unity 的动画系统 <strong>Mecanim</strong>：</p>
+<blockquote>
+<p>项目地址：<a href="https://github.com/Caizc/corgi-engine-docs" target="_blank" rel="external">Corgi Engine 简体中文文档</a></p>
+</blockquote>
+<h1 id="Phase-42：Mecanim-动画系统"><a href="#Phase-42：Mecanim-动画系统" class="headerlink" title="Phase 42：Mecanim 动画系统"></a>Phase 42：Mecanim 动画系统</h1><p>我发现在使用 Unity 进行游戏开发的过程中，如果遇到不懂的地方，<strong>Unity Manual</strong> 往往是最权威的一份学习材料，第一时间阅读它来查找你想要的答案是最快捷的方式。</p>
+<p>虽然之前做过的项目中多多少少用到了 Unity 的动画系统，但还是有很多地方一知半解，于是决心从官方手册开始全面学习 Unity 的动画系统 <strong>Mecanim</strong>：</p>
 <p><a href="https://docs.unity3d.com/Manual/AnimationSection.html" target="_blank" rel="external">Animation - Unity Manual</a></p>
-<p>动画相关的文章和视频教程：</p>
-<p><a href="https://zhuanlan.zhihu.com/p/23491924" target="_blank" rel="external">骨骼与动画重定向 - 知乎专栏</a><br><a href="https://www.youtube.com/watch?v=3OXMFfjBTs8&amp;t=1061s" target="_blank" rel="external">這樣條動作絕對錯不了! Animator系統介紹! - Youtube</a></p>
-<h1 id="Phase-43"><a href="#Phase-43" class="headerlink" title="Phase 43"></a>Phase 43</h1><blockquote>
+<p>学习如何实现角色的「换皮」，即重用角色的动画状态机、动画和骨骼，利用 Unity 的 Avatar 机制可以实现。</p>
+<p><strong>Mecanim 动画系统相关资料：</strong></p>
+<p><a href="https://zhuanlan.zhihu.com/p/23491924" target="_blank" rel="external">骨骼与动画重定向 - 知乎专栏</a><br><a href="https://www.youtube.com/watch?v=3OXMFfjBTs8&amp;t=1061s" target="_blank" rel="external">這樣條動作絕對錯不了! Animator系統介紹! - Youtube</a><br><a href="https://www.mixamo.com/" target="_blank" rel="external">免费的 3D 模型制作和下载网站 - mixamo</a></p>
+<h1 id="Phase-43：xLua-amp-Google-Protocol-Buffers"><a href="#Phase-43：xLua-amp-Google-Protocol-Buffers" class="headerlink" title="Phase 43：xLua &amp; Google Protocol Buffers"></a>Phase 43：xLua &amp; Google Protocol Buffers</h1><ul>
+<li><p><strong>网络游戏「热更新」与 xLua 框架</strong></p>
+<p>  网络游戏，特别是移动端的网络游戏，「热更新」往往是刚需，因此在项目中引入与 Unity 官方脚本语言 C# 相结合的脚本编程框架迫在眉睫。</p>
+<p>  Tencent 开源的 xLua 框架提供了 lua 与 C# 交互的桥梁，实现了在同一个项目中两种不同类型语言之间的相互调用，使项目既能得益于 C# 构建的稳定架构，又能获得 lua 提供的额外的灵活性。</p>
+<p>  为了扩展项目的功能，还利用了 xLua 整合第三方 lua 扩展库的能力，增加了 lua-rapidjson、lepg 和 pbc 库的相应功能。</p>
+</li>
+<li><p>xLua 的相关资料：</p>
+<p>  <a href="https://github.com/Tencent/xLua" target="_blank" rel="external">xLua - GitHub</a><br>  <a href="https://www.zhihu.com/question/54344452" target="_blank" rel="external">如何评价腾讯在Unity下的xLua（开源）热更方案？- 知乎</a></p>
+</li>
+<li><p><strong>Google Protocol Buffers</strong></p>
+<p>  Protocol Buffers（或简称 Protobuf）是 Google 开源的结构化数据格式，类似于 XML 和 JSON，与语言和平台无关，因此通常被用于制定网络通信协议。Protobuf 还可用于定义数据结构、数据序列化存盘、充当配置文件等。</p>
+<p>  <a href="https://developers.google.com/protocol-buffers/" target="_blank" rel="external">Protocol Buffers - Google Developers</a></p>
+</li>
+<li><p>Protocol Buffers 的安装、编译和使用：</p>
+<p>  <a href="http://www.jianshu.com/p/6c9f90538efe" target="_blank" rel="external">从Protocol Buffers 到 gRPC</a><br>  <a href="http://disksing.com/pb-on-gamedev" target="_blank" rel="external">Protocol Buffers 在游戏中的应用</a></p>
+</li>
+<li><p><strong>xLua 整合 pbc 库</strong></p>
+<p>  为了在项目中使用 <strong>Protobuf 3</strong> 的新特性，需要将「云风」开源的 lua 版本的 Protobuf 实现 —— pbc 库整合到 xLua 框架中，为此费了不少功夫。</p>
+<p>  在学习了 xLua 中如何实现 lua 代码和 C# 代码的相互调用，以及如何为 xLua 增加第三方 lua 库之后，最终测试通过了在 C# 中调用 lua 执行 Protobuf 协议数据的编码和解码（序列化和反序列化）。</p>
+<p>  不过，最终测试结果还表明 <strong>pbc 库对于Protobuf 3 新特性仅部分支持</strong>，不支持的特性仍需使用 Protobuf 2 旧版本中的协议定义方法作为替代。</p>
+<p>  另外遗憾的是「云风」似乎已经决定不再维护 pbc 开源项目的更新，想要通过 pbc 使用 Protobuf 新版本特性的话可能要另寻他法了。</p>
+<p>  <a href="https://github.com/cloudwu/pbc" target="_blank" rel="external">pbc - GitHub</a><br>  <a href="https://github.com/chexiongsheng/build_xlua_with_libs" target="_blank" rel="external">build_xlua_with_libs - GitHub</a></p>
+</li>
+</ul>
+<blockquote>
+<p>源码：<a href="https://github.com/Caizc/sandbox/tree/socket" target="_blank" rel="external">xLua 整合 pbc 库项目（编/解码测试通过）</a></p>
+</blockquote>
+<h1 id="Phase-44：网络编程"><a href="#Phase-44：网络编程" class="headerlink" title="Phase 44：网络编程"></a>Phase 44：网络编程</h1><p>网络游戏离不开网络编程。</p>
+<p>为了寻找适合中小型项目的网络通信模块，深入了解了几个基于 Socket 实现的网络通信框架，其中有出自书籍《Unity 5.x 3D 游戏开发技术详解与典型案例》和《Unity 3D 网络游戏实战》的简单案例，也有开源的应用于实际项目中的框架，如 <a href="https://github.com/beykery/cocosocket" target="_blank" rel="external">cocosocket</a>、<a href="http://kbengine.org/cn/" target="_blank" rel="external">KBEngine</a>。</p>
+<p>最后还学习了 Unity 自带的 <a href="https://docs.unity3d.com/Manual/UNet.html" target="_blank" rel="external">UNet</a>，以及成熟商用的网络引擎 <a href="https://www.photonengine.com/en-US/Photon" target="_blank" rel="external">Photon</a>。</p>
+<p>各个框架简单的分析对比记录在这里：<br><a href="https://github.com/Caizc/cai-knowledge-base/blob/master/hacking/Network%20Frameworks%20work%20with%20Unity.md" target="_blank" rel="external">Network Frameworks work with Unity</a></p>
+<blockquote>
+<p>笔记：<a href="https://github.com/Caizc/cai-knowledge-base/blob/master/BOK-0024-A-%E7%BD%97%E5%9F%B9%E7%BE%BD-%E3%80%8AUnity-3D-%E7%BD%91%E7%BB%9C%E6%B8%B8%E6%88%8F%E5%AE%9E%E6%88%98%E3%80%8B.md" target="_blank" rel="external">https://github.com/Caizc/cai-knowledge-base</a><br>参考：<br>《Unity 5.x 3D 游戏开发技术详解与典型案例》<br>《Unity 3D 网络游戏实战》</p>
+</blockquote>
+<h1 id="Phase-45：Java-服务端程序搭建"><a href="#Phase-45：Java-服务端程序搭建" class="headerlink" title="Phase 45：Java 服务端程序搭建"></a>Phase 45：Java 服务端程序搭建</h1><p>为了调试游戏客户端的网络模块，需要有相应的服务端程序来处理请求，为此又「重操旧业」，在腾讯云上搭建起了 <strong>Java Web Application</strong>。</p>
+<p>还顺便学习了 Docker 的搭建与使用，以及 Docker 中 MySQL 容器的使用。</p>
+<p>另外还入手了 IntelliJ IDEA，可以说非常趁手，Java 程序开发效率倍增。随后学习使用 Maven 管理项目依赖，并用它顺利集成了 Protobuf 3，以便与游戏客户端联调网络通信协议功能。</p>
+<blockquote>
+<p>源码：<a href="https://github.com/Caizc/rapid-server" target="_blank" rel="external">rapid-server</a><br>笔记：<br><a href="https://github.com/Caizc/cai-knowledge-base/blob/master/hacking/CentOS%20%E6%90%AD%E5%BB%BA%20Docker%20%E7%8E%AF%E5%A2%83%E6%95%99%E7%A8%8B.md" target="_blank" rel="external">CentOS 搭建 Docker 环境教程</a><br><a href="https://github.com/Caizc/cai-knowledge-base/blob/master/hacking/Docker%20Tips.md" target="_blank" rel="external">Docker Tips</a></p>
+</blockquote>
+<h1 id="Phase-46：网络游戏同步技术"><a href="#Phase-46：网络游戏同步技术" class="headerlink" title="Phase 46：网络游戏同步技术"></a>Phase 46：网络游戏同步技术</h1><p>网络游戏的同步是一个大课题，目前应用较为广泛的同步方案主要有<strong>状态同步</strong>和<strong>帧同步</strong>，以及两者混用的方式。当然，无论采用哪种方案，核心都是借鉴方案中实现游戏同步的思路，然后根据项目的需要来调整具体的实现细节，最终达到各客户端流畅一致的游戏体验。</p>
+<p>在 <a href="https://github.com/Caizc/cai-knowledge-base/blob/master/hacking/Network%20Programming%20in%20Game%20Development.md" target="_blank" rel="external">Network Programming in Game Development</a> 这份笔记中，记录了网络游戏同步相关的技术要点，以及几种主流方案的简要总结。</p>
+<p>随后对 <a href="https://github.com/Caizc/cai-knowledge-base/blob/master/hacking/Lockstep%20Synchronization.md" target="_blank" rel="external">Lockstep Synchronization 帧锁定同步</a> 方案进行了深入研究，总结了该方案的技术要点，绘制了算法的流程图（在 <a href="https://github.com/Caizc/learn-photon-truesync" target="_blank" rel="external">learn-photon-truesync</a> 项目中可以找到）。最后对 Photon 网络引擎的 <strong>TrueSync</strong> 帧锁定同步组件进行深入剖析，解析源码并绘制了系统类图。</p>
+<p>初步完成对网络游戏同步技术的调研后，接下来将尝试自己实现一个<strong>网络游戏同步框架</strong>（包括客户端和服务端程序）。</p>
+<blockquote>
+<p>源码：<a href="https://github.com/Caizc/learn-photon-truesync" target="_blank" rel="external">learn-photon-truesync</a><br>笔记：<br><a href="https://github.com/Caizc/cai-knowledge-base/blob/master/hacking/Network%20Programming%20in%20Game%20Development.md" target="_blank" rel="external">Network Programming in Game Development - 游戏开发中的网络编程</a><br><a href="https://github.com/Caizc/cai-knowledge-base/blob/master/hacking/Lockstep%20Synchronization.md" target="_blank" rel="external">Lockstep Synchronization - 帧同步</a><br>参考：<a href="https://www.photonengine.com/zh-CN/TrueSync" target="_blank" rel="external">TRUESYNC - Photon</a></p>
+</blockquote>
+<h1 id="Phase-47：Unity-Certified-Developer-Courseware"><a href="#Phase-47：Unity-Certified-Developer-Courseware" class="headerlink" title="Phase 47：Unity Certified Developer Courseware"></a>Phase 47：Unity Certified Developer Courseware</h1><p>在 9 月份「开学季」官方促销时订阅了一年 Unity Plus，同时获得了 <a href="https://certification.unity.com/courseware" target="_blank" rel="external">Unity 认证开发者课程</a>为期 3 个月的访问权限，虽然之前已经深入学习过 Zombie Toys 项目的代码实现，但课程中除脚本编程以外的内容，还是非常值得学习的。</p>
+<p>课程中对于使用 Unity 进行游戏开发涉及的各方面技术都进行了讲解，虽然没办法探讨得很深入，但对于新手一览游戏开发全貌还是很有帮助的。藉着学习该课程的过程，我也对 Unity 的基础知识进行了查漏补缺，特别是 3D/2D 资源制作与导入、光照、导航寻路等模块，扫除了不少知识盲点，获益颇丰。</p>
+<p>课程中的知识要点整理在 <a href="https://github.com/Caizc/cai-knowledge-base/blob/master/hacking/Best%20Practices%20for%20Unity.md" target="_blank" rel="external">Best Practices for Unity</a> 这份文档中。</p>
+<blockquote>
+<p>笔记：<br><a href="https://github.com/Caizc/cai-knowledge-base/blob/master/hacking/Best%20Practices%20for%20Unity.md" target="_blank" rel="external">Best Practices for Unity</a><br><a href="https://github.com/Caizc/cai-knowledge-base/blob/master/BOK-0012-A-Unity-Technologies-Unity-Certified-Developer-Courseware.md" target="_blank" rel="external">https://github.com/Caizc/cai-knowledge-base</a><br>参考：<a href="https://certification.unity.com/courseware" target="_blank" rel="external">Unity Certified Developer Courseware</a></p>
+</blockquote>
+<h1 id="Phase-48"><a href="#Phase-48" class="headerlink" title="Phase 48"></a>Phase 48</h1><blockquote>
 <p>To be continued…</p>
 </blockquote>
 <hr>
@@ -1309,7 +1358,7 @@
 <hr>
 <p>change log: </p>
 <pre><code>- 创建（2017-01-18）
-- 持续更新（2017-08-07）
+- 持续更新（2017-10-25）
 </code></pre><hr>
 
       
@@ -1492,7 +1541,7 @@
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-1：认识-Unity"><span class="nav-number">1.</span> <span class="nav-text">Phase 1：认识 Unity</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-2：三维空间的数学基础"><span class="nav-number">2.</span> <span class="nav-text">Phase 2：三维空间的数学基础</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-3：VR-Hello-World"><span class="nav-number">3.</span> <span class="nav-text">Phase 3：VR Hello World</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-4：简单的解谜游戏"><span class="nav-number">4.</span> <span class="nav-text">Phase 4：简单的解谜游戏</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-5：第一人称射击游戏"><span class="nav-number">5.</span> <span class="nav-text">Phase 5：第一人称射击游戏</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-6：旅游观光应用"><span class="nav-number">6.</span> <span class="nav-text">Phase 6：旅游观光应用</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-7：将单机版的第一人称射击游戏改造成联机游戏"><span class="nav-number">7.</span> <span class="nav-text">Phase 7：将单机版的第一人称射击游戏改造成联机游戏</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-8：了解-Cardboard-开发、Oculus-开发和-MR-视频拍摄"><span class="nav-number">8.</span> <span class="nav-text">Phase 8：了解 Cardboard 开发、Oculus 开发和 MR 视频拍摄</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-9：实现键鼠操控玩家对象在-3D-空间中自由移动"><span class="nav-number">9.</span> <span class="nav-text">Phase 9：实现键鼠操控玩家对象在 3D 空间中自由移动</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-10：为-FPS-游戏实现玩家射击和具有简单-AI-的敌人"><span class="nav-number">10.</span> <span class="nav-text">Phase 10：为 FPS 游戏实现玩家射击和具有简单 AI 的敌人</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-11：为-FPS-游戏开发图形"><span class="nav-number">11.</span> <span class="nav-text">Phase 11：为 FPS 游戏开发图形</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-12：2D-记忆力游戏"><span class="nav-number">12.</span> <span class="nav-text">Phase 12：2D 记忆力游戏</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-13：为-3D-游戏创建-2D-的-GUI"><span class="nav-number">13.</span> <span class="nav-text">Phase 13：为 3D 游戏创建 2D 的 GUI</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-14：实现第三人称-3D-游戏中玩家的移动和动画"><span class="nav-number">14.</span> <span class="nav-text">Phase 14：实现第三人称 3D 游戏中玩家的移动和动画</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-15：在游戏中添加交互设施和物品"><span class="nav-number">15.</span> <span class="nav-text">Phase 15：在游戏中添加交互设施和物品</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-16：将游戏连接到互联网"><span class="nav-number">16.</span> <span class="nav-text">Phase 16：将游戏连接到互联网</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-17：为游戏添加音效和音乐"><span class="nav-number">17.</span> <span class="nav-text">Phase 17：为游戏添加音效和音乐</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-18：简单但功能完整的-RPG-游戏"><span class="nav-number">18.</span> <span class="nav-text">Phase 18：简单但功能完整的 RPG 游戏</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-19：针对不同的游戏平台构建游戏"><span class="nav-number">19.</span> <span class="nav-text">Phase 19：针对不同的游戏平台构建游戏</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-20：Roll-a-Ball"><span class="nav-number">20.</span> <span class="nav-text">Phase 20：Roll a Ball</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-21：Space-Shooter（项目设置，初始化场景设置和玩家对象）"><span class="nav-number">21.</span> <span class="nav-text">Phase 21：Space Shooter（项目设置，初始化场景设置和玩家对象）</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-22：Space-Shooter（玩家移动、攻击，游戏边界、障碍物，粒子系统，游戏控制器）"><span class="nav-number">22.</span> <span class="nav-text">Phase 22：Space Shooter（玩家移动、攻击，游戏边界、障碍物，粒子系统，游戏控制器）</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-23：Space-Shooter（音效和背景音乐，玩家得分和游戏重玩，构建游戏）"><span class="nav-number">23.</span> <span class="nav-text">Phase 23：Space Shooter（音效和背景音乐，玩家得分和游戏重玩，构建游戏）</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-24：Space-Shooter（滚动背景，不同类型的障碍物，简单-AI-的敌人）"><span class="nav-number">24.</span> <span class="nav-text">Phase 24：Space Shooter（滚动背景，不同类型的障碍物，简单 AI 的敌人）</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-25：Survival-Shooter（环境设置，玩家角色，摄像头，敌人）"><span class="nav-number">25.</span> <span class="nav-text">Phase 25：Survival Shooter（环境设置，玩家角色，摄像头，敌人）</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-26：Survival-Shooter（玩家血量-GUI，敌人攻击和玩家攻击行为）"><span class="nav-number">26.</span> <span class="nav-text">Phase 26：Survival Shooter（玩家血量 GUI，敌人攻击和玩家攻击行为）</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-27：Survival-Shooter（玩家得分，自动刷怪，游戏重玩）"><span class="nav-number">27.</span> <span class="nav-text">Phase 27：Survival Shooter（玩家得分，自动刷怪，游戏重玩）</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-28：Survival-Shooter（Audio-Mixer）"><span class="nav-number">28.</span> <span class="nav-text">Phase 28：Survival Shooter（Audio Mixer）</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-29：Game-Development-Principles"><span class="nav-number">29.</span> <span class="nav-text">Phase 29：Game Development Principles</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-30：Zombie-Toys-for-PC-amp-Web"><span class="nav-number">30.</span> <span class="nav-text">Phase 30：Zombie Toys for PC&Web</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-31：游戏系统设计指南"><span class="nav-number">31.</span> <span class="nav-text">Phase 31：游戏系统设计指南</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-32：2D-手机游戏"><span class="nav-number">32.</span> <span class="nav-text">Phase 32：2D 手机游戏</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-33：Programming-in-Lua"><span class="nav-number">33.</span> <span class="nav-text">Phase 33：Programming in Lua</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-34：CraftStudio-游戏引擎"><span class="nav-number">34.</span> <span class="nav-text">Phase 34：CraftStudio 游戏引擎</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-35：Programming-in-CSharp"><span class="nav-number">35.</span> <span class="nav-text">Phase 35：Programming in CSharp</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-36：Mobile-amp-Touch"><span class="nav-number">36.</span> <span class="nav-text">Phase 36：Mobile & Touch</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-37：2D-Roguelike"><span class="nav-number">37.</span> <span class="nav-text">Phase 37：2D Roguelike</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-38：Useful-Stuff-in-Unity-Scripting"><span class="nav-number">38.</span> <span class="nav-text">Phase 38：Useful Stuff in Unity Scripting</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-39：Design-Patterns-in-Game-Development"><span class="nav-number">39.</span> <span class="nav-text">Phase 39：Design Patterns in Game Development</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-40：Playmaker-插件"><span class="nav-number">40.</span> <span class="nav-text">Phase 40：Playmaker 插件</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-41：Corgi-Engine"><span class="nav-number">41.</span> <span class="nav-text">Phase 41：Corgi Engine</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-42：Animation-System-Mecanim"><span class="nav-number">42.</span> <span class="nav-text">Phase 42：Animation System - Mecanim</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-43"><span class="nav-number">43.</span> <span class="nav-text">Phase 43</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-1：认识-Unity"><span class="nav-number">1.</span> <span class="nav-text">Phase 1：认识 Unity</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-2：三维空间的数学基础"><span class="nav-number">2.</span> <span class="nav-text">Phase 2：三维空间的数学基础</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-3：VR-Hello-World"><span class="nav-number">3.</span> <span class="nav-text">Phase 3：VR Hello World</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-4：简单的解谜游戏"><span class="nav-number">4.</span> <span class="nav-text">Phase 4：简单的解谜游戏</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-5：第一人称射击游戏"><span class="nav-number">5.</span> <span class="nav-text">Phase 5：第一人称射击游戏</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-6：旅游观光应用"><span class="nav-number">6.</span> <span class="nav-text">Phase 6：旅游观光应用</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-7：将单机版的第一人称射击游戏改造成联机游戏"><span class="nav-number">7.</span> <span class="nav-text">Phase 7：将单机版的第一人称射击游戏改造成联机游戏</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-8：了解-Cardboard-开发、Oculus-开发和-MR-视频拍摄"><span class="nav-number">8.</span> <span class="nav-text">Phase 8：了解 Cardboard 开发、Oculus 开发和 MR 视频拍摄</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-9：实现键鼠操控玩家对象在-3D-空间中自由移动"><span class="nav-number">9.</span> <span class="nav-text">Phase 9：实现键鼠操控玩家对象在 3D 空间中自由移动</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-10：为-FPS-游戏实现玩家射击和具有简单-AI-的敌人"><span class="nav-number">10.</span> <span class="nav-text">Phase 10：为 FPS 游戏实现玩家射击和具有简单 AI 的敌人</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-11：为-FPS-游戏开发图形"><span class="nav-number">11.</span> <span class="nav-text">Phase 11：为 FPS 游戏开发图形</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-12：2D-记忆力游戏"><span class="nav-number">12.</span> <span class="nav-text">Phase 12：2D 记忆力游戏</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-13：为-3D-游戏创建-2D-的-GUI"><span class="nav-number">13.</span> <span class="nav-text">Phase 13：为 3D 游戏创建 2D 的 GUI</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-14：实现第三人称-3D-游戏中玩家的移动和动画"><span class="nav-number">14.</span> <span class="nav-text">Phase 14：实现第三人称 3D 游戏中玩家的移动和动画</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-15：在游戏中添加交互设施和物品"><span class="nav-number">15.</span> <span class="nav-text">Phase 15：在游戏中添加交互设施和物品</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-16：将游戏连接到互联网"><span class="nav-number">16.</span> <span class="nav-text">Phase 16：将游戏连接到互联网</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-17：为游戏添加音效和音乐"><span class="nav-number">17.</span> <span class="nav-text">Phase 17：为游戏添加音效和音乐</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-18：简单但功能完整的-RPG-游戏"><span class="nav-number">18.</span> <span class="nav-text">Phase 18：简单但功能完整的 RPG 游戏</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-19：针对不同的游戏平台构建游戏"><span class="nav-number">19.</span> <span class="nav-text">Phase 19：针对不同的游戏平台构建游戏</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-20：Roll-a-Ball"><span class="nav-number">20.</span> <span class="nav-text">Phase 20：Roll a Ball</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-21：Space-Shooter（项目设置，初始化场景设置和玩家对象）"><span class="nav-number">21.</span> <span class="nav-text">Phase 21：Space Shooter（项目设置，初始化场景设置和玩家对象）</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-22：Space-Shooter（玩家移动、攻击，游戏边界、障碍物，粒子系统，游戏控制器）"><span class="nav-number">22.</span> <span class="nav-text">Phase 22：Space Shooter（玩家移动、攻击，游戏边界、障碍物，粒子系统，游戏控制器）</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-23：Space-Shooter（音效和背景音乐，玩家得分和游戏重玩，构建游戏）"><span class="nav-number">23.</span> <span class="nav-text">Phase 23：Space Shooter（音效和背景音乐，玩家得分和游戏重玩，构建游戏）</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-24：Space-Shooter（滚动背景，不同类型的障碍物，简单-AI-的敌人）"><span class="nav-number">24.</span> <span class="nav-text">Phase 24：Space Shooter（滚动背景，不同类型的障碍物，简单 AI 的敌人）</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-25：Survival-Shooter（环境设置，玩家角色，摄像头，敌人）"><span class="nav-number">25.</span> <span class="nav-text">Phase 25：Survival Shooter（环境设置，玩家角色，摄像头，敌人）</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-26：Survival-Shooter（玩家血量-GUI，敌人攻击和玩家攻击行为）"><span class="nav-number">26.</span> <span class="nav-text">Phase 26：Survival Shooter（玩家血量 GUI，敌人攻击和玩家攻击行为）</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-27：Survival-Shooter（玩家得分，自动刷怪，游戏重玩）"><span class="nav-number">27.</span> <span class="nav-text">Phase 27：Survival Shooter（玩家得分，自动刷怪，游戏重玩）</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-28：Survival-Shooter（Audio-Mixer）"><span class="nav-number">28.</span> <span class="nav-text">Phase 28：Survival Shooter（Audio Mixer）</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-29：Game-Development-Principles"><span class="nav-number">29.</span> <span class="nav-text">Phase 29：Game Development Principles</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-30：Zombie-Toys-for-PC-amp-Web"><span class="nav-number">30.</span> <span class="nav-text">Phase 30：Zombie Toys for PC&Web</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-31：游戏系统设计指南"><span class="nav-number">31.</span> <span class="nav-text">Phase 31：游戏系统设计指南</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-32：2D-手机游戏"><span class="nav-number">32.</span> <span class="nav-text">Phase 32：2D 手机游戏</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-33：Programming-in-Lua"><span class="nav-number">33.</span> <span class="nav-text">Phase 33：Programming in Lua</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-34：CraftStudio-游戏引擎"><span class="nav-number">34.</span> <span class="nav-text">Phase 34：CraftStudio 游戏引擎</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-35：Programming-in-CSharp"><span class="nav-number">35.</span> <span class="nav-text">Phase 35：Programming in CSharp</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-36：Mobile-amp-Touch"><span class="nav-number">36.</span> <span class="nav-text">Phase 36：Mobile & Touch</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-37：2D-Roguelike"><span class="nav-number">37.</span> <span class="nav-text">Phase 37：2D Roguelike</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-38：Useful-Stuff-in-Unity-Scripting"><span class="nav-number">38.</span> <span class="nav-text">Phase 38：Useful Stuff in Unity Scripting</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-39：Design-Patterns-in-Game-Development"><span class="nav-number">39.</span> <span class="nav-text">Phase 39：Design Patterns in Game Development</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-40：Playmaker"><span class="nav-number">40.</span> <span class="nav-text">Phase 40：Playmaker</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-41：Corgi-Engine"><span class="nav-number">41.</span> <span class="nav-text">Phase 41：Corgi Engine</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-42：Mecanim-动画系统"><span class="nav-number">42.</span> <span class="nav-text">Phase 42：Mecanim 动画系统</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-43：xLua-amp-Google-Protocol-Buffers"><span class="nav-number">43.</span> <span class="nav-text">Phase 43：xLua & Google Protocol Buffers</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-44：网络编程"><span class="nav-number">44.</span> <span class="nav-text">Phase 44：网络编程</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-45：Java-服务端程序搭建"><span class="nav-number">45.</span> <span class="nav-text">Phase 45：Java 服务端程序搭建</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-46：网络游戏同步技术"><span class="nav-number">46.</span> <span class="nav-text">Phase 46：网络游戏同步技术</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-47：Unity-Certified-Developer-Courseware"><span class="nav-number">47.</span> <span class="nav-text">Phase 47：Unity Certified Developer Courseware</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Phase-48"><span class="nav-number">48.</span> <span class="nav-text">Phase 48</span></a></li></ol></div>
             
           </div>
         </section>
